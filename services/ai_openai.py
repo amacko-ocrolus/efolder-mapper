@@ -26,6 +26,7 @@ def get_mappings(
     response = client.chat.completions.create(
         model="gpt-4o",
         messages=[{"role": "user", "content": prompt}],
+        max_tokens=16384,
         temperature=0.0,
         response_format={"type": "json_object"},
     )

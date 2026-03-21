@@ -20,4 +20,4 @@ if ! python3 -c "import streamlit" 2>/dev/null; then
 fi
 
 echo "Starting Container Mapper on http://0.0.0.0:8501"
-streamlit run app.py
+streamlit run app.py --browser.gatherUsageStats false
