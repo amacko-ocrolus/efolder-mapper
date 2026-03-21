@@ -25,7 +25,7 @@ def get_mappings(
 
     response = client.messages.create(
         model="claude-sonnet-4-20250514",
-        max_tokens=4096,
+        max_tokens=16384,
         messages=[{"role": "user", "content": prompt}],
         temperature=0.0,
     )
