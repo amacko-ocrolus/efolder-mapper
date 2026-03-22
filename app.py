@@ -3,6 +3,7 @@
 import os
 import tempfile
 
+import requests
 import streamlit as st
 from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -15,19 +16,92 @@ load_dotenv()
 
 AI_SERVICES = [ai_openai, ai_anthropic, ai_ollama]
 
-st.set_page_config(page_title="Container Mapper", layout="centered")
+st.set_page_config(page_title="Container Mapper", layout="wide")
 st.title("Container Mapper")
 st.markdown(
     "Upload an Ocrolus form types CSV and a lender container names file "
     "(CSV or JSON) to generate AI-powered document mappings."
 )
 
-ocrolus_file = st.file_uploader(
-    "Ocrolus Form Types (CSV)", type=["csv"], key="ocrolus"
-)
-lender_file = st.file_uploader(
-    "Lender Container Names (CSV or JSON)", type=["csv", "json"], key="lender"
-)
+# ---------------------------------------------------------------------------
+# Sidebar — service status
+# ---------------------------------------------------------------------------
+def _check_service_status() -> dict[str, tuple[bool, str]]:
+    """Return {service_name: (available, note)} for each AI service."""
+    status = {}
+
+    # OpenAI — just check env var; API is always reachable if key is set
+    oai_key = os.environ.get("OPENAI_API_KEY", "")
+    if oai_key:
+        status["OpenAI"] = (True, "API key set")
+    else:
+        status["OpenAI"] = (False, "OPENAI_API_KEY not set")
+
+    # Anthropic — same pattern
+    ant_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    if ant_key:
+        status["Anthropic"] = (True, "API key set")
+    else:
+        status["Anthropic"] = (False, "ANTHROPIC_API_KEY not set")
+
+    # Ollama — actually probe the local endpoint
+    try:
+        resp = requests.get("http://localhost:11434/api/tags", timeout=3)
+        if resp.status_code == 200:
+            models = [m["name"] for m in resp.json().get("models", [])]
+            if any("llama3.1" in m for m in models):
+                status["Ollama"] = (True, "Running · llama3.1 available")
+            else:
+                available = ", ".join(models) if models else "none"
+                status["Ollama"] = (
+                    False,
+                    f"Running but llama3.1 not found (models: {available}). "
+                    "Run: ollama pull llama3.1",
+                )
+        else:
+            status["Ollama"] = (False, f"Responded with HTTP {resp.status_code}")
+    except requests.exceptions.ConnectionError:
+        status["Ollama"] = (
+            False,
+            "Not reachable — start with: ollama serve",
+        )
+    except requests.exceptions.Timeout:
+        status["Ollama"] = (False, "Timed out after 3 s")
+
+    return status
+
+
+with st.sidebar:
+    st.header("Service Status")
+    svc_status = _check_service_status()
+    for svc_name, (ok, note) in svc_status.items():
+        icon = ":white_check_mark:" if ok else ":x:"
+        st.markdown(f"{icon} **{svc_name}** — {note}")
+
+    available_count = sum(1 for ok, _ in svc_status.values() if ok)
+    if available_count < 2:
+        st.warning(
+            "At least 2 services must be available to run. "
+            "Configure missing API keys or start Ollama."
+        )
+    elif available_count < 3:
+        st.info("Mapping will proceed with the available services.")
+
+    st.divider()
+    st.caption("Refresh the page to re-check service status.")
+
+# ---------------------------------------------------------------------------
+# Main UI
+# ---------------------------------------------------------------------------
+col1, col2 = st.columns(2)
+with col1:
+    ocrolus_file = st.file_uploader(
+        "Ocrolus Form Types (CSV)", type=["csv"], key="ocrolus"
+    )
+with col2:
+    lender_file = st.file_uploader(
+        "Lender Container Names (CSV or JSON)", type=["csv", "json"], key="lender"
+    )
 
 if st.button("Map", disabled=not (ocrolus_file and lender_file)):
     with tempfile.TemporaryDirectory() as tmp_dir:
@@ -53,17 +127,31 @@ if st.button("Map", disabled=not (ocrolus_file and lender_file)):
             f"**{len(lender_containers)}** lender containers."
         )
 
+        # Only run services that appear available (avoids long timeout waits)
+        active_services = [
+            svc for svc in AI_SERVICES
+            if svc_status.get(svc.SERVICE_NAME, (False,))[0]
+        ]
+        if len(active_services) < 2:
+            st.error(
+                "Fewer than 2 services are available. Check the sidebar and "
+                "ensure API keys are set and Ollama is running."
+            )
+            st.stop()
+
         # --- AI Mapping (parallel) ---
-        progress = st.status("Querying AI services...", expanded=True)
+        progress = st.status(
+            f"Querying {len(active_services)} AI service(s)...", expanded=True
+        )
         results = {}
         errors = {}
 
-        with ThreadPoolExecutor(max_workers=len(AI_SERVICES)) as executor:
+        with ThreadPoolExecutor(max_workers=len(active_services)) as executor:
             future_to_svc = {
                 executor.submit(
                     svc.get_mappings, ocrolus_types, lender_containers
                 ): svc
-                for svc in AI_SERVICES
+                for svc in active_services
             }
             for future in as_completed(future_to_svc):
                 svc = future_to_svc[future]
@@ -81,15 +169,15 @@ if st.button("Map", disabled=not (ocrolus_file and lender_file)):
                 f"Need at least 2 AI services to succeed. "
                 f"Only {len(results)} succeeded."
             )
-            if errors:
-                for svc_name, err in errors.items():
-                    st.error(f"{svc_name}: {err}")
+            for svc_name, err in errors.items():
+                st.error(f"{svc_name}: {err}")
             st.stop()
 
         if errors:
             st.warning(
-                f"{len(errors)} service(s) failed. "
-                f"Proceeding with {len(results)} results."
+                f"{len(errors)} service(s) failed during mapping. "
+                f"Proceeding with {len(results)} results: "
+                + ", ".join(results.keys())
             )
 
         # --- Consensus ---
@@ -106,7 +194,7 @@ if st.button("Map", disabled=not (ocrolus_file and lender_file)):
 
         # --- Generate output CSV ---
         output_path = os.path.join(tmp_dir, "mapping_output.csv")
-        write_output_csv(output_path, confident, review, service_names)
+        write_output_csv(output_path, confident, review, service_names, errors)
 
         with open(output_path, "rb") as f:
             csv_bytes = f.read()
