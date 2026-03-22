@@ -45,13 +45,10 @@ class TestAnthropicParsing:
         assert result["W-2"] == "Tax Docs"
 
 
-class TestGoogleParsing:
+class TestOllamaParsing:
     def setup_method(self):
-        try:
-            mod = importlib.import_module("services.ai_google")
-            self.parse = mod._parse_response
-        except BaseException:
-            pytest.skip("google-genai not available in this environment")
+        mod = importlib.import_module("services.ai_ollama")
+        self.parse = mod._parse_response
 
     def test_valid_json(self):
         raw = json.dumps({"W-2": "Tax Docs", "Pay Stub": "Income"})
