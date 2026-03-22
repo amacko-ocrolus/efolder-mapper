@@ -18,7 +18,7 @@ def get_mappings(
     lender_containers: list[str],
 ) -> dict[str, str]:
     """Send the bulk mapping prompt to Ollama and return the parsed mapping."""
-    client = OpenAI(base_url=OLLAMA_BASE_URL, api_key="ollama")
+    client = OpenAI(base_url=OLLAMA_BASE_URL, api_key="ollama", timeout=600.0)
     prompt = build_mapping_prompt(ocrolus_types, lender_containers)
 
     response = client.chat.completions.create(
