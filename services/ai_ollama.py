@@ -11,24 +11,30 @@ SERVICE_NAME = "Ollama"
 
 OLLAMA_BASE_URL = "http://localhost:11434/v1"
 OLLAMA_MODEL = "llama3.1"
+BATCH_SIZE = 50  # smaller batches keep each Ollama call manageable
 
 
 def get_mappings(
     ocrolus_types: list[str],
     lender_containers: list[str],
 ) -> dict[str, str]:
-    """Send the bulk mapping prompt to Ollama and return the parsed mapping."""
-    client = OpenAI(base_url=OLLAMA_BASE_URL, api_key="ollama")
-    prompt = build_mapping_prompt(ocrolus_types, lender_containers)
+    """Send the bulk mapping prompt to Ollama and return the parsed mapping.
 
-    response = client.chat.completions.create(
-        model=OLLAMA_MODEL,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.0,
-    )
-
-    raw = response.choices[0].message.content.strip()
-    return _parse_response(raw, ocrolus_types)
+    Batches inputs to keep each local inference call fast and avoid timeouts.
+    """
+    client = OpenAI(base_url=OLLAMA_BASE_URL, api_key="ollama", timeout=600.0)
+    merged = {}
+    for i in range(0, len(ocrolus_types), BATCH_SIZE):
+        batch = ocrolus_types[i : i + BATCH_SIZE]
+        prompt = build_mapping_prompt(batch, lender_containers)
+        response = client.chat.completions.create(
+            model=OLLAMA_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.0,
+        )
+        raw = response.choices[0].message.content.strip()
+        merged.update(_parse_response(raw, batch))
+    return merged
 
 
 def _parse_response(raw: str, ocrolus_types: list[str]) -> dict[str, str]:

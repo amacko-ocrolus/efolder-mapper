@@ -16,7 +16,7 @@ fi
 # Check for dependencies
 if ! python3 -c "import streamlit" 2>/dev/null; then
     echo "Installing dependencies..."
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 fi
 
 echo "Starting Container Mapper on http://0.0.0.0:8501"
