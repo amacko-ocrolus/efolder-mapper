@@ -1,6 +1,6 @@
 # efolder-mapper — Container Mapping Tool
 
-A Streamlit web app that uses three AI services in parallel (OpenAI, Anthropic, Google Gemini) to automatically map Ocrolus document form types to a lender's eFolder container names. Mappings where at least 2 of the 3 AIs agree are marked "confident"; the rest are flagged for manual review.
+A Streamlit web app that uses three AI services in parallel (OpenAI, Anthropic, Ollama) to automatically map Ocrolus document form types to a lender's eFolder container names. Mappings where at least 2 of the 3 AIs agree are marked "confident"; the rest are flagged for manual review.
 
 ---
 
@@ -30,7 +30,7 @@ efolder-mapper/
 ├── services/
 │   ├── ai_anthropic.py       # Anthropic Claude (claude-sonnet-4-20250514, max_tokens=16384)
 │   ├── ai_openai.py          # OpenAI (gpt-4o, max_tokens=16384)
-│   ├── ai_google.py          # Google Gemini (gemini-2.0-flash)
+│   ├── ai_ollama.py          # Ollama local LLM (llama3.1, http://localhost:11434)
 │   ├── consensus.py          # Majority-vote logic + CSV writer
 │   └── ingestion.py          # CSV/JSON file parsing
 │
@@ -54,8 +54,8 @@ efolder-mapper/
 ### Prerequisites
 
 - Python 3.10+
-- API keys for at least 2 of: OpenAI, Anthropic, Google Gemini
-- Billing enabled on whichever APIs you use (see `ADMIN_SETUP.md`)
+- API keys for OpenAI and Anthropic
+- [Ollama](https://ollama.com) installed and running locally with `llama3.1` pulled
 
 ### Setup
 
@@ -65,6 +65,9 @@ cd efolder-mapper
 
 cp .env.example .env
 # Edit .env and paste in your API keys
+
+# Pull the Ollama model (one time)
+ollama pull llama3.1
 
 ./start.sh
 ```
@@ -93,22 +96,19 @@ Set in `.env`:
 ```
 OPENAI_API_KEY=sk-...
 ANTHROPIC_API_KEY=sk-ant-...
-GOOGLE_API_KEY=AI...
 ```
 
-If you leave a key blank, that service is skipped. The app needs at least 2 services to succeed per run.
-
-**Google note:** The free tier for Gemini has a daily quota limit of 0 for `gemini-2.0-flash` (as of this writing). Either upgrade to a paid Google AI plan, or leave `GOOGLE_API_KEY` blank and rely on OpenAI + Anthropic only.
+Ollama runs locally and requires no API key. If you leave an API key blank, that service is skipped. The app needs at least 2 services to succeed per run.
 
 ---
 
 ## AI models in use
 
-| Service | Model | Max output tokens |
+| Service | Model | Notes |
 |---|---|---|
-| Anthropic | `claude-sonnet-4-20250514` | 16,384 |
-| OpenAI | `gpt-4o` | 16,384 |
-| Google | `gemini-2.0-flash` | (model default) |
+| Anthropic | `claude-sonnet-4-20250514` | max_tokens=16384 |
+| OpenAI | `gpt-4o` | max_tokens=16384 |
+| Ollama | `llama3.1` | Local, no API key needed |
 
 `max_tokens` was increased from 4096 → 16384 for Anthropic and OpenAI after large inputs caused truncated JSON responses on first run.
 
@@ -124,6 +124,6 @@ The output CSV has two sections separated by a blank row:
 | W2 | W-2 Documents | Anthropic, OpenAI |
 
 **Section 2 — Manual review:**
-| Form Type | Anthropic Suggestion | OpenAI Suggestion | Google Suggestion |
+| Form Type | Anthropic Suggestion | OpenAI Suggestion | Ollama Suggestion |
 |---|---|---|---|
 | MISC_FORM | Miscellaneous | NO_MATCH | Other Docs |

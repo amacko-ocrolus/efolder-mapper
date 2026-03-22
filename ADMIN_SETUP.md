@@ -4,7 +4,7 @@ One-time setup for the VM that hosts the Container Mapping Tool. See `TODO.md` f
 
 ## 1. Get API keys
 
-You need keys from three providers. All offer pay-as-you-go pricing.
+You need keys from two providers. Both offer pay-as-you-go pricing.
 
 ### OpenAI
 1. Go to https://platform.openai.com and sign in (or create an account)
@@ -20,13 +20,21 @@ You need keys from three providers. All offer pay-as-you-go pricing.
 4. Copy the key (starts with `sk-ant-`)
 5. Add a payment method under **Billing** if needed
 
-### Google Gemini
-1. Go to https://aistudio.google.com and sign in with a Google account
-2. Click **Get API Key** in the sidebar
-3. Click **Create API key**, select or create a Google Cloud project
-4. Copy the key (starts with `AI`)
+## 2. Install Ollama
 
-## 2. Configure `.env`
+Ollama is the third AI service and runs locally — no API key needed.
+
+1. Download and install Ollama from https://ollama.com
+2. Pull the model (one time, ~4.7 GB download):
+   ```bash
+   ollama pull llama3.1
+   ```
+3. Ollama runs as a background service automatically after install. Verify it's up:
+   ```bash
+   curl http://localhost:11434
+   ```
+
+## 3. Configure `.env`
 
 Copy `.env.example` to `.env` and paste in your keys:
 
@@ -37,10 +45,9 @@ cp .env.example .env
 ```
 OPENAI_API_KEY=sk-...
 ANTHROPIC_API_KEY=sk-ant-...
-GOOGLE_API_KEY=AI...
 ```
 
-## 3. Start the app
+## 4. Start the app
 
 ```bash
 ./start.sh

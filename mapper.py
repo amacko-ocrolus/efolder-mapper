@@ -14,10 +14,10 @@ from dotenv import load_dotenv
 
 from services.ingestion import load_lender_containers, load_ocrolus_types
 from services.consensus import build_consensus, write_output_csv
-from services import ai_openai, ai_anthropic, ai_google
+from services import ai_openai, ai_anthropic, ai_ollama
 
 
-AI_SERVICES = [ai_openai, ai_anthropic, ai_google]
+AI_SERVICES = [ai_openai, ai_anthropic, ai_ollama]
 
 
 def main():
@@ -51,7 +51,7 @@ def main():
     results = {}
     errors = {}
 
-    with ThreadPoolExecutor(max_workers=3) as executor:
+    with ThreadPoolExecutor(max_workers=len(AI_SERVICES)) as executor:
         future_to_svc = {
             executor.submit(svc.get_mappings, ocrolus_types, lender_containers): svc
             for svc in AI_SERVICES
