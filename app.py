@@ -106,7 +106,7 @@ if st.button("Map", disabled=not (ocrolus_file and lender_file)):
 
         # --- Generate output CSV ---
         output_path = os.path.join(tmp_dir, "mapping_output.csv")
-        write_output_csv(output_path, confident, review, service_names)
+        write_output_csv(output_path, confident, review, service_names, errors)
 
         with open(output_path, "rb") as f:
             csv_bytes = f.read()
