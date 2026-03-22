@@ -9,11 +9,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from services.ingestion import load_ocrolus_types, load_lender_containers
 from services.consensus import build_consensus, write_output_csv
-from services import ai_ollama
+from services import ai_openai, ai_anthropic, ai_ollama
 
 load_dotenv()
 
-AI_SERVICES = [ai_ollama]
+AI_SERVICES = [ai_openai, ai_anthropic, ai_ollama]
 
 st.set_page_config(page_title="Container Mapper", layout="centered")
 st.title("Container Mapper")
@@ -75,10 +75,11 @@ if st.button("Map", disabled=not (ocrolus_file and lender_file)):
                     errors[name] = str(e)
                     progress.write(f"{name}: ERROR — {e}")
 
-        if len(results) < 1:
+        if len(results) < 2:
             progress.update(label="Failed", state="error")
             st.error(
-                f"No AI services succeeded. Only {len(results)} succeeded."
+                f"Need at least 2 AI services to succeed. "
+                f"Only {len(results)} succeeded."
             )
             if errors:
                 for svc_name, err in errors.items():

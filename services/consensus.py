@@ -34,8 +34,7 @@ def build_consensus(
         # Find the most common suggestion
         most_common, most_count = counts.most_common(1)[0]
 
-        threshold = min(2, len(service_names))
-        if most_count >= threshold and most_common != "NO_MATCH":
+        if most_count >= 2 and most_common != "NO_MATCH":
             agreed = [
                 svc for svc, val in suggestions.items() if val == most_common
             ]
