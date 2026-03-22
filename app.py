@@ -9,11 +9,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from services.ingestion import load_ocrolus_types, load_lender_containers
 from services.consensus import build_consensus, write_output_csv
-from services import ai_openai, ai_anthropic, ai_google
+from services import ai_openai, ai_anthropic, ai_ollama
 
 load_dotenv()
 
-AI_SERVICES = [ai_openai, ai_anthropic, ai_google]
+AI_SERVICES = [ai_openai, ai_anthropic, ai_ollama]
 
 st.set_page_config(page_title="Container Mapper", layout="centered")
 st.title("Container Mapper")
@@ -58,7 +58,7 @@ if st.button("Map", disabled=not (ocrolus_file and lender_file)):
         results = {}
         errors = {}
 
-        with ThreadPoolExecutor(max_workers=3) as executor:
+        with ThreadPoolExecutor(max_workers=len(AI_SERVICES)) as executor:
             future_to_svc = {
                 executor.submit(
                     svc.get_mappings, ocrolus_types, lender_containers
