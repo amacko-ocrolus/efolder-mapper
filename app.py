@@ -16,6 +16,8 @@ load_dotenv()
 
 AI_SERVICES = [ai_openai, ai_anthropic, ai_gemini]
 
+PRELOADED_DIR = os.path.join(os.path.dirname(__file__), "preloaded")
+
 st.set_page_config(page_title="Container Mapper", layout="wide")
 st.title("Container Mapper")
 st.markdown(
@@ -30,26 +32,14 @@ def _check_service_status() -> dict[str, tuple[bool, str]]:
     """Return {service_name: (available, note)} for each AI service."""
     status = {}
 
-    # OpenAI — just check env var; API is always reachable if key is set
     oai_key = os.environ.get("OPENAI_API_KEY", "")
-    if oai_key:
-        status["OpenAI"] = (True, "API key set")
-    else:
-        status["OpenAI"] = (False, "OPENAI_API_KEY not set")
+    status["OpenAI"] = (bool(oai_key), "API key set" if oai_key else "OPENAI_API_KEY not set")
 
-    # Anthropic — same pattern
     ant_key = os.environ.get("ANTHROPIC_API_KEY", "")
-    if ant_key:
-        status["Anthropic"] = (True, "API key set")
-    else:
-        status["Anthropic"] = (False, "ANTHROPIC_API_KEY not set")
+    status["Anthropic"] = (bool(ant_key), "API key set" if ant_key else "ANTHROPIC_API_KEY not set")
 
-    # Gemini — check env var
     gemini_key = os.environ.get("GEMINI_API_KEY", "")
-    if gemini_key:
-        status["Gemini"] = (True, "API key set")
-    else:
-        status["Gemini"] = (False, "GEMINI_API_KEY not set")
+    status["Gemini"] = (bool(gemini_key), "API key set" if gemini_key else "GEMINI_API_KEY not set")
 
     return status
 
@@ -65,7 +55,7 @@ with st.sidebar:
     if available_count < 2:
         st.warning(
             "At least 2 services must be available to run. "
-            "Configure missing API keys or start Ollama."
+            "Configure missing API keys in your .env file."
         )
     elif available_count < 3:
         st.info("Mapping will proceed with the available services.")
@@ -74,26 +64,58 @@ with st.sidebar:
     st.caption("Refresh the page to re-check service status.")
 
 # ---------------------------------------------------------------------------
-# Main UI
+# Ocrolus file — preloaded or upload
 # ---------------------------------------------------------------------------
+preloaded_files = sorted(
+    f for f in os.listdir(PRELOADED_DIR)
+    if f.endswith(".csv") and not f.startswith(".")
+)
+
 col1, col2 = st.columns(2)
+
 with col1:
-    ocrolus_file = st.file_uploader(
-        "Ocrolus Form Types (CSV)", type=["csv"], key="ocrolus"
-    )
+    st.subheader("Ocrolus Form Types")
+    if preloaded_files:
+        ocrolus_source = st.radio(
+            "Source",
+            ["Use preloaded file", "Upload custom file"],
+            horizontal=True,
+            label_visibility="collapsed",
+        )
+        if ocrolus_source == "Use preloaded file":
+            selected = st.selectbox("Select preloaded file", preloaded_files)
+            ocrolus_file = None
+            ocrolus_preloaded_path = os.path.join(PRELOADED_DIR, selected)
+        else:
+            ocrolus_file = st.file_uploader("Upload CSV", type=["csv"], key="ocrolus")
+            ocrolus_preloaded_path = None
+    else:
+        st.caption("No preloaded files found in `preloaded/`. Upload one below.")
+        ocrolus_file = st.file_uploader("Upload CSV", type=["csv"], key="ocrolus")
+        ocrolus_preloaded_path = None
+
 with col2:
+    st.subheader("Lender Container Names")
     lender_file = st.file_uploader(
-        "Lender Container Names (CSV or JSON)", type=["csv", "json"], key="lender"
+        "Upload CSV or JSON", type=["csv", "json"], key="lender"
     )
 
-if st.button("Map", disabled=not (ocrolus_file and lender_file)):
-    with tempfile.TemporaryDirectory() as tmp_dir:
-        # Save uploaded files to temp directory so ingestion module can read them
-        ocrolus_path = os.path.join(tmp_dir, ocrolus_file.name)
-        lender_path = os.path.join(tmp_dir, lender_file.name)
+# Determine readiness
+ocrolus_ready = ocrolus_preloaded_path is not None or ocrolus_file is not None
+lender_ready = lender_file is not None
 
-        with open(ocrolus_path, "wb") as f:
-            f.write(ocrolus_file.getvalue())
+if st.button("Map", disabled=not (ocrolus_ready and lender_ready)):
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        # Resolve Ocrolus path
+        if ocrolus_preloaded_path:
+            ocrolus_path = ocrolus_preloaded_path
+        else:
+            ocrolus_path = os.path.join(tmp_dir, ocrolus_file.name)
+            with open(ocrolus_path, "wb") as f:
+                f.write(ocrolus_file.getvalue())
+
+        # Save lender file
+        lender_path = os.path.join(tmp_dir, lender_file.name)
         with open(lender_path, "wb") as f:
             f.write(lender_file.getvalue())
 
@@ -110,7 +132,7 @@ if st.button("Map", disabled=not (ocrolus_file and lender_file)):
             f"**{len(lender_containers)}** lender containers."
         )
 
-        # Only run services that appear available (avoids long timeout waits)
+        # Only run services that appear available
         active_services = [
             svc for svc in AI_SERVICES
             if svc_status.get(svc.SERVICE_NAME, (False,))[0]
@@ -118,7 +140,7 @@ if st.button("Map", disabled=not (ocrolus_file and lender_file)):
         if len(active_services) < 2:
             st.error(
                 "Fewer than 2 services are available. Check the sidebar and "
-                "ensure API keys are set and Ollama is running."
+                "ensure API keys are set in your .env file."
             )
             st.stop()
 
