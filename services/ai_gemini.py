@@ -10,7 +10,7 @@ from prompts.mapping_prompt import build_mapping_prompt
 
 SERVICE_NAME = "Gemini"
 
-GEMINI_MODEL = "gemini-1.5-pro"
+GEMINI_MODEL = "gemini-2.0-flash"
 BATCH_SIZE = 150
 
 
