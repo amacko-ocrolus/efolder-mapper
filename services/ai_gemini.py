@@ -3,7 +3,8 @@
 import json
 import os
 
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
 from prompts.mapping_prompt import build_mapping_prompt
 
@@ -23,16 +24,16 @@ def get_mappings(
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is not set")
 
-    genai.configure(api_key=api_key)
-    model = genai.GenerativeModel(GEMINI_MODEL)
+    client = genai.Client(api_key=api_key)
 
     merged = {}
     for i in range(0, len(ocrolus_types), BATCH_SIZE):
         batch = ocrolus_types[i : i + BATCH_SIZE]
         prompt = build_mapping_prompt(batch, lender_containers)
-        response = model.generate_content(
-            prompt,
-            generation_config=genai.GenerationConfig(
+        response = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=prompt,
+            config=types.GenerateContentConfig(
                 temperature=0.0,
                 response_mime_type="application/json",
             ),
