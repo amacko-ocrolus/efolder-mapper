@@ -10,11 +10,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from services.ingestion import load_ocrolus_types, load_lender_containers
 from services.consensus import build_consensus, write_output_csv
-from services import ai_openai, ai_anthropic, ai_ollama
+from services import ai_openai, ai_anthropic, ai_gemini
 
 load_dotenv()
 
-AI_SERVICES = [ai_openai, ai_anthropic, ai_ollama]
+AI_SERVICES = [ai_openai, ai_anthropic, ai_gemini]
 
 st.set_page_config(page_title="Container Mapper", layout="wide")
 st.title("Container Mapper")
@@ -44,29 +44,12 @@ def _check_service_status() -> dict[str, tuple[bool, str]]:
     else:
         status["Anthropic"] = (False, "ANTHROPIC_API_KEY not set")
 
-    # Ollama — actually probe the local endpoint
-    try:
-        resp = requests.get("http://localhost:11434/api/tags", timeout=3)
-        if resp.status_code == 200:
-            models = [m["name"] for m in resp.json().get("models", [])]
-            if any("llama3.1" in m for m in models):
-                status["Ollama"] = (True, "Running · llama3.1 available")
-            else:
-                available = ", ".join(models) if models else "none"
-                status["Ollama"] = (
-                    False,
-                    f"Running but llama3.1 not found (models: {available}). "
-                    "Run: ollama pull llama3.1",
-                )
-        else:
-            status["Ollama"] = (False, f"Responded with HTTP {resp.status_code}")
-    except requests.exceptions.ConnectionError:
-        status["Ollama"] = (
-            False,
-            "Not reachable — start with: ollama serve",
-        )
-    except requests.exceptions.Timeout:
-        status["Ollama"] = (False, "Timed out after 3 s")
+    # Gemini — check env var
+    gemini_key = os.environ.get("GEMINI_API_KEY", "")
+    if gemini_key:
+        status["Gemini"] = (True, "API key set")
+    else:
+        status["Gemini"] = (False, "GEMINI_API_KEY not set")
 
     return status
 

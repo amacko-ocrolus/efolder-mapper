@@ -1,38 +1,43 @@
-"""Ollama local LLM mapping service (OpenAI-compatible API)."""
+"""Google Gemini mapping service."""
 
 import json
+import os
 
-from openai import OpenAI
+import google.generativeai as genai
 
 from prompts.mapping_prompt import build_mapping_prompt
 
 
-SERVICE_NAME = "Ollama"
+SERVICE_NAME = "Gemini"
 
-OLLAMA_BASE_URL = "http://localhost:11434/v1"
-OLLAMA_MODEL = "llama3.1"
-BATCH_SIZE = 50  # smaller batches keep each Ollama call manageable
+GEMINI_MODEL = "gemini-1.5-pro"
+BATCH_SIZE = 150
 
 
 def get_mappings(
     ocrolus_types: list[str],
     lender_containers: list[str],
 ) -> dict[str, tuple[str, float]]:
-    """Send the bulk mapping prompt to Ollama and return the parsed mapping.
+    """Send the bulk mapping prompt to Gemini and return the parsed mapping."""
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        raise RuntimeError("GEMINI_API_KEY is not set")
 
-    Batches inputs to keep each local inference call fast and avoid timeouts.
-    """
-    client = OpenAI(base_url=OLLAMA_BASE_URL, api_key="ollama", timeout=600.0)
+    genai.configure(api_key=api_key)
+    model = genai.GenerativeModel(GEMINI_MODEL)
+
     merged = {}
     for i in range(0, len(ocrolus_types), BATCH_SIZE):
         batch = ocrolus_types[i : i + BATCH_SIZE]
         prompt = build_mapping_prompt(batch, lender_containers)
-        response = client.chat.completions.create(
-            model=OLLAMA_MODEL,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.0,
+        response = model.generate_content(
+            prompt,
+            generation_config=genai.GenerationConfig(
+                temperature=0.0,
+                response_mime_type="application/json",
+            ),
         )
-        raw = response.choices[0].message.content.strip()
+        raw = response.text.strip()
         merged.update(_parse_response(raw, batch))
     return merged
 
@@ -47,10 +52,10 @@ def _parse_response(raw: str, ocrolus_types: list[str]) -> dict[str, tuple[str, 
     try:
         data = json.loads(raw)
     except json.JSONDecodeError as e:
-        raise ValueError(f"Ollama returned invalid JSON: {e}") from e
+        raise ValueError(f"Gemini returned invalid JSON: {e}") from e
 
     if not isinstance(data, dict):
-        raise ValueError("Ollama response is not a JSON object")
+        raise ValueError("Gemini response is not a JSON object")
 
     mapping = {}
     for form_type in ocrolus_types:
