@@ -1,18 +1,17 @@
 """Google Gemini mapping service."""
 
-import json
 import os
-
-from google import genai
-from google.genai import types
+import time
 
 from prompts.mapping_prompt import build_mapping_prompt
+from services.json_repair import extract_json_object
 
 
 SERVICE_NAME = "Gemini"
 
 GEMINI_MODEL = "gemini-2.0-flash"
 BATCH_SIZE = 150
+MAX_RETRIES = 4
 
 
 def get_mappings(
@@ -20,6 +19,10 @@ def get_mappings(
     lender_containers: list[str],
 ) -> dict[str, tuple[str, float]]:
     """Send the bulk mapping prompt to Gemini and return the parsed mapping."""
+    # Lazy import — keeps module importable in environments without google-genai
+    from google import genai
+    from google.genai import types
+
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is not set")
@@ -30,33 +33,48 @@ def get_mappings(
     for i in range(0, len(ocrolus_types), BATCH_SIZE):
         batch = ocrolus_types[i : i + BATCH_SIZE]
         prompt = build_mapping_prompt(batch, lender_containers)
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                temperature=0.0,
-                response_mime_type="application/json",
-            ),
-        )
-        raw = response.text.strip()
+        raw = _generate_with_retry(client, prompt, types)
         merged.update(_parse_response(raw, batch))
     return merged
 
 
+def _generate_with_retry(client, prompt: str, types) -> str:
+    """Call Gemini with exponential backoff on rate-limit errors."""
+    last_exc = None
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = client.models.generate_content(
+                model=GEMINI_MODEL,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    temperature=0.0,
+                    response_mime_type="application/json",
+                ),
+            )
+            return response.text.strip()
+        except Exception as e:
+            err = str(e)
+            if "429" in err or "RESOURCE_EXHAUSTED" in err:
+                if "limit: 0" in err:
+                    raise RuntimeError(
+                        "Gemini API quota is 0 — billing must be enabled at "
+                        "https://aistudio.google.com before this service can be used."
+                    ) from e
+                if attempt < MAX_RETRIES - 1:
+                    wait = 2 ** (attempt + 1)
+                    time.sleep(wait)
+                    last_exc = e
+                    continue
+            raise
+    raise last_exc
+
+
 def _parse_response(raw: str, ocrolus_types: list[str]) -> dict[str, tuple[str, float]]:
     """Parse the JSON response into (container, confidence) tuples."""
-    if raw.startswith("```"):
-        lines = raw.split("\n")
-        lines = [l for l in lines if not l.strip().startswith("```")]
-        raw = "\n".join(lines)
-
     try:
-        data = json.loads(raw)
-    except json.JSONDecodeError as e:
+        data = extract_json_object(raw)
+    except ValueError as e:
         raise ValueError(f"Gemini returned invalid JSON: {e}") from e
-
-    if not isinstance(data, dict):
-        raise ValueError("Gemini response is not a JSON object")
 
     mapping = {}
     for form_type in ocrolus_types:
@@ -73,5 +91,4 @@ def _parse_response(raw: str, ocrolus_types: list[str]) -> dict[str, tuple[str, 
             mapping[form_type] = (value.strip(), 0.5)
         else:
             mapping[form_type] = ("NO_MATCH", 0.0)
-
     return mapping

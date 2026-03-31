@@ -3,7 +3,6 @@
 import os
 import tempfile
 
-import requests
 import streamlit as st
 from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
