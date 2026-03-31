@@ -13,11 +13,18 @@ if [ ! -f .env ]; then
     exit 1
 fi
 
-# Check for dependencies
-if ! python3 -c "import streamlit" 2>/dev/null; then
-    echo "Installing dependencies..."
-    pip3 install -r requirements.txt
+# Create virtualenv if it doesn't exist
+if [ ! -d .venv ]; then
+    echo "Creating virtual environment..."
+    python3 -m venv .venv
 fi
 
-echo "Starting Container Mapper on http://0.0.0.0:8501"
+# Activate virtualenv
+source .venv/bin/activate
+
+# Install/update dependencies
+echo "Installing dependencies..."
+pip install -q -r requirements.txt
+
+echo "Starting Container Mapper on http://localhost:8501"
 streamlit run app.py --browser.gatherUsageStats false
