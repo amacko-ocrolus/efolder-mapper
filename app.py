@@ -68,7 +68,7 @@ with st.sidebar:
 # ---------------------------------------------------------------------------
 preloaded_files = sorted(
     f for f in os.listdir(PRELOADED_DIR)
-    if f.endswith(".csv") and not f.startswith(".")
+    if f.endswith((".csv", ".xlsx")) and not f.startswith(".")
 )
 
 col1, col2 = st.columns(2)
@@ -87,11 +87,11 @@ with col1:
             ocrolus_file = None
             ocrolus_preloaded_path = os.path.join(PRELOADED_DIR, selected)
         else:
-            ocrolus_file = st.file_uploader("Upload CSV", type=["csv"], key="ocrolus")
+            ocrolus_file = st.file_uploader("Upload CSV or XLSX", type=["csv", "xlsx"], key="ocrolus")
             ocrolus_preloaded_path = None
     else:
         st.caption("No preloaded files found in `preloaded/`. Upload one below.")
-        ocrolus_file = st.file_uploader("Upload CSV", type=["csv"], key="ocrolus")
+        ocrolus_file = st.file_uploader("Upload CSV or XLSX", type=["csv", "xlsx"], key="ocrolus")
         ocrolus_preloaded_path = None
 
 with col2:

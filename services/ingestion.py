@@ -1,12 +1,14 @@
-"""File ingestion module for CSV and JSON input files."""
+"""File ingestion module for CSV, JSON, and XLSX input files."""
 
 import csv
 import json
 import os
 
+import openpyxl
+
 
 def load_ocrolus_types(file_path: str) -> list[str]:
-    """Load Ocrolus document form type names from a CSV file.
+    """Load Ocrolus document form type names from a CSV or XLSX file.
 
     Auto-detects which column contains the form type names by looking for
     a column with 'name', 'type', 'form', or 'document' in the header.
@@ -16,6 +18,11 @@ def load_ocrolus_types(file_path: str) -> list[str]:
     """
     if not os.path.isfile(file_path):
         raise FileNotFoundError(f"Ocrolus file not found: {file_path}")
+
+    ext = os.path.splitext(file_path)[1].lower()
+
+    if ext in (".xlsx", ".xls"):
+        return _load_ocrolus_xlsx(file_path)
 
     with open(file_path, newline="", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
@@ -39,6 +46,39 @@ def load_ocrolus_types(file_path: str) -> list[str]:
         types = []
         for row in reader:
             value = row[target_col].strip()
+            if value:
+                types.append(value)
+
+    if not types:
+        raise ValueError(f"No form type names found in {file_path}")
+
+    return sorted(set(types))
+
+
+def _load_ocrolus_xlsx(file_path: str) -> list[str]:
+    """Load form type names from the first sheet of an xlsx file."""
+    wb = openpyxl.load_workbook(file_path, read_only=True, data_only=True)
+    ws = wb.active
+
+    rows = list(ws.iter_rows(values_only=True))
+    wb.close()
+
+    if not rows:
+        raise ValueError(f"XLSX file is empty: {file_path}")
+
+    # First row is the header
+    headers = [str(c).strip() if c is not None else "" for c in rows[0]]
+
+    if len(headers) == 1:
+        target_idx = 0
+    else:
+        target_col = _find_best_column(headers, ["name", "type", "form", "document"])
+        target_idx = headers.index(target_col) if target_col else 0
+
+    types = []
+    for row in rows[1:]:
+        if target_idx < len(row) and row[target_idx] is not None:
+            value = str(row[target_idx]).strip()
             if value:
                 types.append(value)
 
