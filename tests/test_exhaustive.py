@@ -762,3 +762,71 @@ class TestFullPipelineBackwards:
         review_types = {r["ocrolus_type"] for r in review}
         assert conf_types == {"A", "B"}
         assert review_types == {"C", "D"}
+
+
+# ============================================================
+# 9. MAPPER CLI — argument handling and error propagation
+# ============================================================
+
+class TestMapperCLI:
+    """Test mapper.py's write_output_csv call passes errors correctly."""
+
+    def test_errors_passed_to_csv_when_service_fails(self, tmp_path):
+        """Regression test: mapper.py was not passing errors to write_output_csv."""
+        from services.consensus import write_output_csv, build_consensus
+
+        results = {
+            "OpenAI":    {"W2": ("Tax Docs", 0.9)},
+            "Anthropic": {"W2": ("Tax Docs", 0.85)},
+        }
+        errors = {"Gemini": "connection timeout"}
+        confident, review = build_consensus(results, ["W2"])
+        path = str(tmp_path / "out.csv")
+
+        # Pass errors explicitly — must appear in output
+        write_output_csv(path, confident, review, list(results.keys()), errors)
+
+        with open(path, encoding="utf-8") as f:
+            content = f.read()
+        assert "Gemini" in content
+        assert "connection timeout" in content
+
+    def test_no_errors_does_not_add_failed_services_note(self, tmp_path):
+        results = {
+            "OpenAI":    {"W2": ("Tax Docs", 0.9)},
+            "Anthropic": {"W2": ("Tax Docs", 0.85)},
+        }
+        confident, review = build_consensus(results, ["W2"])
+        path = str(tmp_path / "out.csv")
+        write_output_csv(path, confident, review, list(results.keys()), {})
+
+        with open(path, encoding="utf-8") as f:
+            content = f.read()
+        assert "NOTE: The following AI services failed" not in content
+
+
+# ============================================================
+# 10. PRELOADED DATA — real-world file integrity
+# ============================================================
+
+class TestPreloadedData:
+    """Verify the preloaded Ocrolus CSV can actually be ingested."""
+
+    def test_preloaded_ocrolus_csv_loads_without_error(self):
+        base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        path = os.path.join(base, "preloaded", "docs list mar 2026.csv")
+        if not os.path.isfile(path):
+            pytest.skip("Preloaded CSV not present")
+        result = load_ocrolus_types(path)
+        assert len(result) > 100, f"Expected many form types, got {len(result)}"
+        assert len(result) == len(set(result)), "Duplicate entries in preloaded CSV"
+        assert result == sorted(result), "Output is not sorted"
+
+    def test_preloaded_ocrolus_csv_has_no_empty_strings(self):
+        base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        path = os.path.join(base, "preloaded", "docs list mar 2026.csv")
+        if not os.path.isfile(path):
+            pytest.skip("Preloaded CSV not present")
+        result = load_ocrolus_types(path)
+        assert all(ft.strip() != "" for ft in result), "Empty string in form types"
+        assert all(isinstance(ft, str) for ft in result), "Non-string in form types"
