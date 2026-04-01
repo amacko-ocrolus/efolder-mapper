@@ -187,6 +187,12 @@ def _extract_strings_from_json(data) -> list[str]:
                 result = _extract_strings_from_json(value)
                 if result:
                     return result
+        # Recurse into nested dicts
+        for value in data.values():
+            if isinstance(value, dict):
+                result = _extract_strings_from_json(value)
+                if result:
+                    return result
 
     return []
 
