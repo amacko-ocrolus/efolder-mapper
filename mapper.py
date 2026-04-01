@@ -14,10 +14,10 @@ from dotenv import load_dotenv
 
 from services.ingestion import load_lender_containers, load_ocrolus_types
 from services.consensus import build_consensus, write_output_csv
-from services import ai_openai, ai_anthropic, ai_ollama
+from services import ai_openai, ai_anthropic, ai_gemini
 
 
-AI_SERVICES = [ai_openai, ai_anthropic, ai_ollama]
+AI_SERVICES = [ai_openai, ai_anthropic, ai_gemini]
 
 
 def main():
