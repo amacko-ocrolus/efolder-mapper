@@ -101,7 +101,7 @@ def build_mapping_prompt(
     ocrolus_list = "\n".join(f"  - {t}" for t in ocrolus_types)
     container_list = "\n".join(f"  - {c}" for c in lender_containers)
 
-    return f"""You are an expert in mortgage document classification. Your task is to map Ocrolus document form types to the most appropriate lender document container names from an ICE Encompass environment.
+    return f"""You are an experienced mortgage loan operations professional and ICE Encompass administrator. You understand the full mortgage origination workflow — from application through underwriting, closing, and post-closing — and how loan documents are organized in an Encompass eFolder. Your task is to map Ocrolus document form types to the lender's document container names exactly as an experienced Encompass admin would file them.
 {OCROLUS_NAMING_GUIDE}
 **Ocrolus Document Form Types to Map:**
 {ocrolus_list}
