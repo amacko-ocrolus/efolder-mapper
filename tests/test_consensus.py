@@ -32,11 +32,21 @@ class TestBuildConsensus:
 
     def test_avg_confidence_calculated(self):
         results = {
+            "OpenAI":    {"W-2": ("Tax Documents", 0.90)},
+            "Anthropic": {"W-2": ("Tax Documents", 0.88)},
+        }
+        confident, review = build_consensus(results, ["W-2"])
+        assert confident[0]["avg_confidence"] == 0.89
+
+    def test_low_confidence_agreement_goes_to_review(self):
+        """2+ services agree but avg confidence < threshold → goes to review."""
+        results = {
             "OpenAI":    {"W-2": ("Tax Documents", 0.80)},
             "Anthropic": {"W-2": ("Tax Documents", 0.60)},
         }
         confident, review = build_consensus(results, ["W-2"])
-        assert confident[0]["avg_confidence"] == 0.70
+        assert len(confident) == 0
+        assert len(review) == 1
 
     def test_no_consensus(self):
         results = {
@@ -70,10 +80,12 @@ class TestBuildConsensus:
         assert len(review) == 1
 
     def test_mixed_types(self):
+        # W-2: OpenAI+Anthropic agree at avg 0.925 (>= 0.85) → confident
+        # Pay Stub: OpenAI+Gemini agree at avg 0.875 (>= 0.85) → confident
         results = {
-            "OpenAI":    {"W-2": ("Tax Docs", 0.9), "Pay Stub": ("Income", 0.8)},
-            "Anthropic": {"W-2": ("Tax Docs", 0.85), "Pay Stub": ("Earnings", 0.7)},
-            "Gemini":    {"W-2": ("Tax Forms", 0.6), "Pay Stub": ("Income", 0.75)},
+            "OpenAI":    {"W-2": ("Tax Docs", 0.95), "Pay Stub": ("Income", 0.90)},
+            "Anthropic": {"W-2": ("Tax Docs", 0.90), "Pay Stub": ("Earnings", 0.70)},
+            "Gemini":    {"W-2": ("Tax Forms", 0.60), "Pay Stub": ("Income", 0.85)},
         }
         confident, review = build_consensus(results, ["W-2", "Pay Stub"])
         assert len(confident) == 2

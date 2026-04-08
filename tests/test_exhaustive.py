@@ -382,12 +382,12 @@ class TestConsensusExhaustive:
 
     def test_avg_confidence_only_for_agreeing_services(self):
         results = {
-            "OpenAI":    {"W2": ("Tax Docs", 0.80)},
-            "Anthropic": {"W2": ("Tax Docs", 0.60)},
+            "OpenAI":    {"W2": ("Tax Docs", 0.90)},
+            "Anthropic": {"W2": ("Tax Docs", 0.86)},
             "Gemini":    {"W2": ("Other", 0.99)},  # disagrees, should not affect avg
         }
         confident, review = build_consensus(results, ["W2"])
-        assert confident[0]["avg_confidence"] == round((0.80 + 0.60) / 2, 2)
+        assert confident[0]["avg_confidence"] == round((0.90 + 0.86) / 2, 2)
 
     def test_all_form_types_present_in_output(self):
         form_types = ["A", "B", "C", "D", "E"]
@@ -617,14 +617,14 @@ class TestCSVOutputIntegrity:
         assert len(confident) + len(review) == 20
 
     def test_avg_confidence_in_csv(self, tmp_path):
-        results = {"OpenAI": {"W2": ("Tax Docs", 0.80)},
-                   "Anthropic": {"W2": ("Tax Docs", 0.60)}}
+        results = {"OpenAI": {"W2": ("Tax Docs", 0.90)},
+                   "Anthropic": {"W2": ("Tax Docs", 0.88)}}
         confident, review = build_consensus(results, ["W2"])
         path = str(tmp_path / "out.csv")
         write_output_csv(path, confident, review, list(results.keys()))
-        with open(path, encoding="utf-8") as f:
+        with open(path, encoding="utf-8-sig") as f:
             content = f.read()
-        assert "0.7" in content
+        assert "0.89" in content
 
     def test_best_guess_columns_in_review(self, tmp_path):
         results = {"OpenAI": {"W2": ("A", 0.9)},

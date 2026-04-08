@@ -9,9 +9,36 @@ from services.json_repair import extract_json_object
 
 SERVICE_NAME = "Gemini"
 
-GEMINI_MODEL = "gemini-2.0-flash"
+# Preferred models in priority order — first available one is used.
+# Updated when Google deprecates models for new API keys.
+_MODEL_PREFERENCE = [
+    "gemini-2.5-flash",
+    "gemini-2.5-pro",
+    "gemini-2.0-flash-lite",
+    "gemini-1.5-flash",
+    "gemini-1.5-pro",
+]
+
 BATCH_SIZE = 150
 MAX_RETRIES = 4
+
+
+def _pick_model(client) -> str:
+    """Return the first preferred model that supports generateContent."""
+    try:
+        available = {
+            m.name.replace("models/", "")
+            for m in client.models.list()
+            if hasattr(m, "supported_actions") and "generateContent" in (m.supported_actions or [])
+            or hasattr(m, "supported_generation_methods") and "generateContent" in (m.supported_generation_methods or [])
+        }
+        for model in _MODEL_PREFERENCE:
+            if model in available:
+                return model
+    except Exception:
+        pass
+    # Fall back to first preference if listing fails
+    return _MODEL_PREFERENCE[0]
 
 
 def get_mappings(
@@ -28,23 +55,24 @@ def get_mappings(
         raise RuntimeError("GEMINI_API_KEY is not set")
 
     client = genai.Client(api_key=api_key)
+    model = _pick_model(client)
 
     merged = {}
     for i in range(0, len(ocrolus_types), BATCH_SIZE):
         batch = ocrolus_types[i : i + BATCH_SIZE]
         prompt = build_mapping_prompt(batch, lender_containers)
-        raw = _generate_with_retry(client, prompt, types)
+        raw = _generate_with_retry(client, prompt, types, model)
         merged.update(_parse_response(raw, batch))
     return merged
 
 
-def _generate_with_retry(client, prompt: str, types) -> str:
+def _generate_with_retry(client, prompt: str, types, model: str) -> str:
     """Call Gemini with exponential backoff on rate-limit errors."""
     last_exc = None
     for attempt in range(MAX_RETRIES):
         try:
             response = client.models.generate_content(
-                model=GEMINI_MODEL,
+                model=model,
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     temperature=0.0,
