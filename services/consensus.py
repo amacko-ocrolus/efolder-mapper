@@ -3,22 +3,28 @@
 import csv
 from collections import Counter
 
+# Mappings where 2+ services agree but avg confidence is below this threshold
+# are demoted to the manual review section rather than the confident list.
+CONFIDENCE_THRESHOLD = 0.85
+
 
 def build_consensus(
     results: dict[str, dict[str, tuple[str, float]]],
     ocrolus_types: list[str],
+    confidence_threshold: float = CONFIDENCE_THRESHOLD,
 ) -> tuple[list[dict], list[dict]]:
     """Compare mappings from all AI services and split into consensus vs review.
 
     Args:
         results: Dict keyed by service name; values are {form_type: (container, confidence)}.
         ocrolus_types: The full list of Ocrolus form types.
+        confidence_threshold: Avg confidence required to be listed as confident.
+            Agreed mappings below this score are demoted to manual review.
 
     Returns:
         A tuple of (confident_rows, review_rows).
-        - confident_rows: 2+ services agreed on the same container.
-        - review_rows: No consensus; includes all per-service suggestions with
-          confidences and a "best guess" (highest-confidence pick across services).
+        - confident_rows: 2+ services agreed AND avg confidence >= threshold.
+        - review_rows: No consensus OR avg confidence below threshold.
     """
     service_names = list(results.keys())
     confident = []
@@ -46,28 +52,31 @@ def build_consensus(
                 conf for svc, (container, conf) in suggestions.items()
                 if container == most_common_container
             ) / len(agreeing)
-            confident.append({
-                "ocrolus_type": form_type,
-                "suggested_container": most_common_container,
-                "agreed_services": ", ".join(agreeing),
-                "avg_confidence": round(avg_confidence, 2),
-            })
-        else:
-            # No consensus — pick best guess by highest confidence across services
-            best_svc = max(service_names, key=lambda s: suggestions[s][1])
-            best_container, best_conf = suggestions[best_svc]
 
-            row = {
-                "ocrolus_type": form_type,
-                "best_guess": best_container,
-                "best_confidence": round(best_conf, 2),
-                "best_guess_service": best_svc,
-            }
-            for svc in service_names:
-                container, conf = suggestions[svc]
-                row[f"{svc}_suggestion"] = container
-                row[f"{svc}_confidence"] = round(conf, 2)
-            review.append(row)
+            if avg_confidence >= confidence_threshold:
+                confident.append({
+                    "ocrolus_type": form_type,
+                    "suggested_container": most_common_container,
+                    "agreed_services": ", ".join(agreeing),
+                    "avg_confidence": round(avg_confidence, 2),
+                })
+                continue
+
+        # No consensus OR confidence below threshold — pick best guess
+        best_svc = max(service_names, key=lambda s: suggestions[s][1])
+        best_container, best_conf = suggestions[best_svc]
+
+        row = {
+            "ocrolus_type": form_type,
+            "best_guess": best_container,
+            "best_confidence": round(best_conf, 2),
+            "best_guess_service": best_svc,
+        }
+        for svc in service_names:
+            container, conf = suggestions[svc]
+            row[f"{svc}_suggestion"] = container
+            row[f"{svc}_confidence"] = round(conf, 2)
+        review.append(row)
 
     return confident, review
 
@@ -79,10 +88,14 @@ def write_output_csv(
     service_names: list[str],
     failed_services: dict[str, str] | None = None,
 ) -> None:
-    """Write the final output CSV with two sections."""
+    """Write the final output CSV with two sections.
+
+    Uses utf-8-sig encoding (UTF-8 with BOM) so Excel opens it correctly
+    without garbling special characters.
+    """
     failed_services = failed_services or {}
 
-    with open(output_path, "w", newline="", encoding="utf-8") as f:
+    with open(output_path, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.writer(f)
 
         # Note any failed services at the top
@@ -93,7 +106,7 @@ def write_output_csv(
             writer.writerow([])
 
         # --- Confident Mappings Section ---
-        writer.writerow([f"=== CONFIDENT MAPPINGS ({len(confident)} rows — 2+ AI services agree) ==="])
+        writer.writerow([f"=== CONFIDENT MAPPINGS ({len(confident)} rows -- 2+ AI services agree, avg confidence >= {CONFIDENCE_THRESHOLD:.0%}) ==="])
         writer.writerow([])
         writer.writerow(["Form Type", "Container Name", "Agreed Services", "Avg Confidence"])
 
@@ -109,7 +122,7 @@ def write_output_csv(
         writer.writerow([])
 
         # --- Manual Review Section ---
-        writer.writerow([f"=== MANUAL REVIEW NEEDED ({len(review)} rows — no consensus) ==="])
+        writer.writerow([f"=== MANUAL REVIEW NEEDED ({len(review)} rows -- no consensus or avg confidence < {CONFIDENCE_THRESHOLD:.0%}) ==="])
         writer.writerow([])
 
         per_svc_headers = []

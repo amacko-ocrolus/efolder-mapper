@@ -112,12 +112,21 @@ def build_mapping_prompt(
 **Instructions:**
 1. For each Ocrolus form type listed above, use the naming conventions guide above to first understand what the document actually is, then select the single best-matching lender document container name from the list above.
 2. Base your matching on semantic similarity — the container that would most logically hold that type of document in a mortgage workflow.
-3. Always provide a best-guess — never omit a form type or leave its container blank. Even if no container is a strong match, pick the closest option.
-4. For each mapping, provide a confidence score from 0.0 (very uncertain) to 1.0 (very confident). If you are uncertain what the form type is even after consulting the naming guide, use a lower confidence score.
-5. Return ONLY a valid JSON object. Each key is an Ocrolus form type (exactly as written above) and each value is an object with:
+3. **CRITICAL — Disclosures must go to disclosure containers, not subject-matter containers:**
+   Any form type that is a Disclosure (contains the word "DISCLOSURE", "NOTICE", or "ACKNOWLEDGMENT/ACKNOWLEDGEMENT" in its name) must be mapped to a disclosure-specific container — never to a production or subject-matter container. The subject of the disclosure is irrelevant to where it is filed.
+   Examples of correct disclosure mapping logic:
+   - "APPRAISAL_FEE_DISCLOSURE" → a Disclosure container (NOT an Appraisal container)
+   - "AFFILIATED_BUSINESS_ARRANGEMENT_DISCLOSURE" → a Disclosure container (NOT a Business/Legal container)
+   - "ARM_DISCLOSURE" → a Disclosure container (NOT a Loan Terms container)
+   - "HOMEOWNERSHIP_COUNSELING_NOTICE" → a Disclosure/Notice container (NOT a Counseling container)
+   - "ACKNOWLEDGMENT_OF_RECEIPT_OF_LOAN_ESTIMATE" → a Disclosure container (NOT a Loan Estimate container)
+   When in doubt: if the document is something the lender gives the borrower to sign or acknowledge for legal/regulatory compliance purposes, it belongs in a disclosure container.
+4. Always provide a best-guess — never omit a form type or leave its container blank. Even if no container is a strong match, pick the closest option.
+5. For each mapping, provide a confidence score from 0.0 (very uncertain) to 1.0 (very confident). If you are uncertain what the form type is even after consulting the naming guide, use a lower confidence score.
+6. Return ONLY a valid JSON object. Each key is an Ocrolus form type (exactly as written above) and each value is an object with:
    - "container": the best-matching lender container name (must be exactly from the list above)
    - "confidence": a float from 0.0 to 1.0 representing your confidence in the match
-6. Do not add any explanation, commentary, or markdown formatting. Return raw JSON only.
+7. Do not add any explanation, commentary, or markdown formatting. Return raw JSON only.
 
 Example output format:
 {{
