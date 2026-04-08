@@ -9,7 +9,7 @@ from services.json_repair import extract_json_object
 
 SERVICE_NAME = "Gemini"
 
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-2.5-flash-preview-04-17"
 BATCH_SIZE = 150
 MAX_RETRIES = 4
 
