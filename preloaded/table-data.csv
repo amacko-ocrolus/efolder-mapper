@@ -1,0 +1,2036 @@
+﻿Form Type,Container Name,Attachment Name,dynamic_container_template_id,Default
+FEDERAL_INFORMATION_WORKSHEET,Income - Borrower 1040 Tax Returns w/ All Schedules,Federal Information Worksheet,,false
+RD_1924_19_BUILDERS_WARRANTY,UNKNOWN,RD 1924-19 - Builder's Warranty,,true
+LOAN_SUBMISSION,UNKNOWN,Loan Submission,,true
+A_7036,Income - Borrower 1040 Tax Returns w/ All Schedules,7036,,false
+A_1040_SCHEDULE_2_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_2_2020-Part1-General:name(s)ShownOnForm10401040-SrOr1040-Nr}_1040_SCHEDULE_2_2020,,false
+APPRAISAL_WAIVER_OR_RECEIPT_FORM,UNKNOWN,Appraisal Waiver/Receipt Form,,true
+ACKNOWLEDGEMENT_THAT_REAL_PROPERTY_IS_NOT_EXEMPT_FROM_EXECUTION,UNKNOWN,Acknowledgement That Real Property Is Not Exempt From Execution,,true
+A_W_8EXP,Income - Borrower 1040 Tax Returns w/ All Schedules,W-8EXP,,false
+A_1040_SCHEDULE_2_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_2_2024_{$FIELDS.a_1040_schedule_2_2024-Part01-General:name(s)ShownOnForm10401040-SrOr1040-Nr},,false
+A_1040_SCHEDULE_2_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_2_2023_{$FIELDS.a_1040_schedule_2_2023-Part1-General:name(s)ShownOnForm10401040-SrOr1040-Nr},,false
+DRIVERS_LICENSE,Credit - SS Card/Drivers License,{$FIELDS.drivers_license-General:firstName}_{$FIELDS.drivers_license-General:lastName}_DRIVERS_LICENSE,,false
+A_1040_SCHEDULE_2_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_2_2022_{$FIELDS.a_1040_schedule_2_2022-Part1-General:name(s)ShownOnForm10401040-SrOr1040-Nr},,false
+A_1040_SCHEDULE_2_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_2_2021_{$FIELDS.a_1040_schedule_2_2021-Part1-General:name(s)ShownOnForm10401040-SrOr1040-Nr},,false
+A_14693,Income - Borrower 1040 Tax Returns w/ All Schedules,14693,,false
+A_1040_SCHEDULE_2_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_2_2025_{$FIELDS.a_1040_schedule_2_2025-Part01-General:namesShownOnForm10401040SrOr1040Nr},,false
+SIGNATURE_CERTIFICATE,Signature Certificate,Signature Certificate,,true
+PRIVATE_MORTGAGE_INSURANCE_DISCLOSURE_MINNESOTA,UNKNOWN,Private Mortgage Insurance Disclosure (Cx 1311; Minnesota),,true
+A_970,Income - Borrower 1040 Tax Returns w/ All Schedules,970,,false
+A_1120_F_SCHEDULE_M_1_M_2,Income - Borrower Business Tax Returns,1120-F Schedules M-1 and M-2,,false
+HOMEOWNERS_ASSOCIATION_STATEMENT,UNKNOWN,Homeowners Association Statement,,true
+A_972,Income - Borrower 1040 Tax Returns w/ All Schedules,972,,false
+A_973,Income - Borrower 1040 Tax Returns w/ All Schedules,973,,false
+A_976,Income - Borrower 1040 Tax Returns w/ All Schedules,976,,false
+A_3903,Income - Borrower 1040 Tax Returns w/ All Schedules,3903,,false
+JUMIO_PII_bank_statement,PII Bank Statement,PII Bank Statement,,true
+HUD_92800_5B_CONDITIONAL_COMMITMENT,FHA - HUD 92800b Conditional Commitment,HUD-92800.5B Conditional Commitment,,false
+PREPAYMENT_CHARGE_DISCLOSURE,UNKNOWN,Prepayment Charge Disclosure,,true
+A_706_A,Income - Borrower 1040 Tax Returns w/ All Schedules,706-A,,false
+BORROWER_INTEREST_WORKSHEET,UNKNOWN,Borrower's Interest Worksheet,,true
+A_982,Income - Borrower 1040 Tax Returns w/ All Schedules,982,,false
+A_1040_SCHEDULE_2_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_2_2019-Part1-General:name(s)ShownOnForm1040Or1040-Sr}_1040_SCHEDULE_2_2019,,false
+A_1040_SCHEDULE_2_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_2_2018-Part1-General:name(s)ShownOnForm1040}_1040_SCHEDULE_2_2018,,false
+A_943_Schedule_R,Income - Borrower 1040 Tax Returns w/ All Schedules,943 Schedule R,,false
+FRAUD_ALERT_VERIFICATION_FORM,UNKNOWN,Fraud Alert Verification Form,,true
+LOAN_SUMMARY,UNKNOWN,Loan Summary,,true
+A_8886_T,Income - Borrower 1040 Tax Returns w/ All Schedules,8886-T,,false
+CHANGE_OF_CIRCUMSTANCE,UNKNOWN,Change Of Circumstance,,true
+HARDSHIP_WITHDRAWAL_FORM,Assets - Bank Statements,Hardship Withdrawal Form,,false
+SUBORDINATION_AGREEMENT,Subject Property - Subordination Agreement,Subordination Agreement,,false
+A_952,Income - Borrower 1040 Tax Returns w/ All Schedules,952,,false
+A_3922,Income - Borrower 1040 Tax Returns w/ All Schedules,3922,,false
+A_3921,Income - Borrower 1040 Tax Returns w/ All Schedules,3921,,false
+LOCK_IN_DISCLOSURE,UNKNOWN,Lock-In Disclosure,,true
+TITLE_OPINION,Subject Property - Title Report,Title Opinion,,false
+A_1040_SCHEDULE_SE_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_se_2020-Part1-General:nameOfPersonWithSelf-EmploymentIncome}_1040_SCHEDULE_SE_2020,,false
+FAIR_HOUSING_NOTICE,UNKNOWN,Fair Housing Notice,,true
+A_8379,Income - Borrower 1040 Tax Returns w/ All Schedules,8379,,false
+A_5305_EA,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-EA,,false
+A_6198,Income - Borrower 1040 Tax Returns w/ All Schedules,6198,,false
+ASSUMPTION_AGREEMENT,UNKNOWN,Assumption Agreement,,true
+A_6197,Income - Borrower 1040 Tax Returns w/ All Schedules,6197,,false
+A_1098_T,Income - Borrower 1040 Tax Returns w/ All Schedules,1098-T,,false
+A_1040_SCHEDULE_SE_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_SE_2025_{$FIELDS.a_1040_schedule_se_2025-Part01-General:nameOfPersonWithSelfEmploymentIncome},,false
+A_14204,Income - Borrower 1040 Tax Returns w/ All Schedules,14204,,false
+A_1040_SCHEDULE_SE_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_SE_2021_{$FIELDS.a_1040_schedule_se_2021-Part1-General:nameOfPersonWithSelf-EmploymentIncome},,false
+A_1040_SCHEDULE_SE_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_SE_2022_{$FIELDS.a_1040_schedule_se_2022-Part1-General:nameOfPersonWithSelf-EmploymentIncome},,false
+A_1040_SCHEDULE_SE_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_SE_2023_{$FIELDS.a_1040_schedule_se_2023-Part1-General:nameOfPersonWithSelf-EmploymentIncome},,false
+A_1040_SCHEDULE_SE_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_SE_2024_{$FIELDS.a_1040_schedule_se_2024-Part01-General:nameOfPersonWithSelf-EmploymentIncome},,false
+1006,test9,Appraisal Report,,true
+1005,Income - Borrower VOEs,Verification of Employment - 1005,,false
+1004,Appraisal,Appraisal Report,,false
+HELOC_(HOME_EQUITY_LINE_OF_CREDIT)_AGREEMENT,UNKNOWN,HELOC (Home Equity Line Of Credit) Agreement,,true
+A_9210,Income - Borrower 1040 Tax Returns w/ All Schedules,9210,,false
+A_1098_Q,Income - Borrower 1040 Tax Returns w/ All Schedules,1098-Q,,false
+A_3911,Income - Borrower 1040 Tax Returns w/ All Schedules,3911,,false
+A_1098_C,Income - Borrower 1040 Tax Returns w/ All Schedules,1098-C,,false
+RESIDENTIAL_MORTGAGE_INTEREST_RATE_LOCK_AGREEMENT,UNKNOWN,Residential Mortgage Interest Rate Lock Agreement,,true
+A_965,Income - Borrower 1040 Tax Returns w/ All Schedules,965,,false
+A_1098_F,Income - Borrower 1040 Tax Returns w/ All Schedules,1098-F,,false
+A_966,Income - Borrower 1040 Tax Returns w/ All Schedules,966,,false
+A_1098_E,Income - Borrower 1040 Tax Returns w/ All Schedules,1098-E,,false
+A_928,Income - Borrower 1040 Tax Returns w/ All Schedules,928,,false
+SECTION_32_MORTGAGE_LOAN_DISCLOSURE,UNKNOWN,Section 32 Mortgage Loan Disclosure,,true
+A_15109,Income - Borrower 1040 Tax Returns w/ All Schedules,15109,,false
+WORKSHEET_FOR_CALCULATING_RENTAL_INCOME_FROM_TAX_RETURNS,UNKNOWN,Worksheet For Calculating Rental Income From Tax Returns,,true
+A_1041_V,Income - Borrower 1040 Tax Returns w/ All Schedules,1041-V,,false
+A_15105,Income - Borrower 1040 Tax Returns w/ All Schedules,15105,,false
+A_1040_SCHEDULE_SE_2015,1040 Schedule SE (2015),1040 Schedule SE (Self-Employment Tax) (2015),,true
+CERTIFICATION_AND_INDEMNIFICATION_AGREEMENT_INSTALLATION_OF_APPROVED_SMOKE_DETECTORS,UNKNOWN,Certification And Indemnification Agreement - Installation Of Approved Smoke Detectors,,true
+A_1040_SCHEDULE_SE_2016,1040 Schedule SE (2016),1040 Schedule SE (Self-Employment Tax) (2016),,true
+A_15107,Income - Borrower 1040 Tax Returns w/ All Schedules,15107,,false
+A_1040_SCHEDULE_SE_2017,1040 Schedule SE (2017),1040 Schedule SE (Self-Employment Tax) (2017),,true
+A_15101,Income - Borrower 1040 Tax Returns w/ All Schedules,15101,,false
+A_15103,Income - Borrower 1040 Tax Returns w/ All Schedules,15103,,false
+A_15104,Income - Borrower 1040 Tax Returns w/ All Schedules,15104,,false
+A_15100,Income - Borrower 1040 Tax Returns w/ All Schedules,15100,,false
+A_1040_SCHEDULE_SE_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_se_2018-Part1-General:nameOfPersonWithSelf-EmploymentIncome}_1040_SCHEDULE_SE_2018,,false
+A_1040_SCHEDULE_SE_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_se_2019-Part1-General:nameOfPersonWithSelf-EmploymentIncome}_1040_SCHEDULE_SE_2019,,false
+A_1041_T,Income - Borrower 1040 Tax Returns w/ All Schedules,1041-T,,false
+CAR_LOAN_DEED,UNKNOWN,Car Loan Deed,,true
+SERVICE_PROVIDER_LIST,Service Provider List,Service Provider List,,true
+A_1041_N,Income - Borrower 1040 Tax Returns w/ All Schedules,1041-N,,false
+A_8995_A_SCHEDULE_C,Income - Borrower 1040 Tax Returns w/ All Schedules,8995-A Schedule C,,false
+A_8995_A_SCHEDULE_B,Income - Borrower 1040 Tax Returns w/ All Schedules,8995-A Schedule B,,false
+NOTICE_OF_INFORMATION_AND_EXAMPLES_OF_AMORTIZATION_OF_HOME_LOANS,UNKNOWN,Notice Of Information And Examples Of Amortization Of Home Loans,,true
+A_8995_A_SCHEDULE_D,Income - Borrower 1040 Tax Returns w/ All Schedules,8995-A Schedule D,,false
+A_4876_A,Income - Borrower 1040 Tax Returns w/ All Schedules,4876-A,,false
+VA_26_1805_REQUEST_FOR_DETERMINATION_OF_REASONABLE_VALUE,VA Documents,VA 26-1805 Request For Determination Of Reasonable Value,,true
+A_8995_A_SCHEDULE_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8995-A Schedule A,,false
+A_1040_CLIENT_SPECIFIC_BILLING_OPTIONS,UNKNOWN,1040 Client-Specific Billing Options,,true
+A_990_T,Income - Borrower 1040 Tax Returns w/ All Schedules,990-T,,false
+A_8396,Income - Borrower 1040 Tax Returns w/ All Schedules,8396,,false
+1032,Appraisal,Appraisal Review (1032),,false
+A_1041_A,Income - Borrower 1040 Tax Returns w/ All Schedules,1041-A,,false
+INVOICE,Invoice,Invoice,,true
+A_15112,Income - Borrower 1040 Tax Returns w/ All Schedules,15112,,false
+A_15110,Income - Borrower 1040 Tax Returns w/ All Schedules,15110,,false
+A_W_8CE,Income - Borrower 1040 Tax Returns w/ All Schedules,W-8CE,,false
+A_15111,Income - Borrower 1040 Tax Returns w/ All Schedules,15111,,false
+DIRECT_DEPOSIT_AUTHORIZATION,UNKNOWN,Direct Deposit Authorization,,true
+A_940,Income - Borrower 1040 Tax Returns w/ All Schedules,940,,false
+SELLERS_CERTIFICATE_OF_EXEMPTION,UNKNOWN,Seller's Certificate Of Exemption,,true
+CREDIT_AUTHORIZATION_FORM,UNKNOWN,Credit Authorization Form,,true
+A_941,Income - Borrower 1040 Tax Returns w/ All Schedules,941,,false
+PROCESSING_REJECTED,Ocrolus Processing Rejected,{$ORIGINAL.title},,true
+A_943,Income - Borrower 1040 Tax Returns w/ All Schedules,943,,false
+ADDENDUM_TO_THE_UNIFORM_RESIDENTIAL_LOAN_APPLICATION_URLA_FNMA_1003,UNKNOWN,Addendum To The Uniform Residential Loan Application (URLA) FNMA 1003,,true
+A_945,Income - Borrower 1040 Tax Returns w/ All Schedules,945,,false
+TERMITE_INSPECTION_REPORT,Appraisal - Property Inspections - Roof/Water/Termite/Septic,Termite Inspection Report,,false
+A_886_H_HOH,Income - Borrower 1040 Tax Returns w/ All Schedules,886-H-HOH,,false
+HUD_50112_CONSTRUCTION_LOAN_RIDER,UNKNOWN,HUD-50112 Construction Loan Rider,,true
+A_907,Income - Borrower 1040 Tax Returns w/ All Schedules,907,,false
+A_1310,Income - Borrower 1040 Tax Returns w/ All Schedules,1310,,false
+ELEVATION_CERTIFICATE,Elevation Certification,Elevation Certificate,,true
+RIGHT_TO_OWN_ATTORNEY_DISCLOSURE,UNKNOWN,Right to Own Attorney Disclosure,,true
+VA_ESCAPE_CLAUSE,Subject Property - Contract,VA Escape Clause,,false
+TAX_RETURN_COPY,Tax Return Copy,Tax Return Copy,,true
+SPANISH_GENERAL_DISCLOSURE,UNKNOWN,Spanish General Disclosure,,true
+CLOSING_PROTECTION_LETTER,Subject Property - Title Report,Closing Protection Letter,,false
+A_911,Income - Borrower 1040 Tax Returns w/ All Schedules,911,,false
+DISCLOSURE_NOTICES,UNKNOWN,Disclosure Notices,,true
+A_1040_FEDERAL_TAX_PROJECTION_WORKSHEET,UNKNOWN,1040 Federal Tax Projection Worksheet,,true
+A_4810,Income - Borrower 1040 Tax Returns w/ All Schedules,4810,,false
+HIGH_COST_LOAN_APPLICATION_DISCLOSURE,UNKNOWN,High Cost Loan Application Disclosure,,true
+A_886_H_DEP,Income - Borrower 1040 Tax Returns w/ All Schedules,886-H-DEP,,false
+HIGHER_INTEREST_RATE_IN_LIEU_OF_PMI_(PRIVATE_MORTGAGE_INSURANCE)_DISCLOSURE,UNKNOWN,Higher Interest Rate In Lieu of PMI (Private Mortgage Insurance) Disclosure,,true
+FEE_WORKSHEET,Fee Worksheet,Fee Worksheet,,true
+NOTICE_TO_COSIGNER_NEW_YORK,UNKNOWN,Notice To Cosigner (Cx 12871; New York),,true
+A_4808,Income - Borrower 1040 Tax Returns w/ All Schedules,4808,,false
+DISCLOSURE_STATEMENT_CONTROLLED_BUSINESS_ARRANGEMENT,UNKNOWN,Disclosure Statement - Controlled Business Arrangement,,true
+A_2624,Income - Borrower 1040 Tax Returns w/ All Schedules,2624,,false
+A_921,Income - Borrower 1040 Tax Returns w/ All Schedules,921,,false
+A_13533_A,Income - Borrower 1040 Tax Returns w/ All Schedules,13533-A,,false
+NOTICE_TO_PURCHASER_MORTGAGOR,UNKNOWN,Notice To Purchaser-Mortgagor (Cx 4131; Florida),,true
+REQUEST_TO_RESCIND_PRINCIPAL_RESIDENCE_EXEMPTION_PRE,UNKNOWN,Request To Rescind Principal Residence Exemption (PRE),,true
+A_926,Income - Borrower 1040 Tax Returns w/ All Schedules,926,,false
+MORTGAGE_NOTE,Mortgage Note,Mortgage Note,,true
+A_13768,Income - Borrower 1040 Tax Returns w/ All Schedules,13768,,false
+A_1040_NR_SCHEDULE_NEC,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-NR Schedule NEC,,false
+BUYERS_ESTIMATED_SETTLEMENT_STATEMENT,UNKNOWN,Buyer's Estimated Settlement Statement,,true
+VA_CERTIFICATE_OF_ELIGIBILITY,VA - 26-1880 Eligibility Certificate,VA_CERTIFICATE_OF_ELIGIBILITY,,false
+MARRIED_FILING_JOINTLY_VS_MARRIED_FILING_SEPARATELY_COMPARISON,Income - Borrower 1040 Tax Returns w/ All Schedules,Married Filing Jointly vs. Married Filing Separately Comparison,,false
+REFINANCE_CERTIFICATION,UNKNOWN,Refinance Certification,,true
+A_1040_RENT_AND_ROYALTY_RECONCILIATION,UNKNOWN,1040 Rent And Royalty Reconciliation,,true
+CREDIT_LIFE_DISCLOSURE,UNKNOWN,Credit Life Disclosure,,true
+FEDERAL_SUPPORTING_STATEMENTS_TESTING_VERSION_2,Federal Supporting Statements Testing Version 2,Federal Supporting Statements Testing Version 2,,true
+A_8582_CR,Income - Borrower 1040 Tax Returns w/ All Schedules,8582-CR,,false
+FEDERAL_SUPPORTING_STATEMENTS_TESTING_VERSION_4,UNKNOWN,Federal Supporting Statements Testing Version 4,,true
+FEDERAL_SUPPORTING_STATEMENTS_TESTING_VERSION_3,Federal Supporting Statements Testing Version 3,Federal Supporting Statements Testing Version 3,,true
+LLC_CORPORATION_DOCUMENTS,Tax Returns w/ Schedules,LLC Corporation Documents,,true
+A_8960_WORKSHEET,Income - Borrower 1040 Tax Returns w/ All Schedules,8960 Worksheet,,false
+INTEREST_RATE_LOCK_IN_AGREEMENT,UNKNOWN,Interest Rate Lock-In Agreement,,true
+NOTIFICATION_TO_BUYERS_OF_WITHHOLDING_TAX_REQUIREMENT,UNKNOWN,Notification To Buyers Of Withholding Tax Requirement,,true
+ELECTRONIC_CONSENT_BASED_SOCIAL_SECURITY_NUMBER_VERIFICATION,UNKNOWN,Electronic Consent Based Social Security Number Verification,,true
+DEPOSITORY_INSTITUTION_INSURANCE_DISCLOSURE,UNKNOWN,Depository Institution Insurance Disclosure,,true
+DIVORCE_DECREE,Credit - Divorce Decree/Child Support - Liabilty/Income,Divorce Decree,,false
+TILA_RESPA_INTEGRATED_DISCLOSURES,TILA-RESPA Integrated Disclosures,TILA-RESPA Integrated Disclosures,,true
+PRE_QUALIFICATION_INQUIRY_WORKSHEET,UNKNOWN,Pre-Qualification Inquiry Worksheet,,true
+FHA_VA_NOTICE_TO_APPLICANTS,UNKNOWN,FHA/VA Notice To Applicants,,true
+A_13748,Income - Borrower 1040 Tax Returns w/ All Schedules,13748,,false
+PERSONAL_INFORMATION_WORKSHEET,Income - Borrower 1040 Tax Returns w/ All Schedules,Personal Information Worksheet,,false
+CERTIFICATION_OF_SMOKE_AND_CARBON_MONOXIDE_ALARMS,UNKNOWN,Certification Of Smoke And Carbon Monoxide Alarms,,true
+SOCIAL_SECURITY_ADMINISTRATION_AUTHORIZATION,SSA Authorization,SOCIAL_SECURITY_CARD_{$FIELDS.social_security_card-General:firstName}_{$FIELDS.social_security_card-General:lastName},,true
+TANGIBLE_NET_BENEFIT_DISCLOSURE_COLORADO,UNKNOWN,Tangible Net Benefit Disclosure (Cx 12873; Colorado),,true
+EXEMPTION_INFORMATION,UNKNOWN,Exemption Information,,true
+SPECIFICATION_OF_REPAIRS,UNKNOWN,Specification Of Repairs,,true
+A_2678,Income - Borrower 1040 Tax Returns w/ All Schedules,2678,,false
+A_4852,Income - Borrower 1040 Tax Returns w/ All Schedules,4852,,false
+A_3520,Income - Borrower 1040 Tax Returns w/ All Schedules,3520,,false
+A_CT_1,Income - Borrower 1040 Tax Returns w/ All Schedules,CT-1,,false
+A_656_PPV,Income - Borrower 1040 Tax Returns w/ All Schedules,656-PPV,,false
+A_CT_2,Income - Borrower 1040 Tax Returns w/ All Schedules,CT-2,,false
+A_13751,Income - Borrower 1040 Tax Returns w/ All Schedules,13751,,false
+DISCLOSURE_CONSENT,Electronic Delivery Consent,Disclosure Consent,,true
+A_13750,Income - Borrower 1040 Tax Returns w/ All Schedules,13750,,false
+SUMMARY_OF_YOUR_RIGHTS_UNDER_FAIR_CREDIT_REPORTING_ACT,Summary of Your Rights Under Fair Credit Reporting Act,Summary Of Your Rights Under Fair Credit Reporting Act,,true
+A_1040_AMT_PASSIVE_ACTIVITY_AND_LOSS_LIMIT_ADJUSTMENT_WORKSHEET,UNKNOWN,1040 AMT Passive Activity And Loss Limit Adjustment Worksheet,,true
+COMMITMENT_AGREEMENT,UNKNOWN,Commitment Agreement,,true
+TELEPHONE_SALES_CONTRACT_NOTICE_ON_ALL_NOTES_AND_SECURITY_INSTRUMENTS,UNKNOWN,Telephone Sales Contract Notice on All Notes and Security Instruments,,true
+LAWYERS_PROFESSIONAL_LIABILITY_INSURANCE,UNKNOWN,Lawyers Professional Liability Insurance,,true
+OFFICIAL_FORM_423_CERTIFICATION_ABOUT_A_FINANCIAL_MANAGEMENT_COURSE,Official Form 423 - Certification About A Financial Management Course,Official Form 423 - Certification About A Financial Management Course,,true
+BORROWER_PROPERTY_CONDITION_CERTIFICATE,UNKNOWN,Borrower Property Condition Certificate,,true
+A_2220,Income - Borrower 1040 Tax Returns w/ All Schedules,2220,,false
+DEPARTMENT_OF_THE_NAVY_PCS_ORDER,Credit - Supporting Credit Docs,Department of the Navy Permanent Change of Station Order,,false
+HUD_92080_OHF_MORTGAGE_RECORD_CHANGE,HUD-92080-OHF - Mortgage Record Change,HUD-92080-OHF - Mortgage Record Change,,true
+A_5304_SIMPLE,Income - Borrower 1040 Tax Returns w/ All Schedules,5304-SIMPLE,,false
+A_990_BL,Income - Borrower 1040 Tax Returns w/ All Schedules,990-BL,,false
+A_5310_A,Income - Borrower 1040 Tax Returns w/ All Schedules,5310-A,,false
+APPRAISAL,Appraisal,Appraisal Report,,false
+A_1040_CAPITAL_LOSS_CARRYOVER_WORKSHEETS,UNKNOWN,1040 Capital Loss Carryover Worksheets,,true
+APPRAISAL_DISCLOSURE,UNKNOWN,Appraisal Disclosure,,true
+A_2210,Income - Borrower 1040 Tax Returns w/ All Schedules,2210,,false
+A_1363,Income - Borrower 1040 Tax Returns w/ All Schedules,1363,,false
+A_12009,Income - Borrower 1040 Tax Returns w/ All Schedules,12009,,false
+A_8453_CORP,Income - Borrower 1040 Tax Returns w/ All Schedules,8453-CORP,,false
+CREDIT_CARD_STATEMENT,Credit - Supporting Credit Docs,Credit Card Statement,,false
+NON_FINANCE_CHARGE_DISCLOSURE,UNKNOWN,Non-Finance Charge Disclosure,,true
+A_4868,Income - Borrower 1040 Tax Returns w/ All Schedules,4868,,false
+A_5713,Income - Borrower 1040 Tax Returns w/ All Schedules,5713,,false
+A_4422,Income - Borrower 1040 Tax Returns w/ All Schedules,4422,,false
+A_5754,Income - Borrower 1040 Tax Returns w/ All Schedules,5754,,false
+A_5434_A,Income - Borrower 1040 Tax Returns w/ All Schedules,5434-A,,false
+A_8936_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8936-A,,false
+A_4421,Income - Borrower 1040 Tax Returns w/ All Schedules,4421,,false
+DOCUMENTATION_CHECKLIST,UNKNOWN,Documentation Checklist,,true
+A_12451,Income - Borrower 1040 Tax Returns w/ All Schedules,12451,,false
+ACKNOWLEDGMENT_OF_RECEIPT_OF_HOMEOWNERSHIP_COUNSELING_NOTICE,UNKNOWN,Acknowledgment Of Receipt Of Homeownership Counseling Notice,,true
+A_1120S_2016,1120S (2016),1120S (Small Corporation Business Tax Returns)S (2016),,true
+A_1041_QFT,Income - Borrower 1040 Tax Returns w/ All Schedules,1041-QFT,,false
+A_1120S_2015,1120S (2015),1120S (Small Corporation Business Tax Returns)S (2015),,true
+A_1120S_2019,Income - Borrower Business Tax Returns,{$FIELDS.a_1120s_2019-Part1-General:name}_1120_S_2019,,false
+A_1120S_2018,Income - Borrower Business Tax Returns,{$FIELDS.a_1120s_2018-Part1-General:name}_1120_S_2018,,false
+A_1120S_2017,1120S (2017),1120S (Small Corporation Business Tax Returns)S (2017),,true
+THE_HOUSING_FINANCIAL_DISCRIMINATION_ACT_OF_1977_FAIR_LENDING_NOTICE,UNKNOWN,The Housing Financial Discrimination Act Of 1977 Fair Lending Notice,,true
+A_1120_SCHEDULE_PH,Income - Borrower Business Tax Returns,1120 Schedule PH,,false
+MANUFACTURED_HOUSING_LIMITED_POWER_OF_ATTORNEY,UNKNOWN,Manufactured Housing Limited Power Of Attorney,,true
+PRIVATE_MORTGAGE_PAYMENT,Subject Property - Current Mortgage Statement,Private Mortgage Payment,,false
+HUD_54114_DIRECT_ENDORSEMENT_UNDERWRITER_OR_HUD_REVIEWER_ANALYSIS_OF_APPRAISAL_REPORT,HUD-54114 - Direct Endorsement Underwriter/HUD Reviewer Analysis Of Appraisal Report,HUD-54114 - Direct Endorsement Underwriter/HUD Reviewer Analysis Of Appraisal Report,,true
+A_5305_SEP,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-Sep,,false
+TRANSFEROR_AFFIDAVIT,Transferor Affidavit,Transferor Affidavit,,true
+A_1040_ES_PAYMENT_VOUCHER,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-ES Payment Voucher,,false
+A_W_3SS,Income - Borrower 1040 Tax Returns w/ All Schedules,W-3SS,,false
+A_8838_P,Income - Borrower 1040 Tax Returns w/ All Schedules,8838-P,,false
+PMI_(PRIVATE_MORTGAGE_INSURANCE)_DISCLOSURE,UNKNOWN,PMI (Private Mortgage Insurance) Disclosure,,true
+APPLICATION_FEE_DISCLOSURE,UNKNOWN,Application Fee Disclosure,,true
+A_13797,Income - Borrower 1040 Tax Returns w/ All Schedules,13797,,false
+FORM_2055_EXTERIOR_ONLY_INSPECTION_RESIDENTIAL_APPRAISAL_REPORT,UNKNOWN,Form 2055 - Exterior-Only Inspection Residential Appraisal Report,,true
+A_1120_SCHEDULE_UTP,Income - Borrower Business Tax Returns,1120 Schedule UTP,,false
+A_1040_TAX_RETURN_RECONCILIATION_WORKSHEET,Income - Borrower 1040 Tax Returns w/ All Schedules,Form 1040 - Tax Return Reconciliation Worksheet,,false
+A_3949_A,Income - Borrower 1040 Tax Returns w/ All Schedules,3949-A,,false
+UNKNOWN,UNKNOWN,{$ORIGINAL.title}_{$SUMMARY.pages},,true
+A_5735,Income - Borrower 1040 Tax Returns w/ All Schedules,5735,,false
+WIRE_TRANSFER_AUTHORIZATION_AND_AGREEMENT,UNKNOWN,Wire Transfer Authorization And Agreement,,true
+PREPAYMENT_DISCLOSURE_AT_APPLICATION,UNKNOWN,Prepayment Disclosure at Application,,true
+A_8802,Income - Borrower 1040 Tax Returns w/ All Schedules,8802,,false
+A_8804,Income - Borrower 1040 Tax Returns w/ All Schedules,8804,,false
+COLLATERAL_PROTECTION_INSURANCE_DISCLOSURE_OREGON,UNKNOWN,Collateral Protection Insurance Disclosure (Cx 1007; Oregon),,true
+A_8805,Income - Borrower 1040 Tax Returns w/ All Schedules,8805,,false
+VA_26_0503_FEDERAL_COLLECTION_POLICY_NOTICE,VA 26-0503 - Federal Collection Policy Notice,VA 26-0503 - Federal Collection Policy Notice,,true
+A_SSA-1099,SSA-1099,SSA-1099 (Social Security Benefit Statement),,true
+A_8806,Income - Borrower 1040 Tax Returns w/ All Schedules,8806,,false
+A_8809,Income - Borrower 1040 Tax Returns w/ All Schedules,8809,,false
+AUTOMOBILE_INSURANCE_PAYMENT,UNKNOWN,Automobile Insurance Payment,,true
+VA_26_0286_VA_LOAN_SUMMARY_SHEET,VA - 26-0286 Loan Summary,VA 26-0286 VA Loan Summary Sheet,,false
+STATEMENT_OF_CREDIT_DENIAL_TERMINATION_OR_CHARGE,UNKNOWN,Statement of Credit Denial Or Termination (Or Charge),,true
+COURT_JUDGMENT,Credit - Supporting Credit Docs,Court Judgment,,false
+RIGHT_TO_CHOOSE_ATTORNEY,UNKNOWN,Right To Choose Attorney,,true
+A_5768,Income - Borrower 1040 Tax Returns w/ All Schedules,5768,,false
+PROCESSING_UNDERWRITING_DISCLOSURE,UNKNOWN,Processing-Underwriting Disclosure,,true
+A_8810,Income - Borrower 1040 Tax Returns w/ All Schedules,8810,,false
+LEAD_PAINT_INDEMNIFICATION_AGREEMENT,UNKNOWN,Lead Paint Indemnification Agreement,,true
+GIFT_LETTER,Gift Letter/Source of Funds,Gift Letter,,false
+A_8811,Income - Borrower 1040 Tax Returns w/ All Schedules,8811,,false
+A_8038_GC,Income - Borrower 1040 Tax Returns w/ All Schedules,8038-GC,,false
+FORM_3180W_ORDER_OF_DISCHARGE,UNKNOWN,Form 3180W - Order Of Discharge,,true
+A_8813,Income - Borrower 1040 Tax Returns w/ All Schedules,8813,,false
+VOIDED_CHECK_CA,Voided Check CA,Voided Check CA,,true
+A_8814,Income - Borrower 1040 Tax Returns w/ All Schedules,8814,,false
+A_8815,Income - Borrower 1040 Tax Returns w/ All Schedules,8815,,false
+A_8818,Income - Borrower 1040 Tax Returns w/ All Schedules,8818,,false
+ELECTRONIC_EVIDENCE_SUMMARY,UNKNOWN,Electronic Evidence Summary,,true
+A_8819,Income - Borrower 1040 Tax Returns w/ All Schedules,8819,,false
+A_1041_ES,Income - Borrower 1040 Tax Returns w/ All Schedules,1041-ES,,false
+VA_26_0551_DEBT_QUESTIONNAIRE,VA Documents,VA 26-0551 Debt Questionnaire,,true
+RD_1980_19_GUARANTEED_LOAN_CLOSING_REPORT,RD 1980-19 - Guaranteed Loan Closing Report,RD 1980-19 - Guaranteed Loan Closing Report,,true
+A_1120S_2025,Income - Borrower Business Tax Returns,1120_S_2025_{$FIELDS.a_1120s_2025-Part01-General:name},,false
+INITIAL_TAX_AUTHORIZATION_NOTICE,UNKNOWN,Initial Tax Authorization Notice,,true
+A_1120S_2024,Income - Borrower Business Tax Returns,1120_S_2024_{$FIELDS.a_1120s_2024-Part01-General:name},,false
+CONDOMINIUM_MANAGEMENT_SERVICES_AGREEMENT,UNKNOWN,Condominium Management Services Agreement,,true
+LENDER_UNDERWRITER_REVIEW_VERIFICATIOIN_(URV),Lender Underwriter Review Verificatioin (URV),Lender Underwriter Review Verificatioin (URV),,true
+A_8820,Income - Borrower 1040 Tax Returns w/ All Schedules,8820,,false
+A_1120S_2023,Income - Borrower Business Tax Returns,1120_S_2023_{$FIELDS.a_1120s_2023-Part1-General:name},,false
+A_8821,Income - Borrower 1040 Tax Returns w/ All Schedules,8821,,false
+A_1120S_2022,Income - Borrower Business Tax Returns,1120_S_2022_{$FIELDS.a_1120s_2022-Part1-General:name},,false
+A_8822,Income - Borrower 1040 Tax Returns w/ All Schedules,8822,,false
+A_1120S_2021,Income - Borrower Business Tax Returns,{$FIELDS.a_1120s_2021-Part1-General:name}_1120_S_2021,,false
+A_8823,Income - Borrower 1040 Tax Returns w/ All Schedules,8823,,false
+A_1120S_2020,Income - Borrower Business Tax Returns,{$FIELDS.a_1120s_2020-Part1-General:name}_1120_S_2020,,false
+A_4466,Income - Borrower 1040 Tax Returns w/ All Schedules,4466,,false
+HUD_92900_LT_FHA_LOAN_UNDERWRITING_AND_TRANSMITTAL_SUMMARY,UNKNOWN,HUD-92900-LT FHA Loan Underwriting And Transmittal Summary,,true
+A_W_8IMY,Income - Borrower 1040 Tax Returns w/ All Schedules,W-8IMY,,false
+A_656_L,Income - Borrower 1040 Tax Returns w/ All Schedules,656-L,,false
+A_4461,Income - Borrower 1040 Tax Returns w/ All Schedules,4461,,false
+USDA_1980_18_CONDITIONAL_COMMITMENT_FOR_SINGLE_FAMILY_HOUSING_LOAN_GUARANTEE,USDA - Form 3555 - 18,RD 1980-18 Conditional Commitment For Single Family Housing Loan Guarantee,,false
+CONSUMER_DISCLOSURE_STATEMENT,UNKNOWN,Consumer Disclosure Statement,,true
+A_15086,Income - Borrower 1040 Tax Returns w/ All Schedules,15086,,false
+MORTGAGE_FRAUD_IS_INVESTIGATED_BY_THE_FBI_DISCLOSURE,UNKNOWN,Mortgage Fraud Is Investigated By The FBI Disclosure,,true
+MORTGAGE_RATE_LOCK_IN_CONFIRMATION,UNKNOWN,Mortgage Rate Lock-In Confirmation,,true
+BROKER_AGREEMENT,UNKNOWN,Broker Agreement,,true
+A_5308,Income - Borrower 1040 Tax Returns w/ All Schedules,5308,,false
+A_15080,Income - Borrower 1040 Tax Returns w/ All Schedules,15080,,false
+A_5309,Income - Borrower 1040 Tax Returns w/ All Schedules,5309,,false
+A_5306,Income - Borrower 1040 Tax Returns w/ All Schedules,5306,,false
+CLOSING_DISCLOSURE,Closing Disclosure,Closing Disclosure,,true
+A_5305,Income - Borrower 1040 Tax Returns w/ All Schedules,5305,,false
+VARIABLE_INTEREST_PROVISION_IN_DEEDS_OF_TRUST,UNKNOWN,Variable Interest Provision in Deeds of Trust,,true
+RE_DISCLOSURE_CERTIFICATION,UNKNOWN,Re-Disclosure Certification,,true
+CERTIFICATE_OF_NON-INFLUENCE_AND_COMPLIANCE,UNKNOWN,Certificate Of Non-Influence And Compliance,,true
+ACKNOWLEDGMENT_OF_RECEIPT_OF_GOOD_FAITH_ESTIMATE,Acknowledgment Of Receipt Of Good Faith Estimate,Acknowledgment Of Receipt Of Good Faith Estimate,,true
+OFFICIAL_FORM_106G_SCHEDULE_G_EXECUTORY_CONTRACTS_AND_UNEXPIRED_LEASES,Official Form 106G - Schedule G: Executory Contracts And Unexpired Leases,Official Form 106G - Schedule G: Executory Contracts And Unexpired Leases,,true
+SUPPLEMENTAL_ESCROW_INSTRUCTIONS_AND_GENERAL_PROVISIONS,UNKNOWN,Supplemental Escrow Instructions And General Provisions,,true
+A_8027_T,Income - Borrower 1040 Tax Returns w/ All Schedules,8027-T,,false
+STATE_TAX_RETURN,UNKNOWN,State Tax Return,,false
+A_6627,Income - Borrower 1040 Tax Returns w/ All Schedules,6627,,false
+A_3115,Income - Borrower 1040 Tax Returns w/ All Schedules,3115,,false
+A_8801,Income - Borrower 1040 Tax Returns w/ All Schedules,8801,,false
+HOMESTYLE_RENOVATION_LOAN_AGREEMENT,UNKNOWN,Homestyle Renovation Loan Agreement,,true
+A_8846,Income - Borrower 1040 Tax Returns w/ All Schedules,8846,,false
+A_941_V,Income - Borrower 1040 Tax Returns w/ All Schedules,941-V,,false
+A_8848,Income - Borrower 1040 Tax Returns w/ All Schedules,8848,,false
+A_8849,Income - Borrower 1040 Tax Returns w/ All Schedules,8849,,false
+A_5330,Income - Borrower 1040 Tax Returns w/ All Schedules,5330,,false
+A_941_SCHEDULE_D,Income - Borrower 1040 Tax Returns w/ All Schedules,941 Schedule D,,false
+VA_26_0592_COUNSELING_CHECKLIST_FOR_MILITARY_HOMEBUYERS,VA Documents,VA 26-0592 Counseling Checklist For Military Homebuyers,,true
+A_941_SCHEDULE_B,Income - Borrower 1040 Tax Returns w/ All Schedules,941 Schedule B,,false
+STATE_ID,Income - Borrower 1040 Tax Returns w/ All Schedules,State Identification Card,,false
+DISCLOSURE,Disclosure,Disclosure,,true
+AUTHORIZATION_OF_OVERNIGHT_DELIVERY_SERVICES,UNKNOWN,Authorization Of Overnight Delivery Services,,true
+HOME_EQUITY_BALLOON_NOTICE_ON_HELOC_AGREEMENT,UNKNOWN,Home Equity Balloon Notice on HELOC Agreement,,true
+A_8850,Income - Borrower 1040 Tax Returns w/ All Schedules,8850,,false
+SOLAR_PANEL_LEASE_AGREEMENT,Subject Property - Contract,Solar Panel Lease Agreement,,false
+A_8851,Income - Borrower 1040 Tax Returns w/ All Schedules,8851,,false
+AFFIDAVIT_OF_OCCUPANCY,Affidavit of Occupancy,Affidavit Of Occupancy,,true
+A_941_SCHEDULE_R,Income - Borrower 1040 Tax Returns w/ All Schedules,941 Schedule R,,false
+A_941_X,Income - Borrower 1040 Tax Returns w/ All Schedules,941-X,,false
+A_8853,Income - Borrower 1040 Tax Returns w/ All Schedules,8853,,false
+A_8854,Income - Borrower 1040 Tax Returns w/ All Schedules,8854,,false
+A_5329,Income - Borrower 1040 Tax Returns w/ All Schedules,5329,,false
+A_8855,Income - Borrower 1040 Tax Returns w/ All Schedules,8855,,false
+AUTHORIZATION_TO_COMPLETE_BLANK_SPACES,UNKNOWN,Authorization To Complete Blank Spaces,,true
+A_8857,Income - Borrower 1040 Tax Returns w/ All Schedules,8857,,false
+A_8858,Income - Borrower 1040 Tax Returns w/ All Schedules,8858,,false
+A_8859,Income - Borrower 1040 Tax Returns w/ All Schedules,8859,,false
+A_8821_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8821-A,,false
+A_2290,Income - Borrower 1040 Tax Returns w/ All Schedules,2290,,false
+RESIDENTIAL_REAL_PROPERTY_DISCLOSURE_REPORT,UNKNOWN,Residential Real Property Disclosure Report,,true
+A_8879_WH,Income - Borrower 1040 Tax Returns w/ All Schedules,8879-WH,,false
+A_1099_INT,Income - Borrower W-2 Most Recent Yr,{$FIELDS.a_1099_int-Part2-RecipientPii:recipientName}_1099_INT,,false
+LIEN_CERTIFICATE,UNKNOWN,Lien Certificate,,true
+A_1040_SCHEDULE_R_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_R_2025_{$FIELDS.a_1040_schedule_r_2025-Part01-General:namesShownOnReturn},,false
+OFFICIAL_FORM_318_ORDER_OF_DISCHARGE,UNKNOWN,Official Form 318 - Order Of Discharge,,true
+A_1040_SCHEDULE_R_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_R_2024_{$FIELDS.a_1040_schedule_r_2024-Part01-General:name(s)ShownOnReturn},,false
+A_8554_EP,Income - Borrower 1040 Tax Returns w/ All Schedules,8554-EP,,false
+A_1040_SCHEDULE_R_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_R_2023_{$FIELDS.a_1040_schedule_r_2023-Part1-General:name(s)ShownOnReturn},,false
+BORROWER_SIGNATURE_AUTHORIZATION,UNKNOWN,Borrower Signature Authorization,,true
+A_1040_SCHEDULE_R_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_R_2022_{$FIELDS.a_1040_schedule_r_2022-Part1-General:name(s)ShownOnReturn},,false
+A_1040_SCHEDULE_R_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_R_2021_{$FIELDS.a_1040_schedule_r_2021-Part1-General:name(s)ShownOnReturn},,false
+A_1040_SCHEDULE_R_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_r_2020-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_R_2020,,false
+EMPLOYMENT_AGREEMENT,UNKNOWN,Employment Agreement,,true
+A_8862,Income - Borrower 1040 Tax Returns w/ All Schedules,8862,,false
+A_8863,Income - Borrower 1040 Tax Returns w/ All Schedules,8863,,false
+NOTICE_OF_SERVICING_TRANSFER,UNKNOWN,Notice Of Servicing Transfer,,true
+MORTGAGE_INSURANCE_POLICY,UNKNOWN,Mortgage Insurance Policy,,false
+A_8864,Income - Borrower 1040 Tax Returns w/ All Schedules,8864,,false
+ADDITIONAL_INSURANCE_DISCLOSURE,UNKNOWN,Additional Insurance Disclosure,,true
+A_8865,Income - Borrower 1040 Tax Returns w/ All Schedules,8865,,false
+A_8866,Income - Borrower 1040 Tax Returns w/ All Schedules,8866,,false
+A_8867,Income - Borrower 1040 Tax Returns w/ All Schedules,8867,,false
+A_8824,Income - Borrower 1040 Tax Returns w/ All Schedules,8824,,false
+A_8825,Income - Borrower Business Tax Returns,8825,,false
+A_8826,Income - Borrower 1040 Tax Returns w/ All Schedules,8826,,false
+A_8827,Income - Borrower 1040 Tax Returns w/ All Schedules,8827,,false
+A_8828,Income - Borrower 1040 Tax Returns w/ All Schedules,8828,,false
+A_8829,Income - Borrower 1040 Tax Returns w/ All Schedules,8829,,false
+PROPERTY_TAX_DISCLOSURE_REPORT,UNKNOWN,Property Tax Disclosure Report,,true
+A_1040_SCHEDULE_R_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_r_2019-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_R_2019,,false
+A_1040_SCHEDULE_R_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_r_2018-Part1-General:name(s)ShownOnForm1040}_1040_SCHEDULE_R_2018,,false
+VA_26_8978_RIGHTS_OF_VA_LOAN_BORROWERS,VA 26-8978 - Rights Of VA Loan Borrowers,VA 26-8978 - Rights Of VA Loan Borrowers,,true
+USDA_3555_21_REQUEST_FOR_SINGLE_FAMILY_HOUSING_LOAN_GUARANTEE,UNKNOWN,RD 3555-21 Request For Single Family Housing Loan Guarantee,,true
+BORROWER_CONSENT_TO_THE_USE_OF_TAX_RETURN_INFORMATION,UNKNOWN,Borrower Consent To The Use Of Tax Return Information,,true
+HUD_92900_PUR_MORTGAGE_CREDIT_ANALYSIS_WORKSHEET_PURCHASE_MONEY_MORTGAGES,HUD-92900-PUR - Mortgage Credit Analysis Worksheet - Purchase Money Mortgages,HUD-92900-PUR - Mortgage Credit Analysis Worksheet - Purchase Money Mortgages,,true
+RIGHT_TO_CHOOSE_TITLE_AGENT_ATTORNEY,UNKNOWN,Right To Choose Title Agent/Attorney,,true
+AFFILIATED_BUSINESS_ARRANGEMENT_DISCLOSURE_ADDENDUM,UNKNOWN,Affiliated Business Arrangement Disclosure Addendum,,true
+A_8830,Income - Borrower 1040 Tax Returns w/ All Schedules,8830,,false
+HOME_LOAN_PROTECTION_ACT_DISCLOSURE_TANGIBLE_NET_BENEFIT,UNKNOWN,Home Loan Protection Act Disclosure - Tangible Net Benefit,,true
+A_8831,Income - Borrower 1040 Tax Returns w/ All Schedules,8831,,false
+A_14157_A,Income - Borrower 1040 Tax Returns w/ All Schedules,14157-A,,false
+A_8832,Income - Borrower 1040 Tax Returns w/ All Schedules,8832,,false
+A_8833,Income - Borrower 1040 Tax Returns w/ All Schedules,8833,,false
+GOOD_FAITH_ESTIMATE_(HUD_GFE),UNKNOWN,Good Faith Estimate (HUD-GFE),,true
+COURT_ORDER,Credit - Divorce Decree/Child Support - Liabilty/Income,Court Order,,false
+A_8834,Income - Borrower 1040 Tax Returns w/ All Schedules,8834,,false
+A_8835,Income - Borrower 1040 Tax Returns w/ All Schedules,8835,,false
+A_13715,Income - Borrower 1040 Tax Returns w/ All Schedules,13715,,false
+RELEASE_OF_JUDGMENT_OR_LIEN,Credit - Supporting Credit Docs,Release of Judgment Or Lien,,false
+A_8838,Income - Borrower 1040 Tax Returns w/ All Schedules,8838,,false
+A_8839,Income - Borrower 1040 Tax Returns w/ All Schedules,8839,,false
+ACKNOWLEDGMENT_OF_RECEIPT_OF_COPIES,UNKNOWN,Acknowledgment Of Receipt Of Copies,,true
+A_13711,Income - Borrower 1040 Tax Returns w/ All Schedules,13711,,false
+REL_(REAL_ESTATE_LOAN)_SUPPLEMENTAL_DISCLOSURE,UNKNOWN,REL (Real Estate Loan) Supplemental Disclosure,,true
+ACH_PROCESSING_APPLICATION,UNKNOWN,ACH Processing Application,,true
+A_8840,Income - Borrower 1040 Tax Returns w/ All Schedules,8840,,false
+LOAN_ACTION_FORM,UNKNOWN,Loan Action Form,,true
+A_8842,Income - Borrower 1040 Tax Returns w/ All Schedules,8842,,false
+A_8843,Income - Borrower 1040 Tax Returns w/ All Schedules,8843,,false
+A_8844,Income - Borrower 1040 Tax Returns w/ All Schedules,8844,,false
+A_8845,Income - Borrower 1040 Tax Returns w/ All Schedules,8845,,false
+A_1120_PC,Income - Borrower Business Tax Returns,1120-PC,,false
+A_8404,Income - Borrower 1040 Tax Returns w/ All Schedules,8404,,false
+A_1066_SCHEDULE_Q,Income - Borrower 1040 Tax Returns w/ All Schedules,1066 Schedule Q,,false
+A_1120_SCHEDULE_J_2024,1120 Schedule J (2024),Form 1120 Schedule J (Tax Computation and Payment) (2024),,true
+A_1120_SCHEDULE_J_2025,1120 Schedule J (2025),Form 1120 Schedule J (Tax Computation and Payment) (2025),,true
+RATE_LOCK_DISCLOSURE,UNKNOWN,Rate Lock Disclosure,,true
+PRIVATE_MORTGAGE_INSURANCE_DISCLOSURE_FIXED_RATE_MORTGAGE,UNKNOWN,Private Mortgage Insurance Disclosure - Fixed Rate Mortgage,,true
+A_1120_SCHEDULE_J_2022,1120 Schedule J (2022),Form 1120 Schedule J (Tax Computation and Payment) (2022),,true
+A_5305_R,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-R,,false
+A_1120_SCHEDULE_J_2023,1120 Schedule J (2023),Form 1120 Schedule J (Tax Computation and Payment) (2023),,true
+A_5305_S,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-S,,false
+A_1120_SCHEDULE_J_2021,1120 Schedule J (2021),Form 1120 Schedule J (Tax Computation and Payment) (2021),,true
+TAX_SUMMARY,Income - Borrower 1040 Tax Returns w/ All Schedules,Tax Summary,,false
+GRANT_DEED,UNKNOWN,Grant Deed,,true
+CERTIFICATE_OF_OCCUPANCY,UNKNOWN,Certificate Of Occupancy,,true
+A_5305_A,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-A,,false
+A_5305_E,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-E,,false
+A_5305_B,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-B,,false
+A_8892,Income - Borrower 1040 Tax Returns w/ All Schedules,8892,,false
+A_5305_C,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-C,,false
+PRIVACY_POLICY_NOTICE,UNKNOWN,Privacy Policy Notice,,true
+MORTGAGE_LOAN_ORIGINATION_DISCLOSURE,UNKNOWN,Mortgage Loan Origination Disclosure,,true
+A_SS_8,Income - Borrower 1040 Tax Returns w/ All Schedules,SS-8,,false
+A_8896,Income - Borrower 1040 Tax Returns w/ All Schedules,8896,,false
+HUD_92700_A_203_(K)_BORROWERS_ACKNOWLEDGEMENT,UNKNOWN,HUD-92700-A 203 (K) Borrower's Acknowledgement,,true
+A_8898,Income - Borrower 1040 Tax Returns w/ All Schedules,8898,,false
+1040_TWO_YEAR_COMPARISON_WORKSHEET,Income - Borrower 1040 Tax Returns w/ All Schedules,1040 Two-Year Comparison Worksheet,,false
+A_8899,Income - Borrower 1040 Tax Returns w/ All Schedules,8899,,false
+A_SS_4,Income - Borrower 1040 Tax Returns w/ All Schedules,SS-4,,false
+NON_PRIME_HOME_LOAN_DISCLOSURE,UNKNOWN,Nonprime Home Loan Disclosure,,true
+A_15230_A,Income - Borrower 1040 Tax Returns w/ All Schedules,15230-A,,false
+STANDARD_FLOOD_HAZARD_DETERMINATION_FORM,UNKNOWN,Standard Flood Hazard Determination Form,,true
+A_15230_B,Income - Borrower 1040 Tax Returns w/ All Schedules,15230-B,,false
+NEAREST_LIVING_RELATIVE_NOT_LIVING_WITH_YOU,UNKNOWN,Nearest Living Relative Not Living With You,,true
+A_4029,Income - Borrower 1040 Tax Returns w/ All Schedules,4029,,false
+A_8868,Income - Borrower 1040 Tax Returns w/ All Schedules,8868,,false
+A_8869,Income - Borrower 1040 Tax Returns w/ All Schedules,8869,,false
+VA_26_6705B_CREDIT_STATEMENT_OF_PROSPECTIVE_PURCHASER,VA Documents,VA 26-6705B Credit Statement Of Prospective Purchaser,,true
+FEDERAL_CARRYOVER_WORKSHEET,Income - Borrower 1040 Tax Returns w/ All Schedules,Federal Carryover Worksheet,,false
+USPS_ADDRESS_VERIFICATION,UNKNOWN,USPS Address Verification,,true
+MANUFACTURED_HOME_RIDER,UNKNOWN,Manufactured Home Rider,,true
+A_461,Income - Borrower 1040 Tax Returns w/ All Schedules,461,,false
+A_14157,Income - Borrower 1040 Tax Returns w/ All Schedules,14157,,false
+STATUTE_OF_FRAUDS_DISCLOSURE,UNKNOWN,Statute of Frauds Disclosure,,true
+A_1120_ND,Income - Borrower Business Tax Returns,1120-ND,,false
+A_1120_POL,Income - Borrower Business Tax Returns,1120-POL,,false
+DISCLOSURE_REGARDING_LEGAL_REPRESENTATION,UNKNOWN,Disclosure Regarding Legal Representation,,true
+AFFILIATED_AGREEMENT_DISCLOSURE,UNKNOWN,Affiliated Agreement Disclosure,,true
+A_8870,Income - Borrower 1040 Tax Returns w/ All Schedules,8870,,false
+A_56_F,Income - Borrower 1040 Tax Returns w/ All Schedules,56-F,,false
+A_8872,Income - Borrower 1040 Tax Returns w/ All Schedules,8872,,false
+A_8873,Income - Borrower 1040 Tax Returns w/ All Schedules,8873,,false
+TANGIBLE_NET_BENEFIT_DISCLOSURE,UNKNOWN,Tangible Net Benefit Disclosure,,true
+A_8874,Income - Borrower 1040 Tax Returns w/ All Schedules,8874,,false
+A_8875,Income - Borrower 1040 Tax Returns w/ All Schedules,8875,,false
+A_8876,Income - Borrower 1040 Tax Returns w/ All Schedules,8876,,false
+A_8878,Income - Borrower 1040 Tax Returns w/ All Schedules,8878,,false
+ATTORNEY_AND_INSURANCE_PREFERENCE_DISCLOSURE,UNKNOWN,Attorney and Insurance Preference Disclosure,,true
+A_8879,Income - Borrower 1040 Tax Returns w/ All Schedules,8879,,false
+LOAN_NUMBER_DISCLOSED_ON_SECURITY_INSTRUMENT,UNKNOWN,Loan Number Disclosed on Security Instrument,,true
+A_13614_C,Income - Borrower 1040 Tax Returns w/ All Schedules,13614-C,,false
+COVERED_LOAN_DISCLOSURE_TO_BORROWER,UNKNOWN,Covered Loan Disclosure to Borrower,,true
+A_1040_SCHEDULE_8812_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_8812_2025_{$FIELDS.a_1040_schedule_8812_2025-Part01-General:namesShownOnReturn},,false
+COLLATERAL_PROTECTION_INSURANCE_DISCLOSURE_WEST_VIRGINIA,UNKNOWN,Collateral Protection Insurance Disclosure (Cx 1000; West Virginia),,true
+A_1040_SCHEDULE_8812_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_8812_2024_{$FIELDS.a_1040_schedule_8812_2024-Part01-General:name(s)ShownOnReturn},,false
+CLEAR_TO_CLOSE_NOTIFICATION,UNKNOWN,Clear-To-Close Notification,,true
+A_1120_SCHEDULE_C_2023,1120 Schedule C (2023),"Form 1120 Schedule C (Dividends, Special Deductions) (2023)",,true
+A_1040_SCHEDULE_8812_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_8812_2021_{$FIELDS.a_1040_schedule_8812_2021-Part1-General:name(s)ShownOnReturn},,false
+A_1120_SCHEDULE_C_2024,1120 Schedule C (2024),"Form 1120 Schedule C (Dividends, Special Deductions) (2024)",,true
+A_1040_SCHEDULE_8812_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_8812_2020-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_8812_2020,,false
+A_1120_SCHEDULE_C_2025,1120 Schedule C (2025),"Form 1120 Schedule C (Dividends, Special Deductions) (2025)",,true
+TAX_RETURN_TRANSCRIPT,Income - Borrower 1040 Tax Returns w/ All Schedules,Tax Return Transcript,,false
+A_1040_SCHEDULE_8812_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_8812_2023_{$FIELDS.a_1040_schedule_8812_2023-Part1-General:name(s)ShownOnReturn},,false
+A_1040_SCHEDULE_8812_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_8812_2022_{$FIELDS.a_1040_schedule_8812_2022-Part1-General:name(s)ShownOnReturn},,false
+A_1040_SCHEDULE_8812_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_8812_2018-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_8812_2018,,false
+CSO_(CREDIT_SERVICE_ORGANIZATION)_INFORMATION_STATEMENT,UNKNOWN,CSO (Credit Service Organization) Information Statement,,true
+A_8992_SCHEDULE_B,Income - Borrower 1040 Tax Returns w/ All Schedules,8992 Schedule B,,false
+A_8880,Income - Borrower 1040 Tax Returns w/ All Schedules,8880,,false
+DISCOUNT_POINT_FEE_DISCLOSURE,Discount Point Fee Disclosure,Discount Point Fee Disclosure,,true
+A_8992_SCHEDULE_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8992 Schedule A,,false
+A_8881,Income - Borrower 1040 Tax Returns w/ All Schedules,8881,,false
+A_1040_SCHEDULE_8812_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_8812_2019-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_8812_2019,,false
+A_8882,Income - Borrower 1040 Tax Returns w/ All Schedules,8882,,false
+A_8883,Income - Borrower 1040 Tax Returns w/ All Schedules,8883,,false
+CONDO_PROJECT_ADVISOR_FEEDBACK_CERTIFICATE,UNKNOWN,Condo Project Advisor Feedback Certificate,,true
+A_8885,Income - Borrower 1040 Tax Returns w/ All Schedules,8885,,false
+A_8878_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8878-A,,false
+CAIVRS_AUTHORIZATION,Credit - CAIVRS,CAIVRS Authorization,,false
+A_8886,Income - Borrower 1040 Tax Returns w/ All Schedules,8886,,false
+UCD_FINDINGS_REPORT,UNKNOWN,UCD Findings Report,,true
+OFFICIAL_FORM_122A_1_CHAPTER_7_STATEMENT_OF_YOUR_CURRENT_MONTHLY_INCOME,Official Form 122A-1 - Chapter 7 Statement Of Your Current Monthly Income,Official Form 122A-1 - Chapter 7 Statement Of Your Current Monthly Income,,true
+A_8888,Income - Borrower 1040 Tax Returns w/ All Schedules,8888,,false
+A_8889,Income - Borrower 1040 Tax Returns w/ All Schedules,8889,,false
+A_4089,Income - Borrower 1040 Tax Returns w/ All Schedules,4089,,false
+ERRORS_AND_OMISSIONS_COMPLIANCE_AGREEMENT,UNKNOWN,Errors and Omissions/Compliance Agreement,,true
+BROKERAGE_STATEMENT_ACCOUNT_SUMMARY_AND_TRANSACTIONS,UNKNOWN,Brokerage Statement Account Summary,,true
+A_8038_CP,Income - Borrower 1040 Tax Returns w/ All Schedules,8038-CP,,false
+FAVORABLE_TERMS_DISCLOSURE,UNKNOWN,Favorable Terms Disclosure,,true
+COUNSELING_DISCLOSURE,UNKNOWN,Counseling Disclosure,,true
+A_1120_SCHEDULE_C_2021,1120 Schedule C (2021),"Form 1120 Schedule C (Dividends, Special Deductions) (2021)",,true
+A_1120_SCHEDULE_C_2022,1120 Schedule C (2022),"Form 1120 Schedule C (Dividends, Special Deductions) (2022)",,true
+GRANT_OF_EASEMENTS_FOR_SOLAR_ENERGY_EQUIPMENT,UNKNOWN,Grant Of Easements For Solar Energy Equipment,,true
+CLOSING_DOCUMENT_REQUEST,UNKNOWN,Closing Document Request,,true
+A_9783,Income - Borrower 1040 Tax Returns w/ All Schedules,9783,,false
+A_945_X,Income - Borrower 1040 Tax Returns w/ All Schedules,945-X,,false
+RATE_CAP_DISCLOSURE,UNKNOWN,Rate Cap Disclosure,,true
+FEDERAL_SUPPORTING_STATEMENTS,Income - Borrower 1040 Tax Returns w/ All Schedules,Federal Supporting Statements,,false
+A_1120_SF,Income - Borrower Business Tax Returns,1120-SF,,false
+JUMIO_UTILITY_BILL,Utility Bill,Utility Bill,,true
+VA_20_0995_DECISION_REVIEW_REQUEST_SUPPLEMENTAL_CLAIM,VA 20-0995 - Decision Review Request - Supplemental Claim,VA 20-0995 - Decision Review Request - Supplemental Claim,,true
+A_6252,Income - Borrower 1040 Tax Returns w/ All Schedules,6252,,false
+YOUR_HOME_LOAN_TOOLKIT,UNKNOWN,Your Home Loan Toolkit,,true
+A_6251,Income - Borrower 1040 Tax Returns w/ All Schedules,6251,,false
+LOAN_ESTIMATE_SUMMARY_AND_FEE_ITEMIZATION,UNKNOWN,Loan Estimate Summary & Fee Itemization,,true
+PERMANENT_RESIDENT_CARD,Credit - SS Card/Drivers License,{$FIELDS.permanent_resident_card-General:firstName}_{$FIELDS.permanent_resident_card-General:lastName}_PERMANENT_RESIDENT_CARD,,false
+A_720_CS,Income - Borrower 1040 Tax Returns w/ All Schedules,720-CS,,false
+A_8985_V,Income - Borrower 1040 Tax Returns w/ All Schedules,8985-V,,false
+POWER_OF_ATTORNEY_(POA)_CERTIFICATION_LIVE_AND_WELL,Closing - Power of Attorney,Power Of Attorney (POA) Certification (Live And Well),,false
+A_W_8ECI,Income - Borrower 1040 Tax Returns w/ All Schedules,W-8ECI,,false
+CREDIT_SCORE_DISCLOSURE,Credit Report,Credit Score Disclosure,,true
+ELECTRONIC_POSTMARK,Income - Borrower 1040 Tax Returns w/ All Schedules,Electronic Postmark,,false
+RIGHT_TO_CHOOSE_TITLE_INSURANCE,UNKNOWN,Right To Choose Title Insurance,,true
+A_8621_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8621-A,,false
+REAL_ESTATE_APPRAISER_LICENSE,UNKNOWN,Real Estate Appraiser License,,true
+SSA-1099,Income - Borrower W-2 Most Recent Yr,SSA-1099,,false
+A_14199,Income - Borrower 1040 Tax Returns w/ All Schedules,14199,,false
+JUMIO_PII_BANK_STATEMENT,PII Bank Statement,PII Bank Statement,,true
+SUPPLEMENTAL_CONSUMER_INFORMATION_FORM_1103_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1103 (2022) - Supplemental Consumer Information Form,,false
+LOAN_PAYOFF_DISCLOSURE_STATEMENT,UNKNOWN,Loan Payoff Disclosure Statement,,true
+A_8453,Income - Borrower 1040 Tax Returns w/ All Schedules,8453,,false
+ACKNOWLEDGMENT_OF_RECEIPT_OF_INFORMATIONAL_BOOKLETS,Acknowledgment Of Receipt Of Informational Booklets,Acknowledgment Of Receipt Of Informational Booklets,,true
+A_15057,Income - Borrower 1040 Tax Returns w/ All Schedules,15057,,false
+A_945_A,Income - Borrower 1040 Tax Returns w/ All Schedules,945-A,,false
+TITLE_COMMITMENT,Subject Property - Title Report,Title Commitment,,false
+A_9779,Income - Borrower 1040 Tax Returns w/ All Schedules,9779,,false
+VA_26_8937_VERIFICATION_OF_VA_BENEFITS,VA Documents,VA 26-8937 Verification Of VA Benefits,,true
+ABILITY_TO_REPAY_WORKSHEET,UNKNOWN,Ability To Repay Worksheet,,true
+PURCHASE_CONTRACT_EXTENDED,UNKNOWN,Purchase Contract,,true
+A_6069,Income - Borrower 1040 Tax Returns w/ All Schedules,6069,,false
+A_W_13,Income - Borrower 1040 Tax Returns w/ All Schedules,W-13,,false
+A_CT_1_X,Income - Borrower 1040 Tax Returns w/ All Schedules,CT-1X,,false
+A_W_14,Income - Borrower 1040 Tax Returns w/ All Schedules,W-14,,false
+PROPERTY_COVERAGE_CONFIRMATION,UNKNOWN,Property Coverage Confirmation,,true
+A_14335,Income - Borrower 1040 Tax Returns w/ All Schedules,14335,,false
+A_1065_2020,Income - Borrower Business Tax Returns,{$FIELDS.a_1065_2020-Part1-PartnershipDetails:nameOfPartnership}_1065_2020,,false
+RD_410_9_STATEMENT_REQUIRED_BY_THE_PRIVACY_ACT,UNKNOWN,RD 410-9 - Statement Required By The Privacy Act,,true
+A_W_12,Income - Borrower 1040 Tax Returns w/ All Schedules,W-12,,false
+A_W_10,Income - Borrower 1040 Tax Returns w/ All Schedules,W-10,,false
+A_12153,Income - Borrower 1040 Tax Returns w/ All Schedules,12153,,false
+NON_CREDIT_TERM_INSURANCE_DISCLOSURE,UNKNOWN,Noncredit Term Insurance Disclosure,,true
+ACCOUNT_SUMMARY,Account Summary,Account Summary,,true
+A_1065_2017,1065 (2017),1065 (Partnership Business Tax Returns) (2017),,true
+A_1065_2016,1065 (2016),1065 (Partnership Business Tax Returns) (2016),,true
+A_1065_2015,1065 (2015),1065 (Partnership Business Tax Returns) (2015),,true
+MARINE_CORPS_BASIC_ORDER,Credit - Supporting Credit Docs,Marine Corps Basic Order,,false
+A_4506_C_REVISED_2022,UNKNOWN,4506-C - IVES Request for Transcript of Tax Return (Rev. 10-2022),,true
+BUYDOWN_AGREEMENT,UNKNOWN,Buydown Agreement,,true
+A_1065_2019,Income - Borrower Business Tax Returns,{$FIELDS.a_1065_2019-Part1-PartnershipDetails:nameOfPartnership}_1065_2019,,false
+NOTICE_CONCERNING_EXTENSIONS_OF_CREDIT,UNKNOWN,Notice Concerning Extensions Of Credit,,true
+A_1065_2018,Income - Borrower Business Tax Returns,{$FIELDS.a_1065_2018-Part1-PartnershipDetails:nameOfPartnership}_1065_2018,,false
+A_8233,Income - Borrower 1040 Tax Returns w/ All Schedules,8233,,false
+HOME_EQUITY_ADDENDUM,Home Equity Addendum,Home Equity Addendum,,true
+BASIC_INDIVIDUAL_RECORD,Basic Individual Record,Basic Individual Record,,true
+NON_BROKERED_ESCROW_ACCOUNT_DISCLOSURE,UNKNOWN,Non-Brokered Escrow Account Disclosure,,true
+USA_PATRIOT_ACT_INFORMATION_FORM,UNKNOWN,USA Patriot Act Information Form,,true
+ESCROW_ACCOUNT_DISCLOSURE_AGREEMENT,UNKNOWN,Escrow Account Disclosure Agreement,,true
+FORM_71_OR_1004MC_MARKET_CONDITIONS_ADDENDUM_TO_THE_APPRAISAL_REPORT,UNKNOWN,Form 71 Or 1004MC - Market Conditions Addendum To The Appraisal Report,,true
+A_W_2G,Income - Borrower 1040 Tax Returns w/ All Schedules,W-2G,,false
+VA_26_1880_REQUEST_FOR_A_CERTIFICATE_OF_ELIGIBILITY,VA Documents,VA 26-1880 Request For A Certificate Of Eligibility,,true
+CONDO_PROJECT_MANAGER_CERTIFICATE,Subject Property - Condo Questionnaire/Budget/Insurance,Condo Project Manager Certificate,,false
+NOTICE_OF_RIGHT_TO_CANCEL,UNKNOWN,Notice Of Right To Cancel,,true
+A_W_2C,Income - Borrower 1040 Tax Returns w/ All Schedules,W-2C,,false
+RELEASE_OF_EMPLOYEES_INFORMATION_FORM,UNKNOWN,Release Of Employee's Information Form,,true
+OFFICIAL_FORM_108_STATEMENT_OF_INTENTION_FOR_INDIVIDUALS_FILING_UNDER_CHAPTER_7,Official Form 108 - Statement Of Intention For Individuals Filing Under Chapter 7,Official Form 108 - Statement Of Intention For Individuals Filing Under Chapter 7,,true
+A_1040_X,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.1040_x-Part1-General:yourFirstNameAndMiddleInitial}_{$FIELDS.1040_x-Part1-General:yourLastName}_1040_X,,false
+A_1040_V,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-V,,false
+A_6088,Income - Borrower 1040 Tax Returns w/ All Schedules,6088,,false
+INCOME_TAX_ESTIMATOR,Income - Borrower 1040 Tax Returns w/ All Schedules,Income Tax Estimator,,false
+A_14310,Income - Borrower 1040 Tax Returns w/ All Schedules,14310,,false
+OFFICIAL_FORM_122C_1_CHAPTER_13_STATEMENT_OF_YOUR_CURRENT_MONTHLY_INCOME_AND_CALCULATION_OF_COMMITMENT_PERIOD,UNKNOWN,Official Form 122C-1 - Chapter 13 Statement Of Your Current Monthly Income And Calculation Of Commitment Period,,true
+BORROWER_DEBT_CERTIFICATION,UNKNOWN,Borrower Debt Certification,,true
+FINANCEIT_VOIDED_CHECK_CA,Voided Check CA,Voided Check CA,,true
+MARRIAGE_CERTIFICATE,UNKNOWN,Marriage Certificate,,true
+VOLUNTARY_INFORMATION_FOR_GOVERNMENT_MONITORING_PURPOSES,UNKNOWN,Voluntary Information For Government Monitoring Purposes,,true
+LICENSEE_INFORMATION_OR_AFFIDAVIT,UNKNOWN,Licensee Information Or Affidavit,,true
+ANNUITY_AWARD_LETTER,Income - Borrower Paystubs,Annuity Award Letter,,false
+A_3800,Income - Borrower 1040 Tax Returns w/ All Schedules,3800,,false
+HUD_NPMA_33_WOOD_DESTROYING_INSECT_INSPECTION_REPORT,Construction - Termite - NCPA,NPMA-33 Wood Destroying Insect Inspection Report,,false
+SCHEDULE_K_1_PARTNERS_SCHEDULE_K_1_ACTIVITY_WORKSHEET,Income - Borrower Business Tax Returns,Schedule K-1 - Partner's Schedule K-1 Activity Worksheet,,false
+INSTRUCTIONS_TO_ESCROW_TITLE_CLOSING_AGENT,UNKNOWN,Instructions To Escrow Title Closing Agent,,true
+ATTORNEY_REPRESENTATION_NOTICE,Attorney Representation Notice,Attorney Representation Notice,,true
+A_1120_F_SCHEDULE_M_3,Income - Borrower Business Tax Returns,1120-F Schedule M-3,,false
+A_706_GS_D,Income - Borrower 1040 Tax Returns w/ All Schedules,706-GS(D),,false
+A_1040_C,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-C,,false
+WAGE_GARNISHMENT_ORDER,Credit - Divorce Decree/Child Support - Liabilty/Income,Wage Garnishment Order,,false
+DUPLICATE_REJECTED,Duplicate Attachments,{$ORIGINAL.title},,true
+ELECTRONIC_DISCLOSURE_AND_CONSENT_AGREEMENT,UNKNOWN,Electronic Disclosure And Consent Agreement,,true
+FORM_1040_TAX_RETURN_RECONCILIATION_WORKSHEET,1040 Tax Return Reconciliation Worksheet,1040 (Personal Tax Returns) Tax Return Reconciliation Worksheet,,true
+H1B,Credit - SS Card/Drivers License,{$FIELDS.h1b-General:firstName}_{$FIELDS.h1b-General:middleName}_{$FIELDS.h1b-General:lastName}_{$FIELDS.h1b-General:suffix}_H1B_{$FIELDS.h1b-General:expirationDate|YYYY_MM_DD},,false
+A_1120_SCHEDULE_M_3,Income - Borrower Business Tax Returns,1120 Schedule M-3,,false
+A_1040_SCHEDULE_D_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_D_2022_{$FIELDS.a_1040_schedule_d_2022-Part1-General:name(s)ShownOnReturn},,false
+RECOVERY_REBATE_CREDIT_WORKSHEET,Tax Returns w/ Schedules,Recovery Rebate Credit Worksheet,,true
+A_1040_SCHEDULE_D_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_D_2021_{$FIELDS.a_1040_schedule_d_2021-Part1-General:name(s)ShownOnReturn},,false
+A_1040_SCHEDULE_D_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_d_2020-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_D_2020,,false
+MERCHANT_PROCESSING_APPLICATION,Merchant Processing Application,Merchant Processing Application,,true
+A_1065_SCHEDULE_B_2024,Income - Borrower Business Tax Returns,1065 Schedule B (2024),,false
+A_1065_SCHEDULE_B_2025,Income - Borrower Business Tax Returns,1065 Schedule B (2025),,false
+A_1040_SCHEDULE_D_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_D_2025_{$FIELDS.a_1040_schedule_d_2025-Part01-General:namesShownOnReturn},,false
+A_W_4V,Income - Borrower 1040 Tax Returns w/ All Schedules,W-4V,,false
+A_1065_SCHEDULE_B_2022,Income - Borrower Business Tax Returns,1065 Schedule B (2022),,false
+A_1040_SCHEDULE_D_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_D_2024_{$FIELDS.a_1040_schedule_d_2024-Part01-General:name(s)ShownOnReturn},,false
+A_8288,Income - Borrower 1040 Tax Returns w/ All Schedules,8288,,false
+A_1065_SCHEDULE_B_2023,Income - Borrower Business Tax Returns,1065 Schedule B (2023),,false
+A_1040_SCHEDULE_D_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_D_2023_{$FIELDS.a_1040_schedule_d_2023-Part1-General:name(s)ShownOnReturn},,false
+A_5305_SIMPLE,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-SIMPLE,,false
+A_W_4R,Income - Borrower 1040 Tax Returns w/ All Schedules,W-4R,,false
+A_W_4S,Income - Borrower 1040 Tax Returns w/ All Schedules,W-4S,,false
+A_W_4P,Income - Borrower 1040 Tax Returns w/ All Schedules,W-4P,,false
+A_8283,Income - Borrower 1040 Tax Returns w/ All Schedules,8283,,false
+A_8282,Income - Borrower 1040 Tax Returns w/ All Schedules,8282,,false
+IMPOUND_ACCOUNT_STATEMENT,UNKNOWN,Impound Account Statement,,true
+A_8281,Income - Borrower 1040 Tax Returns w/ All Schedules,8281,,false
+ABILITY_TO_REPAY_CERTIFICATION,Ability To Repay Certification,Ability To Repay Certification,,true
+A_8796_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8796-A,,false
+A_1040_SCHEDULE_D_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_d_2019-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_D_2019,,false
+A_706_GS_T,Income - Borrower 1040 Tax Returns w/ All Schedules,706-GS(T),,false
+A_1040_SCHEDULE_D_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_d_2018-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_D_2018,,false
+A_1040_SS,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-SS,,false
+A_1065_SCHEDULE_B_2018,Income - Borrower Business Tax Returns,1065 Schedule B (2018),,false
+HOA_INSURANCE,Subject Property - Homeowner's Insurance Policy,Homeowner Association Insurance,,false
+DISCLOSURE_OF_FEES_EARNED_BY_MORTGAGE_COMPANY,UNKNOWN,Disclosure of Fees Earned by Mortgage Company,,true
+A_8275,Income - Borrower 1040 Tax Returns w/ All Schedules,8275,,false
+A_8274,Income - Borrower 1040 Tax Returns w/ All Schedules,8274,,false
+DUAL_STATUS_DISCLOSURE,UNKNOWN,Dual Status Disclosure,,true
+A_1065_SCHEDULE_B_2019,Income - Borrower Business Tax Returns,1065 Schedule B (2019),,false
+SUPPLEMENT_CLOSING_STATEMENT,UNKNOWN,Supplement Closing Statement,,true
+A_15230,Income - Borrower 1040 Tax Returns w/ All Schedules,15230,,false
+BREX_CASH_STATEMENT,Brex Cash Statement,Brex Cash Statement,,true
+A_1065_SCHEDULE_B_2020,Income - Borrower Business Tax Returns,1065 Schedule B (2020),,false
+A_1065_SCHEDULE_B_2021,Income - Borrower Business Tax Returns,1065 Schedule B (2021),,false
+HUD_9746_A_DRAW_REQUEST,UNKNOWN,HUD-9746-A Draw Request,,true
+OFFICIAL_FORM_106J_SCHEDULE_J_YOUR_EXPENSES,Official Form 106J - Schedule J: Your Expenses,Official Form 106J - Schedule J: Your Expenses,,true
+PROPERTY_INSURANCE_ESCROW_ACCOUNT_DISCLOSURE,UNKNOWN,Property Insurance Escrow Account Disclosure,,true
+A_1065_SCHEDULE_L_M_1_M_2_2025,Income - Borrower Business Tax Returns,1065_SCHEDULE_L_M1_M2_2025,,false
+DUAL_MORTGAGE_BROKER_FEES_DISCLOSURE,UNKNOWN,Dual Mortgage Broker - Fees Disclosure,,true
+A_1065_SCHEDULE_L_M_1_M_2_2020,Income - Borrower Business Tax Returns,1065_SCHEDULE_L_M1_M2_2020,,false
+FEDERAL_SUPPORTING_STATEMENT_TESTING,UNKNOWN,Federal Supporting Statement Testing,,true
+A_8879_EX,Income - Borrower 1040 Tax Returns w/ All Schedules,8879-EX,,false
+A_1065_SCHEDULE_L_M_1_M_2_2024,Income - Borrower Business Tax Returns,1065_SCHEDULE_L_M1_M2_2024,,false
+A_1065_SCHEDULE_L_M_1_M_2_2023,Income - Borrower Business Tax Returns,1065_SCHEDULE_L_M1_M2_2023,,false
+A_1065_SCHEDULE_L_M_1_M_2_2022,Income - Borrower Business Tax Returns,1065_SCHEDULE_L_M1_M2_2022,,false
+A_1065_SCHEDULE_L_M_1_M_2_2021,Income - Borrower Business Tax Returns,1065_SCHEDULE_L_M1_M2_2021,,false
+TAX_BILL_AUTHORIZATION,UNKNOWN,Tax Bill Authorization,,true
+A_W_3C,Income - Borrower 1040 Tax Returns w/ All Schedules,W-3C,,false
+RED_FLAG_WARNING_DISCLOSURE_NOTICE,UNKNOWN,Red Flag Warning Disclosure Notice,,true
+TRUTH_IN_LENDING_ACT_(TILA)_DISCLOSURE,UNKNOWN,Truth In Lending Act (TILA) Disclosure,,true
+PLEDGED_TIME_DEPOSIT_ACCOUNT_DISCLOSURE,UNKNOWN,Pledged Time Deposit Account Disclosure,,true
+VA_LENDERS_NOTICE_OF_VALUE,Appraisal,VA Lender's Notice Of Value,,false
+CERTIFICATION_AND_ACKNOWLEDGMENT_OF_MORTGAGE_LOAN_APPLICATION,UNKNOWN,Certification And Acknowledgement Of Mortgage Loan Application,,true
+SECOND_MORTGAGE_APPLICATION_CHECKLIST,UNKNOWN,Second Mortgage Application Checklist,,true
+A_1065_SCHEDULE_L_M_1_M_2_2019,Income - Borrower Business Tax Returns,1065_SCHEDULE_L_M1_M2_2019,,false
+A_1065_SCHEDULE_L_M_1_M_2_2018,Income - Borrower Business Tax Returns,1065_SCHEDULE_L_M1_M2_2018,,false
+ALTA_SETTLEMENT_STATEMENT_TESTING,UNKNOWN,ALTA Settlement Statement Testing,,true
+RIGHT_TO_RECEIVE_COPY_OF_APPRAISAL_AND_VALUATIONS_DISCLOSURE,UNKNOWN,Right to Receive Copy of Appraisal and Valuations Disclosure,,true
+NOTICE_TO_THE_HOME_LOAN_APPLICANT,UNKNOWN,Notice To The Home Loan Applicant,,true
+A_14364,Income - Borrower 1040 Tax Returns w/ All Schedules,14364,,false
+MORTGAGE_INSURANCE_CERTIFICATE,UNKNOWN,Mortgage Insurance Certificate,,false
+A_14360,Income - Borrower 1040 Tax Returns w/ All Schedules,14360,,false
+MORTGAGE_ELECTRONIC_REGISTRATION_SYSTEMS_MERS_RIDER,UNKNOWN,Mortgage Electronic Registration Systems (MERS) Rider,,true
+A_1040_SCHEDULE_B_2023_TESTING,1040 Schedule B 2023,1040 Schedule B (Interest and Ordinary Dividends) 2023,,true
+HOA_CCRS,Subject Property - Condo Questionnaire/Budget/Insurance,Homeowner Association Covenants Conditions Restrictions Summary,,false
+ESCROW_INSTRUCTIONS,Closing - Instruction to Settlement Agent,Escrow Instructions,,false
+A_1040_NR_SCHEDULE_OI,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-NR Schedule OI,,false
+A_4720,Income - Borrower 1040 Tax Returns w/ All Schedules,4720,,false
+MORTGAGE_BANKER_DISCLOSURE,UNKNOWN,Mortgage Banker Disclosure,,true
+A_1040_SCHEDULE_C_EZ_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_c_ez_2018-Part1-General:nameOfProprietor}_1040_SCHEDULE_C-EZ_2018,,false
+A_1120_2020,Income - Borrower Business Tax Returns,{$FIELDS.a_1120_2020-Part1-HeaderInformation:name}_1120_2020,,false
+FAIR_CREDIT_REPORTING_ACT,Fair Credit Reporting Act,Fair Credit Reporting Act,,true
+A_8879_TE,Income - Borrower 1040 Tax Returns w/ All Schedules,8879-TE,,false
+A_1120_2017,1120 (2017),1120 (Corporation Business Tax Returns) (2017),,true
+A_1120_2016,1120 (2016),1120 (Corporation Business Tax Returns) (2016),,true
+A_1120_2015,1120 (2015),1120 (Corporation Business Tax Returns) (2015),,true
+REASONABLE_MEANS_DISCLOSURE,UNKNOWN,Reasonable Means Disclosure,,true
+ELECTRONIC_CONSENT_AGREEMENT,UNKNOWN,Electronic Consent Agreement,,true
+A_1120_2019,Income - Borrower Business Tax Returns,{$FIELDS.a_1120_2019-Part1-HeaderInformation:name}_1120_2019,,false
+A_1120_2018,Income - Borrower Business Tax Returns,{$FIELDS.a_1120_2018-Part1-HeaderInformation:name}_1120_2018,,false
+A_1040_SCHEDULE_LEP_2020,1040 Schedule LEP (2020),1040 Schedule LEP (Request for Change in Language Preference) (2020),,true
+SUBSECTION_10_MORTGAGE_LOAN_DISCLOSURE,UNKNOWN,Subsection 10 Mortgage Loan Disclosure,,true
+A_W_9S,Income - Borrower 1040 Tax Returns w/ All Schedules,W-9S,,false
+MORTGAGE_GUARANTY_INSURANCE_CANCELLATION_DISCLOSURE,UNKNOWN,Mortgage Guaranty Insurance Cancellation Disclosure,,true
+LENDER_UNDERWRITER_REVIEW_VERIFICATION_URV,UNKNOWN,Lender Underwriter Review Verification (URV),,true
+CERTIFICATION_AND_ACKNOWLEDGEMENT_OF_MORTGAGE_LOAN_APPLICATION,UNKNOWN,Certification And Acknowledgement Of Mortgage Loan Application,,true
+AGREEMENT_CONCERNING_NONREFUNDABILITY_OF_ADVANCE_FEE,UNKNOWN,Agreement Concerning Nonrefundability Of Advance Fee,,true
+JUMIO_PII_ONLY,PII Only,PII Only,,true
+A_8849_SCHEDULE_1,Income - Borrower 1040 Tax Returns w/ All Schedules,8849 Schedule 1,,false
+PROCESSORS_CERTIFICATION,Processors Certification,Processors Certification,,true
+A_8849_SCHEDULE_3,Income - Borrower 1040 Tax Returns w/ All Schedules,8849 Schedule 3,,false
+WATER_SUPPLY_DISCLOSURE,UNKNOWN,Water Supply Disclosure,,true
+A_8849_SCHEDULE_2,Income - Borrower 1040 Tax Returns w/ All Schedules,8849 Schedule 2,,false
+A_4506_T,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_4506_t-Part1-General:1a-NameShownOnTaxReturn}_{$FIELDS.a_4506_t-Part1-General:2a-IfAJointReturnEnterSpouse'SNameShownOnTaxReturn}_IRS_4506T,,false
+ITEMS_NEEDED_LETTER,UNKNOWN,Items Needed Letter,,true
+RESPA_AFFILIATED_BUSINESS_DISCLOSURES,UNKNOWN,RESPA Affiliated Business Disclosures,,true
+A_8849_SCHEDULE_8,Income - Borrower 1040 Tax Returns w/ All Schedules,8849 Schedule 8,,false
+ADVANCED_FEE_APPLICATION_DISCLOSURE,UNKNOWN,Advanced Fee Or Application Disclosure,,true
+A_8849_SCHEDULE_5,Income - Borrower 1040 Tax Returns w/ All Schedules,8849 Schedule 5,,false
+A_8849_SCHEDULE_6,Income - Borrower 1040 Tax Returns w/ All Schedules,8849 Schedule 6,,false
+A_4506_C,Income - Borrower 1040 Tax Returns w/ All Schedules,A_4506_C,,false
+HIGH_COST_LOAN_PAYMENT_DISCLOSURE,UNKNOWN,High Cost Loan Payment Disclosure,,true
+A_4506_B,Income - Borrower 1040 Tax Returns w/ All Schedules,4506-B,,false
+FAX_COVER_SHEET,UNKNOWN,Fax Cover Sheet,,true
+FHA_APPLICATION_OF_UNUSED_ESCROW_FUNDS_AUTHORIZATION,UNKNOWN,FHA Application Of Unused Escrow Funds Authorization,,true
+A_4506_F,Income - Borrower 1040 Tax Returns w/ All Schedules,4506-F,,false
+FHA_AMENDATORY_CLAUSE_AND_REAL_ESTATE_CERTIFICATION,Subject Property - Contract,FHA Amendatory Clause And Real Estate Certification,,false
+A_2555,Income - Borrower 1040 Tax Returns w/ All Schedules,2555,,false
+TAX_OTHER,Tax Other,Tax Other,,true
+A_W_7A,Income - Borrower 1040 Tax Returns w/ All Schedules,W-7A,,false
+A_4506_A,Income - Borrower 1040 Tax Returns w/ All Schedules,4506-A,,false
+A_3881,Income - Borrower 1040 Tax Returns w/ All Schedules,3881,,false
+A_2553,Income - Borrower 1040 Tax Returns w/ All Schedules,2553,,false
+COMMERCIALLY_REASONABLE_MEANS_OR_MECHANISM_WORKSHEET,UNKNOWN,Commercially Reasonable Means Or Mechanism Worksheet,,true
+A_1120_2025,Income - Borrower Business Tax Returns,1120_2025_{$FIELDS.a_1120_2025-Part01-General:name},,false
+LOAN_CLOSING_ADVISOR_FEEDBACK_CERTIFICATE,UNKNOWN,Loan Closing Advisor Feedback Certificate,,true
+A_1120_2024,Income - Borrower Business Tax Returns,1120_2024_{$FIELDS.a_1120_2024-Part01-General:name},,false
+A_1120_2023,Income - Borrower Business Tax Returns,1120_2023_{$FIELDS.a_1120_2023-Part1-General:name},,false
+A_1120_2022,Income - Borrower Business Tax Returns,1120_2022_{$FIELDS.a_1120_2022-Part1-General:name},,false
+VA_26_1820_REPORT_AND_CERTIFICATION_OF_LOAN_DISBURSEMENT,UNKNOWN,VA 26-1820 Report And Certification Of Loan Disbursement,,true
+COMPLIANCE_REPORT,UNKNOWN,Compliance Report,,true
+A_1120_2021,Income - Borrower Business Tax Returns,{$FIELDS.a_1120_2021-Part1-HeaderInformation:name}_1120_2021,,false
+A_W_2VI,Income - Borrower 1040 Tax Returns w/ All Schedules,W-2VI,,false
+DECLARATION_OF_COVENANTS,UNKNOWN,Declaration Of Covenants,,true
+NOTICE_TO_BORROWER_PROSPECTIVE_BORROWER,UNKNOWN,Notice To Borrower/Prospective Borrower,,true
+NOTICE_TO_COSIGNER,UNKNOWN,Notice To Cosigner,,true
+A_1040_SCHEDULE_C_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_c_2019-General:nameOfProprietor}_1040_SCHEDULE_C_2019,,false
+A_1040_SCHEDULE_C_2017,1040 Schedule C (2017),1040 Schedule C (Profit or Loss From Sole Proprietorship Business) (2017),,true
+OUTGOING_WIRE_TRANSFER_REQUEST,UNKNOWN,Outgoing Wire Transfer Request,,true
+NOTICE_OF_ASSESSMENT_LIEN,UNKNOWN,Notice Of Assessment Lien,,true
+A_1040_SCHEDULE_C_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_c_2018-General:nameOfProprietor}_1040_SCHEDULE_C_2018,,false
+A_1040_SCHEDULE_C_2015,1040 Schedule C (2015),1040 Schedule C (Profit or Loss From Sole Proprietorship Business) (2015),,true
+A_1040_SCHEDULE_C_2016,1040 Schedule C (2016),1040 Schedule C (Profit or Loss From Sole Proprietorship Business) (2016),,true
+HOA_MEETING_MINUTES,Subject Property - Condo Questionnaire/Budget/Insurance,Homeowner Association Meeting Minutes,,false
+A_8038_TC,Income - Borrower 1040 Tax Returns w/ All Schedules,8038-TC,,false
+A_14773,Income - Borrower 1040 Tax Returns w/ All Schedules,14773,,false
+HUD_92070_SERVICEMEMBERS_CIVIL_RELIEF_ACT_(SCRA)_NOTICE_DISCLOSURE,HUD-92070 - Servicemembers Civil Relief Act Notice Disclosure,HUD-92070 - Servicemembers Civil Relief Act Notice Disclosure,,true
+CERTIFICATE_OF_BORROWER_AND_GUARANTOR,UNKNOWN,Certificate Of Borrower And Guarantor,,true
+NOTICE_OF_RIGHT_TO_SELECT_ATTORNEY,UNKNOWN,Notice Of Right To Select Attorney,,true
+A_1040_SCHEDULE_C_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_C_2024_{$FIELDS.a_1040_schedule_c_2024-Part01-General:nameOfProprietor},,false
+A_1040_SCHEDULE_C_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_C_2025_{$FIELDS.a_1040_schedule_c_2025-Part01-General:nameOfProprietor},,false
+PROPERTY_TAX_INFO_SHEET,UNKNOWN,Property Tax Info Sheet,,false
+A_1120_S_SCHEDULE_D,Income - Borrower Business Tax Returns,1120-S Schedule D,,false
+A_1040_SCHEDULE_C_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_C_2022_{$FIELDS.a_1040_schedule_c_2022-General:nameOfProprietor},,false
+A_1040_SCHEDULE_C_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_C_2023_{$FIELDS.a_1040_schedule_c_2023-Part1-General:nameOfProprietor},,false
+A_1040_SCHEDULE_C_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_c_2020-General:nameOfProprietor}_1040_SCHEDULE_C_2020,,false
+A_8936_SCHEDULE_A,UNKNOWN,8936 Schedule A - Clean Vehicle Credit Amount,,true
+A_1040_SCHEDULE_C_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_c_2021-General:nameOfProprietor}_1040_SCHEDULE_C_2021,,false
+A_1042_SCHEDULE_Q,Income - Borrower 1040 Tax Returns w/ All Schedules,1042 Schedule Q,,false
+A_14781,Income - Borrower 1040 Tax Returns w/ All Schedules,14781,,false
+A_1040_SCHEDULE_5_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_5_2018-Part1-General:name(s)ShownOnForm1040}_1040_SCHEDULE_5_2018,,false
+SURVIVORSHIP_DEED,UNKNOWN,Survivorship Deed,,true
+USDA_3555_11_LENDER_RECORD_CHANGE,UNKNOWN,RD 3555-11 Lender Record Change,,true
+BORROWER_CONTACT_CONSENT_FORM,UNKNOWN,Borrower Contact Consent Form,,true
+PRE_AUTHORIZED_DEBIT_CA,Pre Authorized Debit CA,Pre Authorized Debit CA,,true
+LOAN_APPROVAL_FORM,UNKNOWN,Loan Approval Form,,true
+A_2120,Income - Borrower 1040 Tax Returns w/ All Schedules,2120,,false
+PROPERTY_DETAIL_REPORT,Subject Property - Contract,Property Detail Report,,false
+REQUEST_FOR_VERIFICATION_OF_RENT_OR_MORTGAGE,Request For Verification Of Rent Or Mortgage,Request For Verification Of Rent Or Mortgage,,true
+A_13424,Income - Borrower 1040 Tax Returns w/ All Schedules,13424,,false
+QUITCLAIM_DEED,Quitclaim Deed,Quitclaim Deed,,true
+BROKER_DISCLOSURE,UNKNOWN,Broker Disclosure,,true
+A_211A,Income - Borrower 1040 Tax Returns w/ All Schedules,211A,,false
+BANK_STATEMENT_ESTIMATE,Assets - Bank Statements,Bank Statement Estimate,,false
+FINICITY_VOIE,Verification of Income and Employment Finicity,Verification of Income and Employment Finicity,,true
+FLOOD_HAZARD_DETERMINATION,UNKNOWN,Flood Hazard Determination,,true
+A_14765,Income - Borrower 1040 Tax Returns w/ All Schedules,14765,,false
+2010_NOTICE_REQUIRED_BY_11_USC_342(B)_FOR_INDIVIDUALS_FILING_FOR_BANKRUPTCY,Credit - Bankruptcy Papers,Form 2010 - Notice Required by 11 USC 342(B) for Individuals Filing for Bankruptcy,,false
+ELECTRONIC_RECORD_AND_SIGNATURE_DISCLOSURE,Income - Borrower 1040 Tax Returns w/ All Schedules,Electronic Record And Signature Disclosure,,false
+A_8596_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8596-A,,false
+A_8717_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8717-A,,false
+SUPPLEMENTAL_CLOSING_STATEMENT,UNKNOWN,Supplemental Closing Statement,,true
+VERIFICATION_OF_CREDITOR_MATRIX,Verification Of Creditor Matrix,Verification Of Creditor Matrix,,true
+A_1065_2025,Income - Borrower Business Tax Returns,1065_2025_{$FIELDS.a_1065_2025-Part01-PartnershipDetails:nameOfPartnership},,false
+A_1065_2024,Income - Borrower Business Tax Returns,1065_2024_{$FIELDS.a_1065_2024-Part01-PartnershipDetails:nameOfPartnership},,false
+A_1065_2023,Income - Borrower Business Tax Returns,1065_2023_{$FIELDS.a_1065_2023-Part1-PartnershipDetails:nameOfPartnership},,false
+A_1065_2022,Income - Borrower Business Tax Returns,1065_2022_{$FIELDS.a_1065_2022-Part1-PartnershipDetails:nameOfPartnership},,false
+A_1065_2021,Income - Borrower Business Tax Returns,{$FIELDS.a_1065_2021-Part1-PartnershipDetails:nameOfPartnership}_1065_2021,,false
+A_4768,Income - Borrower 1040 Tax Returns w/ All Schedules,4768,,false
+A_2587,Income - Borrower 1040 Tax Returns w/ All Schedules,2587,,false
+A_2106,Income - Borrower 1040 Tax Returns w/ All Schedules,2106,,false
+A_13803,Income - Borrower 1040 Tax Returns w/ All Schedules,13803,,false
+OFFICIAL_FORM_309A_NOTICE_OF_CHAPTER_7_BANKRUPTCY_CASE_NO_PROOF_OF_CLAIM_DEADLINE,Official Form 309A - Notice Of Chapter 7 Bankruptcy Case - No Proof Of Claim Deadline,Official Form 309A - Notice Of Chapter 7 Bankruptcy Case - No Proof Of Claim Deadline,,true
+FHA_CASE_NUMBER_ASSIGNMENT,FHA - Case Number,FHA Case Number Assignment,,false
+$$INCOME_CALCULATION$$,Income Calc,Income Calculation-{$FIELDS.income_calculator-General:borrowerName}_{$FIELDS.income_calculator-General:date|YYYY_MM_DD},,false
+CERTIFICATE_OF_CREDIT_COUNSELING,UNKNOWN,Certificate Of Credit Counseling,,true
+A_1099_DIV,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-DIV,,false
+SOCIAL_SECURITY_NUMBER_CERTIFICATION,UNKNOWN,Social Security Number Certification,,true
+RISK_BASED_PRICING_NOTICE,UNKNOWN,Risk-Based Pricing Notice,,true
+A_8936_A_SCHEDULE_1,Income - Borrower 1040 Tax Returns w/ All Schedules,8936-A Schedule 1,,false
+ESCROW_WAIVER,UNKNOWN,Escrow Waiver,,true
+VA_ASSUMPTION_NOTICE,VA Documents,VA Assumption Notice,,true
+A_3468,Income - Borrower 1040 Tax Returns w/ All Schedules,3468,,false
+A_5646,Income - Borrower 1040 Tax Returns w/ All Schedules,5646,,false
+A_8508_I,Income - Borrower 1040 Tax Returns w/ All Schedules,8508-I,,false
+A_4797,Income - Borrower Business Tax Returns,4797,,false
+RD_3550_6_NOTICE_OF_SPECIAL_FLOOD_HAZARDS_AND_AVAILABILITY_OF_FEDERAL_DISASTER_RELIEF_ASSISTANCE,UNKNOWN,RD 3550-6 Notice Of Special Flood Hazards And Availability Of Federal Disaster Relief Assistance,,true
+VA_26_0285_VA_TRANSMITTAL_LIST,VA 26-0285 - VA Transmittal List,VA 26-0285 - VA Transmittal List,,true
+VA_26_8599_MANUFACTURED_HOME_WARRANTY,VA Documents,VA 26-8599 Manufactured Home Warranty,,true
+SMARTLINX_BUSINESS_REPORT,UNKNOWN,SmartLinx Business Report,,true
+A_10301,Income - Borrower 1040 Tax Returns w/ All Schedules,10301,,false
+CERTIFICATE_OF_LIABILITY_INSURANCE,Certificate of Liability Insurance,Certificate Of Liability Insurance,,true
+HOMEOWNERSHIP_COUNSELING_ORGANIZATION_LIST,UNKNOWN,Homeownership Counseling Organization List,,true
+A_1040_SCHEDULE_LEP,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_lep-Part1-General:nameOfPersonMakingRequest}_1040_SCHEDULE_LEP_2020,,false
+CONDITION_CHECKLIST,UNKNOWN,Condition Checklist,,true
+PTIN_LETTER,PTIN Letter,PTIN Letter,,true
+A_5471_SCHEDULE_G_1,Income - Borrower 1040 Tax Returns w/ All Schedules,5471 Schedule G-1,,false
+NOTICE_TO_PURCHASERS,UNKNOWN,Notice To Purchasers (Buyers),,true
+INFORMED_CONSUMER_CHOICE_DISCLOSURE_NOTICE,UNKNOWN,Informed Consumer Choice Disclosure Notice,,true
+HUD_92541_BUILDERS_CERTIFICATION_OF_PLANS_SPECIFICATIONS_AND_SITE,Construction - Builder's Certification,HUD-92541 Builder's Certification Of Plans Specifications & Site,,false
+CONSUMER_CREDIT_TRANSACTION_DISCLOSURE,UNKNOWN,Consumer Credit Transaction Disclosure,,true
+AFFILIATED_BUSINESS_ARRANGEMENT_DISCLOSURE_STATEMENT,UNKNOWN,Affiliated Business Arrangement Disclosure Statement,,true
+A_1040_SCHEDULE_F_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_f_2018-Part1-General:nameOfProprietor}_1040_SCHEDULE_F_2018,,false
+ORAL_AGREEMENT_DISCLOSURE,UNKNOWN,Oral Agreement Disclosure,,true
+A_1040_SCHEDULE_F_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_f_2019-Part1-General:nameOfProprietor}_1040_SCHEDULE_F_2019,,false
+INTENT_TO_ISSUE_CONTRACT,UNKNOWN,Intent To Issue Contract,,true
+A_1040_ES,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-ES,,false
+A_3491,Income - Borrower 1040 Tax Returns w/ All Schedules,3491,,false
+A_720_TO,Income - Borrower 1040 Tax Returns w/ All Schedules,720-TO,,false
+THIRD_PARTY_REQUEST_FOR_NOTICES_DISCLOSURE,UNKNOWN,Third-Party Request For Notices Disclosure,,true
+CONFIRMATION_OF_CLEAR_TITLE_FORM,UNKNOWN,Confirmation of Clear Title Form,,true
+UNDISCLOSED_DEBT_ACKNOWLEDGEMENT,Undisclosed Debt Acknowledgement,Undisclosed Debt Acknowledgement,,true
+A_1040_SCHEDULE_F_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_f_2020-Part1-General:nameOfProprietor}_1040_SCHEDULE_F_2020,,false
+OPEN_END_CONSUMER_CREDIT_PLAN_DISCLOSURE,UNKNOWN,Open-End Consumer Credit Plan Disclosure,,true
+A_1040_SCHEDULE_F_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_F_2025_{$FIELDS.a_1040_schedule_f_2025-Part01-General:nameOfProprietor},,false
+RURAL_DEVELOPMENT_UNDERWRITING_SUBMISSION_FORM,Rural Development Underwriting Submission Form,Rural Development Underwriting Submission Form,,true
+NOTICE_TO_COSIGNER_CALIFORNIA,UNKNOWN,Notice To Cosigner (Cx 886; California),,true
+GENERAL_WARRANTY_DEED,Subject Property - Tax Bills/Deeds,General Warranty Deed,,false
+FORM_70B_OR_1004C_MANUFACTURED_HOME_APPRAISAL_REPORT,UNKNOWN,Form 70B Or 1004C - Manufactured Home Appraisal Report,,true
+A_2159,Income - Borrower 1040 Tax Returns w/ All Schedules,2159,,false
+A_1040_SCHEDULE_F_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_F_2021_{$FIELDS.a_1040_schedule_f_2021-Part1-General:nameOfProprietor},,false
+A_1040_SCHEDULE_F_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_F_2022_{$FIELDS.a_1040_schedule_f_2022-Part1-General:nameOfProprietor},,false
+A_1040_SCHEDULE_F_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_F_2023_{$FIELDS.a_1040_schedule_f_2023-Part1-General:nameOfProprietor},,false
+A_1040_SCHEDULE_F_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_F_2024_{$FIELDS.a_1040_schedule_f_2024-Part01-General:nameOfProprietor},,false
+COMPLIANCE_AGREEMENT,Compliance Agreement,Compliance Agreement,,true
+A_1120_S_SCHEDULE_K_2,Income - Borrower Business Tax Returns,1120-S Schedule K-2,,false
+A_1120_S_SCHEDULE_K_3,Income - Borrower Business Tax Returns,1120-S Schedule K-3,,false
+INTERIM_FINANCING_DISCLOSURE,UNKNOWN,Interim Financing Disclosure,,true
+A_5305_A_SEP,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-A-SEP,,false
+PURCHASE_CONTRACT,Subject Property - Contract,PURCHASE_CONTRACT,,false
+FINAL_SETTLEMENT_STATEMENT,UNKNOWN,Final Settlement Statement,,true
+CONSUMER_CREDIT_INSURANCE_DISCLOSURE,UNKNOWN,Consumer Credit Insurance Disclosure,,true
+FEDERAL_SUPPORTING_STATEMENTS_OTHER_DEDUCTIONS,Income - Borrower 1040 Tax Returns w/ All Schedules,Federal Supporting Statements - Other Deductions,,false
+BANK_ACCOUNT,Assets - Bank Statements,{$BANK_ACCOUNT.bankName&bank_account:bankName}_{$BANK_ACCOUNT.periodStartDate&bank_account:periodStartDate|YYYY_MM_DD}-{$BANK_ACCOUNT.periodEndDate&bank_account:periodEndDate|YYYY_MM_DD}_{$BANK_ACCOUNT.accountType&bank_account:accountType}_{$BANK_ACCOUNT.accountNumber&bank_account:accountNumber|LAST_4},,false
+RENOVATION_HELOC_HOME_EQUITY_CERTIFICATION_AND_ACKNOWLEDGEMENT,UNKNOWN,Renovation HELOC Home Equity Certification And Acknowledgement,,true
+HUD_92900_B_IMPORTANT_NOTICE_TO_HOMEBUYERS,UNKNOWN,HUD-92900-B Important Notice To Homebuyers,,true
+A_8453_EX,Income - Borrower 1040 Tax Returns w/ All Schedules,8453-EX,,false
+PRIVATE_MORTGAGE_INSURANCE_DISCLOSURE_ILLINOIS,UNKNOWN,Private Mortgage Insurance Disclosure (Cx 1311; Illinois),,true
+LOCK_CONFIRMATION,Lock Confirmation,Lock Confirmation,,true
+A_720_X,Income - Borrower 1040 Tax Returns w/ All Schedules,720-X,,false
+A_8725,Income - Borrower 1040 Tax Returns w/ All Schedules,8725,,false
+A_5213,Income - Borrower 1040 Tax Returns w/ All Schedules,5213,,false
+A_13844,Income - Borrower 1040 Tax Returns w/ All Schedules,13844,,false
+A_5695,Income - Borrower 1040 Tax Returns w/ All Schedules,5695,,false
+A_4361,Income - Borrower 1040 Tax Returns w/ All Schedules,4361,,false
+A_8453_FE,Income - Borrower 1040 Tax Returns w/ All Schedules,8453-FE,,false
+CERTIFICATE_OF_MANUFACTURED_HOME_OWNERSHIP,Certificate Of Manufactured Home Ownership,Certificate Of Manufactured Home Ownership,,true
+FAIR_CREDIT_REPORTING_ACT_DISCLOSURE,UNKNOWN,Fair Credit Reporting Act Disclosure,,true
+USDA_3555_17_LOAN_NOTE_GUARANTEE,USDA - Form 3555 - 17,RD 3555-17 Loan Note Guarantee,,false
+APPLICANT_COMPLIANCE_AGREEMENT,UNKNOWN,Applicant Compliance Agreement,,true
+FHA_APPRAISAL_LOGGING,FHA - Appraisal Logging,FHA Appraisal Logging,,false
+A_14708,Income - Borrower 1040 Tax Returns w/ All Schedules,14708,,false
+NOTICE_OF_ZONING_LIMITATIONS,Notice Of Zoning Limitations,Notice Of Zoning Limitations,,true
+A_14704,Income - Borrower 1040 Tax Returns w/ All Schedules,14704,,false
+A_8966_C,Income - Borrower 1040 Tax Returns w/ All Schedules,8966-C,,false
+A_1041_SCHEDULE_I,Income - Borrower 1040 Tax Returns w/ All Schedules,1041 Schedule I,,false
+A_1041_SCHEDULE_J,Income - Borrower 1040 Tax Returns w/ All Schedules,1041 Schedule J,,false
+VA_RATE_REDUCTION_CERTIFICATION,VA Documents,"VA Rate Reduction Certification_HOMEBUYERS                        ",,true
+SETTLEMENT_SERVICES_DISCLOSURE,UNKNOWN,Settlement Services Disclosure,,true
+LENDERS_NOTICE_OF_VALUE,UNKNOWN,Lender's Notice Of Value,,true
+TANGIBLE_NET_BENEFIT_DISCLOSURE_MAINE,UNKNOWN,Tangible Net Benefit Disclosure (Cx 13190; Maine),,true
+PREPAYMENT_DISCLOSURE_AT_CLOSING,UNKNOWN,Prepayment Disclosure at Closing,,true
+BS_SIGNS_TESTING,UNKNOWN,BS Signs Testing,,true
+A_8453_EMP,Income - Borrower 1040 Tax Returns w/ All Schedules,8453-EMP,,false
+A_W_8BEN,Income - Borrower 1040 Tax Returns w/ All Schedules,W-8BEN,,false
+HIGH_COST_HOME_LOAN_DISCLOSURE,UNKNOWN,High Cost Home Loan Disclosure,,true
+A_8703,Income - Borrower 1040 Tax Returns w/ All Schedules,8703,,false
+A_1116_SCHEDULE_C,Income - Borrower 1040 Tax Returns w/ All Schedules,1116 Schedule C,,false
+A_1116_SCHEDULE_B,Income - Borrower 1040 Tax Returns w/ All Schedules,1116 Schedule B,,false
+REVERSE_MORTGAGE_COUNSELING_NOTICE,UNKNOWN,Reverse Mortgage Counseling Notice,,true
+TILA_(TRUTH_IN_LENDING)_HELOC_DISCLOSURES_IN_HELOC_AGREEMENT,UNKNOWN,TILA (Truth In Lending Act) HELOC Disclosures,,true
+LEASE_AGREEMENT,Real Estate Owned - Leases,Lease Agreement,,false
+STOCK_PURCHASE_PLAN_PAYMENT,Income - Borrower 1040 Tax Returns w/ All Schedules,Stock Purchase Plan Payment,,false
+RD_(RURAL_DEVELOPMENT)_MORTGAGE_GUARANTY_INSURANCE_CANCELLATION_DISCLOSURE,UNKNOWN,RD (Rural Development) Mortgage Guaranty Insurance Cancellation Disclosure,,true
+A_1099_LTC,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-LTC,,false
+CERTIFICATE_OF_NATURALIZATION,UNKNOWN,Certificate Of Naturalization,,true
+FEDERAL_TAX_WITHHOLDINGS_ATTACHMENT,Income - Borrower 1040 Tax Returns w/ All Schedules,Federal Tax Withholdings Attachment,,false
+COMMERCIAL_LOAN_APPLICATION,Credit - Supporting Credit Docs,Commercial Loan Application,,false
+A_5227,Income - Borrower 1040 Tax Returns w/ All Schedules,5227,,false
+A_23,Income - Borrower 1040 Tax Returns w/ All Schedules,23,,false
+A_8716,Income - Borrower 1040 Tax Returns w/ All Schedules,8716,,false
+A_8717,Income - Borrower 1040 Tax Returns w/ All Schedules,8717,,false
+A_8718,Income - Borrower 1040 Tax Returns w/ All Schedules,8718,,false
+A_12508,Income - Borrower 1040 Tax Returns w/ All Schedules,12508,,false
+MORTGAGE,UNKNOWN,Mortgage,,true
+A_11652,Income - Borrower 1040 Tax Returns w/ All Schedules,11652,,false
+CLOSING_INSTRUCTIONS,Closing - Instruction to Settlement Agent,Closing Instructions,,false
+MORTGAGE_LOAN_COMMITMENT,Mortgage Loan Commitment,Mortgage Loan Commitment,,true
+AMORTIZATION_SCHEDULE,Amortization Schedule,Amortization Schedule,,true
+LARGE_DEPOSIT_EXPLANATION,Assets - Bank Statements,Large Deposit Explanation,,false
+OFFICIAL_FORM_106C_SCHEDULE_C_THE_PROPERTY_YOU_CLAIM_AS_EXEMPT,UNKNOWN,Official Form 106C - Schedule C: The Property You Claim As Exempt,,true
+A_1099_PATR,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-PATR,,false
+PROFESSIONAL_LIABILITY_INSURANCE,Professional Liability Insurance,Professional Liability Insurance,,true
+A_433_A_OIC,Income - Borrower 1040 Tax Returns w/ All Schedules,433-A (OIC),,false
+HUD/VA_ADDENDUM_TO_UNIFORM_RESIDENTIAL_LOAN_APPLICATION_(HUD_92900_A/26_1802A),UNKNOWN,HUD/VA Addendum To Uniform Residential Loan Application (HUD-92900-A/VA 26-1802A),,true
+CERTIFICATE_OF_COMPLETION,Appraisal - Final Inspection,Certificate Of Completion,,false
+A_1065_SCHEDULE_K_2,Income - Borrower Business Tax Returns,1065 Schedule K-2,,false
+A_1065_SCHEDULE_K_3,Income - Borrower Business Tax Returns,1065 Schedule K-3,,false
+FIRST_LIEN_APPRAISAL_WAIVER_OR_RECEIPT_FORM,UNKNOWN,First Lien Appraisal Waiver Or Receipt Form,,true
+A_11_C,Income - Borrower 1040 Tax Returns w/ All Schedules,11-C,,false
+TAX_TRANSCRIPT,Tax Transcript,IRS Tax Returns Transcripts,,true
+A_8978_SCHEDULE_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8978 Schedule A,,false
+FLOOD_INSURANCE_POLICY_DECLARATIONS,UNKNOWN,Flood Insurance Policy Declarations,,true
+CREDIT_LOSS_OF_INCOME_INSURANCE_DISCLOSURE,UNKNOWN,Credit Loss-Of-Income Insurance Disclosure,,true
+LOAN_APPLICATION_GENERIC_FORM,UNKNOWN,Loan Application (generic),,true
+FEDERAL_TAX_RETURN_WORKSHEET,Income - Borrower 1040 Tax Returns w/ All Schedules,Federal Tax Return Worksheet,,false
+A_14815_A,Income - Borrower 1040 Tax Returns w/ All Schedules,14815-A,,false
+TAX_CERTIFICATION,Income - Borrower 1040 Tax Returns w/ All Schedules,Tax Certification,,false
+PROPERTY_TAX_BENEFITS,UNKNOWN,Property Tax Benefits,,true
+A_13614_NR,Income - Borrower 1040 Tax Returns w/ All Schedules,13614-NR,,false
+CORRESPONDENCE_DISCLOSURE,UNKNOWN,Correspondence Disclosure,,true
+TAXPAYER_CONSENT_FORM,UNKNOWN,Taxpayer Consent Form,,true
+JUNIOR_LIEN_DISCLOSURE,UNKNOWN,Junior Lien Disclosure,,true
+OWNERS_AFFIDAVIT,UNKNOWN,Owner's Affidavit,,true
+A_56,Income - Borrower 1040 Tax Returns w/ All Schedules,56,,false
+A_8302,Income - Borrower 1040 Tax Returns w/ All Schedules,8302,,false
+SIGNATURES_ON_CLOSING_DISCLOSURE,UNKNOWN,Signatures on Closing Disclosure,,true
+A_8300,Income - Borrower 1040 Tax Returns w/ All Schedules,8300,,false
+A_1065_SCHEDULE_D,Income - Borrower Business Tax Returns,1065 Schedule D,,false
+A_1065_SCHEDULE_C,Income - Borrower 1040 Tax Returns w/ All Schedules,1065 Schedule C,,false
+HAZARD_INSURANCE_DISCLOSURE,UNKNOWN,Hazard Insurance Disclosure,,true
+MERCHANT_CASH_ADVANCE_CONTRACT,UNKNOWN,Merchant Cash Advance Contract,,true
+ESCROW_ACCOUNT_DISCLOSURE_DISTRICT_OF_COLUMBIA,UNKNOWN,Escrow Account Disclosure (Cx 1026; District Of Columbia),,true
+PROFIT_AND_LOSS_PROGRAM_QUESTIONNAIRE,UNKNOWN,Profit And Loss Program Questionnaire,,true
+A_8752,Income - Borrower 1040 Tax Returns w/ All Schedules,8752,,false
+A_6118,Income - Borrower 1040 Tax Returns w/ All Schedules,6118,,false
+COVER_PAGE,Cover Letters,Cover Page,,true
+DISABILITY_AWARD_LETTER,Income - Borrower Paystubs,DISABILITY_AWARD_LETTER,,false
+A_1040_K_1_DETAIL_SUMMARY_REPORT,UNKNOWN,1040 K-1 Detail Summary Report,,true
+WATER_INSPECTION_REPORT,UNKNOWN,Water Inspection Report,,true
+MORTGAGE_LOAN_DISCLOSURE_STATEMENT,UNKNOWN,Mortgage Loan Disclosure Statement,,true
+A_4506_T_EZ,Income - Borrower 1040 Tax Returns w/ All Schedules,4506-T-EZ,,false
+COLLATERAL_PROTECTION_ACT_NOTICE_ILLINOIS,UNKNOWN,Collateral Protection Act Notice (Cx 1302; Illinois),,true
+LOAN_ESTIMATE_SUMMARY_&_FEE_ITEMIZATION,Loan Estimate Summary & Fee Itemization,Loan Estimate Summary & Fee Itemization,,true
+DEPARTMENT_OF_THE_ARMY_PERMANENT_CHANGE_OF_STATION_ORDER,Credit - Supporting Credit Docs,Department of the Army Permanent Change of Station Order,,false
+A_1040_NR,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-NR,,false
+HIGH_COST_TANGIBLE_NET_BENEFIT_WORKSHEET,UNKNOWN,High Cost Tangible Net Benefit Worksheet,,true
+EXCLUSIVE_BUYER_BROKER_REPRESENTATION_AGREEMENT,UNKNOWN,Exclusive Buyer-Broker Representation Agreement,,true
+A_8328,Income - Borrower 1040 Tax Returns w/ All Schedules,8328,,false
+OWNER_BACKGROUND_CHECK_TESTING,UNKNOWN,Owner Background Check Testing,,true
+NOTICE_OF_RIGHT_TO_RECEIVE_COPY_OF_WRITTEN_APPRAISAL_OR_VALUATION,UNKNOWN,Notice Of Right To Receive Copy Of Written Appraisal Or Valuation,,true
+AGENCY_DISCLOSURE_STATEMENT,Agency Disclosure Statement,Agency Disclosure Statement,,true
+INITIAL_ESCROW_ACCOUNT_DISCLOSURE_STATEMENT,Initial Escrow Account Disclosure Statement,Initial Escrow Account Disclosure Statement,,true
+CONDITIONAL_APPROVAL,Conditional Approval,Conditional Approval,,true
+A_706_GS_D_1,Income - Borrower 1040 Tax Returns w/ All Schedules,706-GS(D-1),,false
+A_9661,Income - Borrower 1040 Tax Returns w/ All Schedules,9661,,false
+EXCLUSIVE_RIGHT_OF_SALE_LISTING_AGREEMENT,Exclusive Right Of Sale Listing Agreement,Exclusive Right Of Sale Listing Agreement,,true
+ACKNOWLEDGMENT_OF_RECEIPT_OF_YOUR_HOME_LOAN_TOOLKIT,UNKNOWN,Acknowledgment Of Receipt Of Your Home Loan Toolkit,,true
+LETTER_OF_EXPLANATION,Credit - Borrower Explanation/Credit Inquiry/Motivation,Letter Of Explanation,,false
+A_8316,Income - Borrower 1040 Tax Returns w/ All Schedules,8316,,false
+FEMA_DISASTER_SEARCH_RESULTS,UNKNOWN,FEMA Disaster Search Results,,true
+A_1099_MISC,Income - Borrower W-2 Most Recent Yr,{$FIELDS.a_1099_misc-Part1-PayerPii:payerName}_1099_MISC_{$FIELDS.a_1099_misc-Part1-PayerPii:taxFormYear},,false
+A_1120S_FUTURE_DEPRECIATION_REPORT,UNKNOWN,1120S Future Depreciation Report,,true
+SCHEDULE_E_K_1_RECONCILIATION_WORKSHEET_QUALIFIED_BUSINESS_INCOME,UNKNOWN,Schedule E - K-1 Reconciliation Worksheet - Qualified Business Income,,true
+LOAN_AGREEMENT_NOTICE,UNKNOWN,Loan Agreement Notice,,true
+A_SS_16,Income - Borrower 1040 Tax Returns w/ All Schedules,SS-16,,false
+VA_LENDER_CERTIFICATION,VA - Lender Cert,VA Lender Certification,,false
+A_8453_PE,Income - Borrower 1040 Tax Returns w/ All Schedules,8453-PE,,false
+SELF_EMPLOYED_BUSINESS_NARRATIVE,Credit - Borrower Explanation/Credit Inquiry/Motivation,Self Employed Business Narrative,,false
+DISCLOSURE_OF_RIGHT_NOT_TO_CLOSE,UNKNOWN,Disclosure Of Right Not To Close,,true
+A_8308,Income - Borrower 1040 Tax Returns w/ All Schedules,8308,,false
+SCHEDULE_E_QUALIFIED_BUSINESS_INCOME_CALCULATION_WORKSHEET,UNKNOWN,Schedule E - Qualified Business Income Calculation Worksheet,,true
+LOAN_ORIGINATOR_LICENSE_DISCLOSURE,UNKNOWN,Loan Originator License Disclosure,,true
+IMPORTANT_PRIVACY_CHOICES_FOR_CONSUMERS,UNKNOWN,Important Privacy Choices For Consumers,,true
+A_990,Income - Borrower 1040 Tax Returns w/ All Schedules,990,,false
+APPRAISAL_NOTICE,Appraisal Documents,APPRAISAL_NOTICE_{$FIELDS.appraisal_notice-General:dateSent|YYYY_MM_DD},,true
+PAYOFF_STATEMENT,Credit - Mortgage Payoffs,Payoff Statement,,false
+REHABILITATION_LOAN_RIDER,UNKNOWN,Rehabilitation Loan Rider,,true
+BORROWER_AUTHORIZATION,UNKNOWN,Borrower Authorization,,true
+PURCHASE_MONEY_CAPTION_ON_STANDARD_SECURITY_INSTRUMENTS,UNKNOWN,Purchase Money Caption on Standard Security Instruments,,true
+ARM_DISCLOSURE,ARM Disclosure,Arm Disclosure,,true
+UNDISCLOSED_DEBT_MONITORING_UDM_DETAIL_REPORT,UNKNOWN,Undisclosed Debt Monitoring (UDM) Details Report,,true
+A_2210_F,Income - Borrower 1040 Tax Returns w/ All Schedules,2210-F,,false
+A_7004,Income - Borrower 1040 Tax Returns w/ All Schedules,7004,,false
+A_8332,Income - Borrower 1040 Tax Returns w/ All Schedules,8332,,false
+A_8330,Income - Borrower 1040 Tax Returns w/ All Schedules,8330,,false
+A_940_SCHEDULE_R,Income - Borrower 1040 Tax Returns w/ All Schedules,940 Schedule R,,false
+BALANCE_SHEET,Income - Current P&L/Balance Sheet,Balance Sheet,,false
+VERIFICATION_OF_EMPLOYMENT,Income - Borrower VOEs,{$FIELDS.verification_of_employment-Part1-General:employeeName}_VOE,,false
+MORTGAGE_INSURANCE_PAYMENT_RECEIPT,UNKNOWN,Mortgage Insurance Payment Receipt,,false
+RIGHT_TO_CHOOSE_INSURANCE_PROVIDER_DISCLOSURE,UNKNOWN,Right To Choose Insurance Provider Disclosure,,true
+OFFICE_OF_PERSONNEL_MANAGEMENT_ANNUITY_STATEMENT,UNKNOWN,Office Of Personnel Management (OPM) Annuity Statement,,true
+A_940_SCHEDULE_A,Income - Borrower 1040 Tax Returns w/ All Schedules,940 Schedule A,,false
+A_8329,Income - Borrower 1040 Tax Returns w/ All Schedules,8329,,false
+1120S_TWO_YEAR_COMPARISON_WORKSHEET,Income - Borrower Business Tax Returns,1120-S Two-Year Comparison Worksheet,,false
+A_8809_I,Income - Borrower 1040 Tax Returns w/ All Schedules,8809-I,,false
+A_720,Income - Borrower 1040 Tax Returns w/ All Schedules,720,,false
+A_12277,Income - Borrower 1040 Tax Returns w/ All Schedules,12277,,false
+A_14452,Income - Borrower 1040 Tax Returns w/ All Schedules,14452,,false
+A_14454,Income - Borrower 1040 Tax Returns w/ All Schedules,14454,,false
+A_1040_SCHEDULE_H_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_h_2018-Part1-General:nameOfEmployer}_1040_SCHEDULE_H_2018,,false
+A_1040_SCHEDULE_H_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_h_2019-Part1-General:nameOfEmployer}_1040_SCHEDULE_H_2019,,false
+PRINCIPAL_RESIDENCE_EXEMPTION_PRE_AFFIDAVIT,UNKNOWN,Principal Residence Exemption (PRE) Affidavit,,true
+INSURANCE_DISCLOSURE_ACKNOWLEDGMENT_OF_RECEIPT,UNKNOWN,Insurance Disclosure Acknowledgment of Receipt,,true
+HENRY_CANON_FORM,Henry Canonical Form Type,Henry Canonical Form Type,,true
+MEMBER_DATA_SUMMARY,UNKNOWN,Member Data Summary,,true
+A_9465,Income - Borrower 1040 Tax Returns w/ All Schedules,9465,,false
+VA_LOAN_APPLICANTS_DISCLOSURE,UNKNOWN,VA Loan Applicants Disclosure,,true
+LOAN_QUALITY_INITIATIVE_DISCLOSURE,Loan Quality Initiative Disclosure,Loan Quality Initiative Disclosure,,true
+POWER_OF_ATTORNEY,Closing - Power of Attorney,Power Of Attorney,,false
+CERTIFICATE_OF_LICENSE_HISTORY,Certificate Of License History,Certificate Of License History,,true
+OFFICIAL_FORM_101_VOLUNTARY_PETITION_FOR_INDIVIDUALS_FILING_FOR_BANKRUPTCY,Credit - Bankruptcy Papers,Official Form 101 - Voluntary Petition for Individuals Filing for Bankruptcy,,false
+A_712,Income - Borrower 1040 Tax Returns w/ All Schedules,712,,false
+A_8596,Income - Borrower 1040 Tax Returns w/ All Schedules,8596,,false
+A_15314,Income - Borrower 1040 Tax Returns w/ All Schedules,15314,,false
+A_8594,Income - Borrower 1040 Tax Returns w/ All Schedules,8594,,false
+A_15315,Income - Borrower 1040 Tax Returns w/ All Schedules,15315,,false
+RD_1924_25_PLAN_CERTIFICATION,UNKNOWN,RD 1924-25 - Plan Certification,,true
+HIGH_COST_LOAN_INSURANCE_DISCLOSURE,UNKNOWN,High Cost Loan Insurance Disclosure,,true
+DISCLOSURE_OF_SERVICER,UNKNOWN,Disclosure of Servicer,,true
+A_13285_A,Income - Borrower 1040 Tax Returns w/ All Schedules,13285-A,,false
+LOAN_DISBURSEMENT_INSTRUCTIONS,UNKNOWN,Loan Disbursement Instructions,,true
+A_14462,Income - Borrower 1040 Tax Returns w/ All Schedules,14462,,false
+A_8453_TE,Income - Borrower 1040 Tax Returns w/ All Schedules,8453-TE,,false
+A_1099_SA,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-SA,,false
+A_1099_SB,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-SB,,false
+A_1040_SCHEDULE_A_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_A_2024_{$FIELDS.a_1040_schedule_a_2024-Part01-General:name(s)ShownOnForm1040Or1040-Sr},,false
+A_709,Income - Borrower 1040 Tax Returns w/ All Schedules,709,,false
+A_1040_SCHEDULE_A_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_A_2025_{$FIELDS.a_1040_schedule_a_2025-Part01-General:namesShownOnForm1040Or1040Sr},,false
+DD_FORM_214_CERTIFICATE_OF_RELEASE_OR_DISCHARGE_FROM_ACTIVE_DUTY,VA - 26-1880 Eligibility Certificate,DD Form 214 Certificate Of Release Or Discharge From Active Duty,,false
+A_1040_SCHEDULE_A_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_a_2020-Part1-General:name(s)ShownOnForm1040Or1040-Sr}_1040_SCHEDULE_A_2020,,false
+A_14568_I,Income - Borrower 1040 Tax Returns w/ All Schedules,14568-I,,false
+A_1040_SCHEDULE_A_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_A_2021_{$FIELDS.a_1040_schedule_a_2021-Part1-General:name(s)ShownOnForm1040Or1040-Sr},,false
+A_1040_SCHEDULE_A_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_A_2022_{$FIELDS.a_1040_schedule_a_2022-Part01-General:name(s)ShownOnForm1040Or1040-Sr},,false
+A_1040_SCHEDULE_A_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_A_2023_{$FIELDS.a_1040_schedule_a_2023-Part01-General:name(s)ShownOnForm1040Or1040-Sr},,false
+FHA_REFINANCE_AUTHORIZATION,FHA Refinance Authorization,FHA Refinance Authorization,,true
+OFFICIAL_FORM_106DEC_DECLARATION_ABOUT_AN_INDIVIDUAL_DEBTORS_SCHEDULES,Official Form 106Dec - Declaration About An Individual Debtor’s Schedules,Official Form 106Dec - Declaration About An Individual Debtor’s Schedules,,true
+1009_RESIDENTIAL_LOAN_APPLICATION_FOR_REVERSE_MORTGAGES,UNKNOWN,1009 - Residential Loan Application For Reverse Mortgages,,true
+ASSIGNMENT_OF_MORTGAGE,UNKNOWN,Assignment Of Mortgage,,true
+ELECTRONIC_FILING_INSTRUCTION,Income - Borrower 1040 Tax Returns w/ All Schedules,Electronic Filing Instruction,,false
+LETTER_FROM_THE_PAYOR,Credit - Divorce Decree/Child Support - Liabilty/Income,Letter From The Payor (alimony or child support),,false
+A_12256,Income - Borrower 1040 Tax Returns w/ All Schedules,12256,,false
+TITLE_INSURANCE_DISCLOSURE,UNKNOWN,Title Insurance Disclosure,,true
+1003_2009,1003,{$FIELDS.1003_2009-General:borrowerName}_1003_2009_{$FIELDS.1003_2009-Part18-Ix-AcknowledgementAndAgreement:borrower'sSignatureDate|YYYY_MM_DD},,true
+FAIR_HOUSING_DISCLOSURE,UNKNOWN,Fair Housing Disclosure,,true
+A_1040_SCHEDULE_A_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_a_2018-Part1-General:name(s)ShownOnForm1040}_1040_SCHEDULE_A_2018,,false
+A_1040_SCHEDULE_A_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_a_2019-Part1-General:name(s)ShownOnForm1040Or1040-Sr}_1040_SCHEDULE_A_2019,,false
+A_1120_S_SCHEDULE_B_1,Income - Borrower Business Tax Returns,1120-S Schedule B-1,,false
+FHA_HOMEOWNER_CONTRACTOR_AGREEMENT,UNKNOWN,FHA Homeowner/Contractor Agreement,,true
+ALTERNATIVE_MORTGAGE_LOAN_PRODUCT_DISCLOSURE,UNKNOWN,Alternative Mortgage Loan Product Disclosure,,true
+A_5498_QA,Income - Borrower 1040 Tax Returns w/ All Schedules,5498-QA,,false
+A_730,Income - Borrower 1040 Tax Returns w/ All Schedules,730,,false
+A_14446,Income - Borrower 1040 Tax Returns w/ All Schedules,14446,,false
+1003_2020,1003,{$FIELDS.1003_2020-Part02-1A-PersonalInformation:name(FirstMiddleLastSuffix)}_1003_2020_{$FIELDS.1003_2020-Part07-AcknowledgmentsAndAgreements:borrowerSignatureDate|YYYY_MM_DD},,true
+A_5500_EZ,Income - Borrower 1040 Tax Returns w/ All Schedules,5500-EZ,,false
+A_8995_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8995-A,,false
+A_1023_EZ,Income - Borrower 1040 Tax Returns w/ All Schedules,1023-EZ,,false
+HOMEOWNER_INSURANCE_POLICY,Subject Property - Homeowner's Insurance Policy,HOI_{$FIELDS.homeowner_insurance_policy-Part2-PolicyInformation:year},,false
+A_8916_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8916-A,,false
+LISTING_INFORMATION,Subject Property - Contract,Listing Information,,false
+A_1040_SCHEDULE_EIC_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_EIC_2022_{$FIELDS.a_1040_schedule_eic_2022-Part1-General:name(s)ShownOnReturn},,false
+A_1040_SCHEDULE_EIC_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_EIC_2023_{$FIELDS.a_1040_schedule_eic_2023-Part1-General:name(s)ShownOnReturn},,false
+A_1040_SCHEDULE_EIC_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_EIC_2024_{$FIELDS.a_1040_schedule_eic_2024-Part01-General:name(s)ShownOnReturn},,false
+A_1040_SCHEDULE_EIC_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_EIC_2025_{$FIELDS.a_1040_schedule_eic_2025-Part01-General:namesShownOnReturn},,false
+A_14017,Income - Borrower 1040 Tax Returns w/ All Schedules,14017,,false
+HUD_NPMA_99_A_SUBTERRANEAN_TERMITE_PROTECTION_BUILDERS_GUARANTEE,Construction - Termite - NCPA,HUD-NPMA-99-A Subterranean Termite Protection Builder's Guarantee,,false
+APPRAISAL_FEE_DISCLOSURE,UNKNOWN,Appraisal Fee Disclosure,,true
+ANTI_COERCION_INSURANCE_DISCLOSURE,UNKNOWN,Anti-Coercion Insurance Disclosure,,true
+A_8453_WH,Income - Borrower 1040 Tax Returns w/ All Schedules,8453-WH,,false
+PLANNED_UNIT_DEVELOPMENT_(PUD)_RIDER,UNKNOWN,Planned Unit Development (PUD) Rider,,true
+STANDARD_LENDER_QUESTIONNAIRE,UNKNOWN,Standard Lender Questionnaire,,true
+A_1040_SCHEDULE_EIC_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_eic_2018-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_EIC_2018,,false
+DELIVERY_OF_NET_PROCEEDS_AUTHORIZATION,UNKNOWN,Delivery Of Net Proceeds Authorization,,true
+PRE_APPROVAL_LETTER,Misc. - Pre-qualification docs,Pre-Approval Letter,,false
+A_1040_SCHEDULE_EIC_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_eic_2019-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_EIC_2019,,false
+A_2848,Income - Borrower 1040 Tax Returns w/ All Schedules,2848,,false
+A_14568_B,Income - Borrower 1040 Tax Returns w/ All Schedules,14568-B,,false
+A_14568_A,Income - Borrower 1040 Tax Returns w/ All Schedules,14568-A,,false
+A_14568_D,Income - Borrower 1040 Tax Returns w/ All Schedules,14568-D,,false
+A_1040_SCHEDULE_EIC_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_eic_2020-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_EIC_2020,,false
+LIEN_WAIVER_FORM,UNKNOWN,Lien Waiver Form,,true
+HUD_92561_BORROWERS_CONTRACT_WITH_RESPECT_TO_HOTEL_AND_TRANSIENT_USE_OF_PROPERTY,UNKNOWN,HUD-92561 Borrower's Contract With Respect To Hotel And Transient Use Of Property,,true
+A_14568_C,Income - Borrower 1040 Tax Returns w/ All Schedules,14568-C,,false
+A_1040_SCHEDULE_EIC_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_EIC_2021_{$FIELDS.a_1040_schedule_eic_2021-Part1-General:name(s)ShownOnReturn},,false
+A_14568_F,Income - Borrower 1040 Tax Returns w/ All Schedules,14568-F,,false
+A_14568_E,Income - Borrower 1040 Tax Returns w/ All Schedules,14568-E,,false
+A_14568_H,Income - Borrower 1040 Tax Returns w/ All Schedules,14568-H,,false
+NOTICE_TO_CLOSING_AGENT,UNKNOWN,Notice To Closing Agent,,true
+INCOMING_WIRE_DIRECT_DEPOSIT_CONFIRMATION,Assets - Bank Statements,Incoming Wire Direct Deposit Confirmation,,false
+A_14568_G,Income - Borrower 1040 Tax Returns w/ All Schedules,14568-G,,false
+EBUSINESS_AGREEMENT,UNKNOWN,E-Business Agreement,,true
+ANTI_STEERING_LOAN_OPTIONS_DISCLOSURE,UNKNOWN,Anti-Steering Loan Options Disclosure,,true
+A_706,Income - Borrower 1040 Tax Returns w/ All Schedules,706,,false
+A_1120S_SCHEDULE_B_2025,Income - Borrower Business Tax Returns,1120S Schedule B (2025),,false
+POST_DISASTER_INSPECTION,UNKNOWN,Post Disaster Inspection,,true
+A_1120S_SCHEDULE_B_2024,Income - Borrower Business Tax Returns,1120S Schedule B (2024),,false
+A_1065_X,Income - Borrower Business Tax Returns,1065-X,,false
+A_1120S_SCHEDULE_B_2023,Income - Borrower Business Tax Returns,1120S Schedule B (2023),,false
+A_1120S_SCHEDULE_B_2022,Income - Borrower Business Tax Returns,1120-S Schedule B (2022),,false
+A_1120S_SCHEDULE_B_2021,Income - Borrower Business Tax Returns,1120-S Schedule B (2021),,false
+CSO_(CREDIT_SERVICE_ORGANIZATION)_CONTRACT,UNKNOWN,CSO (Credit Service Organization) Contract,,true
+A_1120S_SCHEDULE_B_2020,Income - Borrower Business Tax Returns,1120-S Schedule B (2020),,false
+IMPORTANT_INFORMATION_UNDISCLOSED_DEBT,UNKNOWN,Important Information Undisclosed Debt,,true
+A_1099_OID,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-OID,,false
+LIQUIDITY_WORKSHEET,UNKNOWN,Liquidity Worksheet,,true
+EARLY_CHECK_LOAN_LEVEL_RESULTS,UNKNOWN,EarlyCheck Loan-Level Results,,true
+INVOICE_TESTING,Invoice Testing,Invoice Testing,,true
+A_15320,Income - Borrower 1040 Tax Returns w/ All Schedules,15320,,false
+A_9000,Income - Borrower 1040 Tax Returns w/ All Schedules,9000,,false
+CHARITABLE_DEDUCTION_LIMITS_WORKSHEET,Income - Borrower 1040 Tax Returns w/ All Schedules,Charitable Deduction Limits Worksheet,,false
+BROKER_HPML_(HIGH_PRICED_MORTGAGE_LOANS)_DISCLOSURE,UNKNOWN,Broker HPML (High-Priced Mortgage Loans) Disclosure,,true
+A_1120S_SCHEDULE_B_2019,Income - Borrower Business Tax Returns,1120-S Schedule B (2019),,false
+CHANGE_IN_BENEFITS_NOTICE,Income - Borrower Paystubs,Change In Benefits Notice,,false
+A_1120S_SCHEDULE_B_2018,Income - Borrower Business Tax Returns,1120-S Schedule B (2018),,false
+RD_3555_18_LENDER_CERTIFICATION,RD 3555-18 - Lender Certification,RD 3555-18 - Lender Certification,,true
+ISO_APP,ISO App,ISO Small Business Loan Application,,true
+STANDARD_203(K)_PURCHASE_TRANSACTION_MAXIMUM_MORTGAGE_CALCULATION,UNKNOWN,Standard 203(K) Purchase Transaction - Maximum Mortgage Calculation,,true
+A_8804_SCHEDULE_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8804 Schedule A,,false
+STATE_HOME_MORTGAGE_SERVICING_LOAN_PROFILE_SF_31,UNKNOWN,State Home Mortgage - Servicing Loan Profile (Form SF-31),,true
+MARITAL_PROPERTY_APPLICATION_DISCLOSURE,UNKNOWN,Marital Property Application Disclosure,,true
+A_12673,Income - Borrower 1040 Tax Returns w/ All Schedules,12673,,false
+A_W_8BEN_E,Income - Borrower 1040 Tax Returns w/ All Schedules,W-8BEN-E,,false
+PAYMENT_REDUCTION_FEE_DISCLOSURE,UNKNOWN,Payment Reduction Fee Disclosure,,true
+BUSINESS_RELATIONSHIP_DISCLOSURE_NOTICE,UNKNOWN,Business Relationship Disclosure Notice,,true
+UNIFORM_APPRAISAL_DATASET_(UAD)_DEFINITIONS_ADDENDUM,UNKNOWN,Uniform Appraisal Dataset (UAD) Definitions Addendum,,true
+A_1040_SCHEDULE_3_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_3_2020-Part1-General:name(s)ShownOnForm10401040-SrOr1040-Nr}_1040_SCHEDULE_3_2020,,false
+A_1040_SCHEDULE_3_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_3_2021_{$FIELDS.a_1040_schedule_3_2021-General:name(s)ShownOnForm10401040-SrOr1040-Nr},,false
+PATRIOT_OR_OFAC_SEARCH,UNKNOWN,Patriot Or OFAC Search,,true
+A_1040_SCHEDULE_3_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_3_2022_{$FIELDS.a_1040_schedule_3_2022-General:name(s)ShownOnForm10401040-SrOr1040-Nr},,false
+A_1040_SCHEDULE_3_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_3_2023_{$FIELDS.a_1040_schedule_3_2023-Part1-General:name(s)ShownOnForm10401040-SrOr1040-Nr},,false
+APPROVED_LOAN_NOTIFICATION,UNKNOWN,Approved Loan Notification,,true
+A_1040_SCHEDULE_3_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_3_2024_{$FIELDS.a_1040_schedule_3_2024-Part01-General:name(s)ShownOnForm10401040-SrOr1040-Nr},,false
+A_1040_SCHEDULE_3_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_3_2025_{$FIELDS.a_1040_schedule_3_2025-Part01-General:namesShownOnForm10401040SrOr1040Nr},,false
+FEASIBILITY_REPORT,UNKNOWN,Feasibility Report,,true
+A_1120S_SCHEDULE_K_1_2025,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_K_1_2025,,false
+A_1120S_SCHEDULE_K_1_2024,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_K_1_2024,,false
+A_1120S_SCHEDULE_K_1_2023,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_K_1_2023,,false
+CREDIT_AGREEMENT,Credit - Supporting Credit Docs,Credit Agreement,,false
+A_1120S_SCHEDULE_K_1_2022,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_K_1_2022,,false
+A_4835_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,4835 (2024),,false
+A_4835_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,4835 (2023),,false
+A_5498_ESA,Income - Borrower 1040 Tax Returns w/ All Schedules,5498-ESA,,false
+A_4835_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,4835 (2022),,false
+HAZARD_INSURANCE_ENDORSEMENT_LETTER,UNKNOWN,Hazard Insurance Endorsement Letter,,true
+A_1120S_SCHEDULE_K_1_2021,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_K_1_2021,,false
+A_1120S_SCHEDULE_K_1_2020,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_K_1_2020,,false
+A_4835_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,4835 (2025),,false
+PURCHASE_ADVICE_AND_WIRE_DETAILS_FINAL,UNKNOWN,Purchase Advice And Wire Details Final,,true
+A_12203,Income - Borrower 1040 Tax Returns w/ All Schedules,12203,,false
+A_13533,Income - Borrower 1040 Tax Returns w/ All Schedules,13533,,false
+A_1120S_SCHEDULE_K_1_2019,Income - Borrower Business Tax Returns,A_1120S_SCHEDULE_K_1_2019,,false
+A_1120S_SCHEDULE_K_1_2018,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_K_1_2018,,false
+A_1120S_SCHEDULE_K_1_2017,1120S Schedule K 1 (2017),"1120S  Schedule K 1 (Shareholder’s Share of Income, Deductions, Credits, etc.) (2017)",,true
+A_1120S_SCHEDULE_K_1_2016,1120S Schedule K 1 (2016),"1120S  Schedule K 1 (Shareholder’s Share of Income, Deductions, Credits, etc.) (2016)",,true
+A_1120S_SCHEDULE_K_1_2015,1120S Schedule K 1 (2015),"1120S  Schedule K 1 (Shareholder’s Share of Income, Deductions, Credits, etc.) (2015)",,true
+A_2441,Income - Borrower 1040 Tax Returns w/ All Schedules,2441,,false
+A_13989,Income - Borrower 1040 Tax Returns w/ All Schedules,13989,,false
+MORTGAGE_BROKERAGE_AGREEMENT_AND_APPLICATION_FEE_DISCLOSURE,UNKNOWN,Mortgage Brokerage Agreement And Application Fee Disclosure,,true
+A_1065_SCHEDULE_B_1,Income - Borrower Business Tax Returns,1065 Schedule B-1,,false
+OFFICIAL_FORM_106D_SCHEDULE_D_CREDITORS_WHO_HAVE_CLAIMS_SECURED_BY_PROPERTY,UNKNOWN,Official Form 106D - Schedule D: Creditors Who Have Claims Secured By Property,,true
+A_5471_SCHEDULE_P,Income - Borrower 1040 Tax Returns w/ All Schedules,5471 Schedule P,,false
+A_5471_SCHEDULE_Q,Income - Borrower 1040 Tax Returns w/ All Schedules,5471 Schedule Q,,false
+A_5471_SCHEDULE_R,Income - Borrower 1040 Tax Returns w/ All Schedules,5471 Schedule R,,false
+A_5471_SCHEDULE_H,Income - Borrower 1040 Tax Returns w/ All Schedules,5471 Schedule H,,false
+SUBMISSION_SUMMARY_REPORT,UNKNOWN,Submission Summary Report,,true
+A_5471_SCHEDULE_J,Income - Borrower 1040 Tax Returns w/ All Schedules,5471 Schedule J,,false
+A_1120_SCHEDULE_G,Income - Borrower Business Tax Returns,{$FIELDS.a_1120_schedule_g-General:name}_1120_SCHEDULE_G,,false
+A_1120_SCHEDULE_H,Income - Borrower Business Tax Returns,1120 Schedule H,,false
+A_8858_SCHEDULE_M,Income - Borrower 1040 Tax Returns w/ All Schedules,8858 Schedule M,,false
+A_5471_SCHEDULE_M,Income - Borrower 1040 Tax Returns w/ All Schedules,5471 Schedule M,,false
+A_8865_SCHEDULE_K_1,Income - Borrower 1040 Tax Returns w/ All Schedules,8865 Schedule K-1,,false
+A_5471_SCHEDULE_O,Income - Borrower 1040 Tax Returns w/ All Schedules,5471 Schedule O,,false
+A_8865_SCHEDULE_K_3,Income - Borrower 1040 Tax Returns w/ All Schedules,8865 Schedule K-3,,false
+A_2438,Income - Borrower 1040 Tax Returns w/ All Schedules,2438,,false
+UTILITY_BILL,Credit - Supporting Credit Docs,Utility Bill,,false
+A_8865_SCHEDULE_K_2,Income - Borrower 1040 Tax Returns w/ All Schedules,8865 Schedule K-2,,false
+A_1120_SCHEDULE_N,Income - Borrower Business Tax Returns,1120 Schedule N,,false
+A_1120_SCHEDULE_O,Income - Borrower Business Tax Returns,1120 Schedule O,,false
+A_2439,Income - Borrower 1040 Tax Returns w/ All Schedules,2439,,false
+OFFICIAL_FORM_106E/F_SCHEDULE_E/F_CREDITORS_WHO_HAVE_UNSECURED_CLAIMS,Credit - Bankruptcy Papers,Official Form 106E/F - Schedule E/F: Creditors Who Have Unsecured Claims,,false
+A_1065_SCHEDULE_B_2,Income - Borrower 1040 Tax Returns w/ All Schedules,1065 Schedule B-2,,false
+A_5471_SCHEDULE_E,Income - Borrower 1040 Tax Returns w/ All Schedules,5471 Schedule E,,false
+A_1099_LS,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-LS,,false
+RD_400_6_COMPLIANCE_STATEMENT,UNKNOWN,RD 400-6 - Compliance Statement,,true
+A_12661,Income - Borrower 1040 Tax Returns w/ All Schedules,12661,,false
+A_13997,Income - Borrower 1040 Tax Returns w/ All Schedules,13997,,false
+A_1120_SCHEDULE_B,Income - Borrower Business Tax Returns,1120 Schedule B,,false
+A_1120_SCHEDULE_D,Income - Borrower Business Tax Returns,1120 Schedule D,,false
+BANKRUPTCY_SEARCH,UNKNOWN,Bankruptcy Search,,true
+HUD_92900_A_HUD_ADDENDUM_TO_UNIFORM_RESIDENTIAL_LOAN_APPLICATION,UNKNOWN,HUD-92900-A HUD Addendum To Uniform Residential Loan Application,,true
+HIGH_COST_LOAN_COUNSELING_DISCLOSURE,UNKNOWN,High Cost Loan Counseling Disclosure,,true
+A_8609_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8609-A,,false
+HOMEOWNER_INSURANCE_QUOTE,Subject Property - Homeowner's Insurance Policy,Homeowner Insurance Quote,,false
+ERRORS_AND_OMISSIONS_AGREEMENT,UNKNOWN,Errors And Omissions Agreement,,true
+A_14417,Income - Borrower 1040 Tax Returns w/ All Schedules,14417,,false
+A_8453_R,Income - Borrower 1040 Tax Returns w/ All Schedules,8453-R,,false
+A_14414,Income - Borrower 1040 Tax Returns w/ All Schedules,14414,,false
+A_8453_S,Income - Borrower 1040 Tax Returns w/ All Schedules,8453-S,,false
+A_14411,Income - Borrower 1040 Tax Returns w/ All Schedules,14411,,false
+A_8453_X,Income - Borrower 1040 Tax Returns w/ All Schedules,8453-X,,false
+A_13560,Income - Borrower 1040 Tax Returns w/ All Schedules,13560,,false
+A_1128,Income - Borrower 1040 Tax Returns w/ All Schedules,1128,,false
+AFFILIATED_BUSINESS_ARRANGEMENT_DISCLOSURE_AGREEMENT,UNKNOWN,Affiliated Business Arrangement Disclosure Agreement,,true
+VA_CHILD_CARE_STATEMENT,VA Documents,VA Child Care Statement,,true
+A_1127,Income - Borrower 1040 Tax Returns w/ All Schedules,1127,,false
+A_1122,Income - Borrower 1040 Tax Returns w/ All Schedules,1122,,false
+LOAN_APPROVAL_LETTER,UNKNOWN,Loan Approval Letter,,true
+A_14429,Income - Borrower 1040 Tax Returns w/ All Schedules,14429,,false
+PROPERTY_DETAILS_AND_INSPECTION,UNKNOWN,Property Details And Inspection,,true
+A_1120_FSC,Income - Borrower Business Tax Returns,1120-FSC,,false
+A_13441_A,Income - Borrower 1040 Tax Returns w/ All Schedules,13441-A,,false
+A_1117,Income - Borrower 1040 Tax Returns w/ All Schedules,1117,,false
+A_1065_SCHEDULE_K_1_2018,Income - Borrower Business Tax Returns,1065_SCHEDULE_K_1_2018_{$SUMMARY.pages},,false
+A_1118,Income - Borrower 1040 Tax Returns w/ All Schedules,1118,,false
+A_1065_SCHEDULE_K_1_2019,Income - Borrower Business Tax Returns,1065_SCHEDULE_K_1_2019_{$SUMMARY.pages},,false
+SOCIAL_SECURITY_VERIFICATION_SERVICES,UNKNOWN,Social Security Verification Services,,true
+A_1065_SCHEDULE_K_1_2015,1065 Schedule K 1 (2015),"1065 Schedule K 1 (Partner’s Share of Income, Deductions,
+Credits, etc.) (2015)",,true
+A_8453_C,Income - Borrower 1040 Tax Returns w/ All Schedules,8453-C,,false
+A_1065_SCHEDULE_K_1_2016,1065 Schedule K 1 (2016),"1065 Schedule K 1 (Partner’s Share of Income, Deductions,
+Credits, etc.) (2016)",,true
+A_1065_SCHEDULE_K_1_2017,1065 Schedule K 1 (2017),"1065 Schedule K 1 (Partner’s Share of Income, Deductions,
+Credits, etc.) (2017)",,true
+A_1116,Income - Borrower 1040 Tax Returns w/ All Schedules,1116,,false
+REVERSE_MORTGAGE_INTEREST_DISCLOSURE,UNKNOWN,Reverse Mortgage Interest Disclosure,,true
+BUSINESS_BACKGROUND_CHECK_TESTING,UNKNOWN,Business Background Check Testing,,true
+MORTGAGE_INSURANCE_(MI)_RATE_QUOTE,Mortgage Insurance (MI) Rate Quote,Mortgage Insurance (MI) Rate Quote,,true
+A_1041_SCHEDULE_K_1,Income - Borrower 1040 Tax Returns w/ All Schedules,1041 Schedule K-1,,false
+RECEIPT_FOR_ESCROW_ACCOUNT,Receipt For Escrow Account,Receipt For Escrow Account,,true
+FEDERAL_TAX_RETURN,Federal Tax Return,Federal Tax Return,,true
+A_1065_SCHEDULE_K_1_2021,Income - Borrower Business Tax Returns,1065_SCHEDULE_K_1_2021_{$SUMMARY.pages},,false
+A_1065_SCHEDULE_K_1_2022,Income - Borrower Business Tax Returns,1065_SCHEDULE_K_1_2022_{$SUMMARY.pages},,false
+A_1065_SCHEDULE_K_1_2023,Income - Borrower Business Tax Returns,1065_SCHEDULE_K_1_2023_{$SUMMARY.pages},,false
+A_1065_SCHEDULE_K_1_2024,Income - Borrower Business Tax Returns,1065_SCHEDULE_K_1_2024_{$SUMMARY.pages},,false
+CO_BROKER_DISCLOSURE,UNKNOWN,Co-Broker Disclosure,,true
+A_1065_SCHEDULE_K_1_2020,Income - Borrower Business Tax Returns,1065_SCHEDULE_K_1_2020_{$SUMMARY.pages},,false
+INSURANCE_DISCLOSURE,UNKNOWN,Insurance Disclosure,,true
+A_1065_SCHEDULE_K_1_2025,Income - Borrower Business Tax Returns,1065_SCHEDULE_K_1_2025_{$SUMMARY.pages},,false
+FRAUD_REPORT,UNKNOWN,Fraud Report,,true
+DEBT_CONSOLIDATION_LETTER,Debt Consolidation Letter,Debt Consolidation Letter,,true
+DEPOSITED_CHECK,Assets - Copy of Deposit Check,DEPOSITED_CHECK,,false
+A_14402,Income - Borrower 1040 Tax Returns w/ All Schedules,14402,,false
+A_13551,Income - Borrower 1040 Tax Returns w/ All Schedules,13551,,false
+TRUST_AGREEMENT_OR_TRUST_CERTIFICATION,Subject Property - Trust Information,Trust Agreement Or Trust Certification,,false
+EMERGENCY_REPAIRS_VIOLATION_SEARCH,UNKNOWN,Emergency Repairs Violation Search,,true
+EVIDENCE_OF_JOINT_APPLICATION,Evidence Of Joint Application,Evidence Of Joint Application,,true
+EARTHQUAKE_INSURANCE_FOR_CONDOMINIUMS_DISCLOSURE,UNKNOWN,Earthquake Insurance for Condominiums Disclosure,,true
+A_1040_SCHEDULE_H_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_H_2025_{$FIELDS.a_1040_schedule_h_2025-Part01-General:nameOfEmployer},,false
+A_1040_SCHEDULE_H_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_H_2023_{$FIELDS.a_1040_schedule_h_2023-Part1-General:nameOfEmployer},,false
+A_1040_SCHEDULE_H_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_H_2024_{$FIELDS.a_1040_schedule_h_2024-Part01-General:nameOfEmployer},,false
+ALLONGE_TO_NOTE,UNKNOWN,Allonge To Note,,true
+A_1139,Income - Borrower 1040 Tax Returns w/ All Schedules,1139,,false
+A_1040_SCHEDULE_H_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_H_2021_{$FIELDS.a_1040_schedule_h_2021-Part1-General:nameOfEmployer},,false
+A_1040_SCHEDULE_H_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_H_2022_{$FIELDS.a_1040_schedule_h_2022-Part1-General:nameOfEmployer},,false
+A_1099_QA,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-QA,,false
+A_1040_SCHEDULE_H_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_h_2020-Part1-General:nameOfEmployer}_1040_SCHEDULE_H_2020,,false
+HUD_55014_WARRANTY_FOR_NEW_MANUFACTURED_HOME,UNKNOWN,HUD-55014 Warranty For New Manufactured Home,,true
+ACKNOWLEDGEMENT_OF_RECEIPT_OF_LOAN_ESTIMATE,Loan Estimates,Acknowledgement Of Receipt Of Loan Estimate,,true
+OFFICIAL_FORM_106H_SCHEDULE_H_YOUR_CODEBTORS,Official Form 106H - Schedule H: Your Codebtors,Official Form 106H - Schedule H: Your Codebtors,,true
+A_1138,Income - Borrower 1040 Tax Returns w/ All Schedules,1138,,false
+A_1120_SCHEDULE_L_M_1_M_2_2022,Income - Borrower Business Tax Returns,1120_SCHEDULE_L_M1_M2_2022,,false
+A_1040_SCHEDULE_J_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_J_2025_{$FIELDS.a_1040_schedule_j_2025-Part01-General:namesShownOnReturn},,false
+A_1120_SCHEDULE_L_M_1_M_2_2021,Income - Borrower Business Tax Returns,1120_SCHEDULE_L_M1_M2_2021,,false
+A_4684,Income - Borrower 1040 Tax Returns w/ All Schedules,4684,,false
+A_1120_SCHEDULE_L_M_1_M_2_2024,Income - Borrower Business Tax Returns,1120_SCHEDULE_L_M1_M2_2024,,false
+FEDERAL_SUPPORTING_STATEMENTS_TESTING,Federal Supporting Statements Testing,Federal Supporting Statements Testing,,true
+A_1120_SCHEDULE_L_M_1_M_2_2023,Income - Borrower Business Tax Returns,1120_SCHEDULE_L_M1_M2_2023,,false
+BORROWER_INCOME_QUESTIONNAIRE,UNKNOWN,Borrower Income Questionnaire,,true
+A_3520_A,Income - Borrower 1040 Tax Returns w/ All Schedules,3520-A,,false
+A_1120_SCHEDULE_L_M_1_M_2_2020,Income - Borrower Business Tax Returns,1120_SCHEDULE_L_M1_M2_2020,,false
+BID_ON_REPAIRS,UNKNOWN,Bid On Repairs,,true
+A_1120S_SCHEDULE_K_2023,Income - Borrower Business Tax Returns,1120S Schedule K (2023) - Shareholders’ Pro Rata Share Items,,false
+A_1120S_SCHEDULE_K_2022,Income - Borrower Business Tax Returns,1120S Schedule K (2022) - Shareholders’ Pro Rata Share Items,,false
+A_1120S_SCHEDULE_K_2021,Income - Borrower Business Tax Returns,1120S Schedule K (2021) - Shareholders’ Pro Rata Share Items,,false
+A_1040_SCHEDULE_J_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_j_2020-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_J_2020,,false
+A_1040_SCHEDULE_J_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_J_2021_{$FIELDS.a_1040_schedule_j_2021-Part1-General:name(s)ShownOnReturn},,false
+A_1120_SCHEDULE_L_M_1_M_2_2025,Income - Borrower Business Tax Returns,1120_SCHEDULE_L_M1_M2_2025,,false
+A_1040_SCHEDULE_J_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_J_2022_{$FIELDS.a_1040_schedule_j_2022-Part1-General:name(s)ShownOnReturn},,false
+A_1120S_SCHEDULE_K_2025,Income - Borrower Business Tax Returns,1120S Schedule K (2025) - Shareholders’ Pro Rata Share Items,,false
+A_1040_SCHEDULE_J_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_J_2023_{$FIELDS.a_1040_schedule_j_2023-Part1-General:name(s)ShownOnReturn},,false
+A_1120S_SCHEDULE_K_2024,Income - Borrower Business Tax Returns,1120S Schedule K (2024) - Shareholders’ Pro Rata Share Items,,false
+A_1040_SCHEDULE_J_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_J_2024_{$FIELDS.a_1040_schedule_j_2024-Part01-General:name(s)ShownOnReturn},,false
+CLOSING_WORKSHEET,UNKNOWN,Closing Worksheet,,true
+A_4670,Income - Borrower 1040 Tax Returns w/ All Schedules,4670,,false
+A_1120_SCHEDULE_L_M_1_M_2_2019,Income - Borrower Business Tax Returns,1120_SCHEDULE_L_M1_M2_2019,,false
+ENHANCED_PREPAYMENT_PENALTY_DISCLOSURE,UNKNOWN,Enhanced Prepayment Penalty Disclosure,,true
+A_1120_SCHEDULE_L_M_1_M_2_2018,Income - Borrower Business Tax Returns,1120_SCHEDULE_L_M1_M2_2018,,false
+A_13930,Income - Borrower 1040 Tax Returns w/ All Schedules,13930,,false
+DISCLOSURE_OF_INFORMATION_ON_RADON_HAZARDS,UNKNOWN,Disclosure Of Information On Radon Hazards,,true
+FINAL_SELLERS_STATEMENT,UNKNOWN,Final Seller's Statement,,true
+FAILURE_TO_CLOSE_DISCLOSURE,UNKNOWN,Failure to Close Disclosure,,true
+A_1040_K_1_RECONCILIATION_WORKSHEET,UNKNOWN,1040 K-1 Reconciliation Worksheet,,true
+CREDIT_REPORT,Credit Report,Credit Report,,true
+SOLAR_PANEL_PAYMENT_RECEIPT,Subject Property - Contract,Solar Panel Payment Receipt,,false
+A_4669,Income - Borrower 1040 Tax Returns w/ All Schedules,4669,,false
+A_8038_R,Income - Borrower 1040 Tax Returns w/ All Schedules,8038-R,,false
+NOTICE_OF_POTENTIAL_RECAPTURE_TAX_UPON_SALE_OF_HOME,Notice Of Potential Recapture Tax Upon Sale Of Home,Notice Of Potential Recapture Tax Upon Sale Of Home,,true
+A_8038_G,Income - Borrower 1040 Tax Returns w/ All Schedules,8038-G,,false
+PASSPORT_CARD,Credit - SS Card/Drivers License,{$FIELDS.passport_card-General:firstName}_{$FIELDS.passport_card-General:lastName}_PASSPORT_CARD,,false
+NOTICE_OF_INTENT_TO_PROCEED_WITH_LOAN_APPLICATION,UNKNOWN,Notice of Intent to Proceed with Loan Application,,true
+OPTIONAL_INSURANCE_DISCLOSURE,UNKNOWN,Optional Insurance Disclosure,,true
+A_8038_T,Income - Borrower 1040 Tax Returns w/ All Schedules,8038-T,,false
+FIRST_MORTGAGE_PAYMENT_COUPON,UNKNOWN,First Mortgage Payment Coupon,,true
+DAF_899_REQUEST_AND_AUTHORIZATION_FOR_PERMANENT_CHANGE_OF_STATION,UNKNOWN,DAF 899 Request and Authorization for Permanent Change of Station,,true
+A_4219,Income - Borrower 1040 Tax Returns w/ All Schedules,4219,,false
+A_1120_F,Income - Borrower Business Tax Returns,1120-F,,false
+A_1120_C,Income - Borrower Business Tax Returns,1120-C,,false
+A_1040_SCHEDULE_J_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_j_2018-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_J_2018,,false
+SPECIAL_DEPRECIATION_ELECTIONS,UNKNOWN,Special Depreciation Elections,,true
+A_1040_SCHEDULE_J_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_j_2019-Part1-General:name(s)ShownOnReturn}_1040_SCHEDULE_J_2019,,false
+HUD_1_SETTLEMENT_STATEMENT,Real Estate Owned - Sale of Real Estate Closing Disclosure,HUD-1 Settlement Statement,,false
+A_2032,Income - Borrower 1040 Tax Returns w/ All Schedules,2032,,false
+A_1120_H,Income - Borrower Business Tax Returns,1120-H,,false
+DISCLOSURE_OF_SERVICING_COMPLAINTS,UNKNOWN,Disclosure of Servicing Complaints,,true
+NOTICE_OF_FURNISHING_NEGATIVE_INFORMATION,Notice of Furnishing Negative Information,Notice Of Furnishing Negative Information,,true
+BORROWER_AFFIRMATION_OF_INFORMATION_PROVIDED_TO_ESTABLISH_ATR,UNKNOWN,Borrower Affirmation Of Information Provided To Establish ATR,,true
+A_1120_S,Income - Borrower Business Tax Returns,1120-S,,false
+A_8038_B,Income - Borrower 1040 Tax Returns w/ All Schedules,8038-B,,false
+A_1120_X,Income - Borrower Business Tax Returns,1120-X,,false
+A_4952_INVESTMENT_INCOME_WORKSHEET,UNKNOWN,4952 Investment Income Worksheet,,true
+PROJECT_QUESTIONNAIRE,Subject Property - Condo Questionnaire/Budget/Insurance,Project Questionnaire,,false
+A_13909,Income - Borrower 1040 Tax Returns w/ All Schedules,13909,,false
+TRUST_FUND_DISCLOSURE,UNKNOWN,Trust Fund Disclosure,,true
+A_8288_C,Income - Borrower 1040 Tax Returns w/ All Schedules,8288-C,,false
+A_8288_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8288-A,,false
+LAND_APPRAISAL_REPORT,UNKNOWN,Land Appraisal Report,,true
+A_8288_B,Income - Borrower 1040 Tax Returns w/ All Schedules,8288-B,,false
+LOAN_PRODUCT_ADVISOR_PROPERTY_VALUATION_DISCLOSURE_FORM,UNKNOWN,Loan Product Advisor Property Valuation Disclosure Form,,true
+A_5578,Income - Borrower 1040 Tax Returns w/ All Schedules,5578,,false
+WIRE_REMITTANCE_STATEMENT,Closing - Wire Instructions,Wire Remittance Statement,,false
+A_2063,Income - Borrower 1040 Tax Returns w/ All Schedules,2063,,false
+A_14815,Income - Borrower 1040 Tax Returns w/ All Schedules,14815,,false
+NAME_SEARCH_RESULT,UNKNOWN,Name Search Result,,true
+BROKERAGE_STATEMENT_BETTER,Brokerage Statement,Brokerage Statement,,true
+CREDIT_SCORE_INFORMATION_DISCLOSURE,Credit Report,Credit Score Information Disclosure,,true
+FORECLOSURE_DEED,UNKNOWN,Foreclosure Deed,,true
+A_W_4,Income - Borrower 1040 Tax Returns w/ All Schedules,W-4,,false
+PRE_APPLICATION_DISCLOSURE_FOR_LICENSED_BANKERS,UNKNOWN,Pre-Application Disclosure for Licensed Bankers,,true
+A_W_7,Income - Borrower 1040 Tax Returns w/ All Schedules,W-7,,false
+A_12203_A,Income - Borrower 1040 Tax Returns w/ All Schedules,12203-A,,false
+BORROWERS_CERTIFICATION_AND_AUTHORIZATION,Borrowers Certification and Authorization,Borrower Certification and Authorization,,true
+FHA_MORTGAGE_LOAN_CORRESPONDENT_DISCLOSURE,UNKNOWN,FHA Mortgage Loan Correspondent Disclosure,,true
+CREDIT_REPORT_PARSER_TESTING,UNKNOWN,Credit Report Parser Testing,,true
+FILING_INSTRUCTIONS,UNKNOWN,Filing Instructions,,false
+BROKERAGE_STATEMENT_BETTER_TESTING,Brokerage Statement,Brokerage Statement,,true
+A_13978,Income - Borrower 1040 Tax Returns w/ All Schedules,13978,,false
+A_13977,Income - Borrower 1040 Tax Returns w/ All Schedules,13977,,false
+A_13976,Income - Borrower 1040 Tax Returns w/ All Schedules,13976,,false
+QUALIFIED_PLAN_DISTRIBUTION_NOTICE,Qualified Plan Distribution Notice,Qualified Plan Distribution Notice,,true
+A_14824,Income - Borrower 1040 Tax Returns w/ All Schedules,14824,,false
+COLLATERAL_PROTECTION_ACT_NOTICE_TEXAS,UNKNOWN,Collateral Protection Act Notice (Cx 1015; Texas),,true
+HAZARD_INSURANCE_AUTHORIZATION_REQUIREMENTS_AND_DISCLOSURE,Hazard Insurance Authorization Requirements and Disclosure,Hazard Insurance Authorization Requirements And Disclosure,,true
+A_13973,Income - Borrower 1040 Tax Returns w/ All Schedules,13973,,false
+A_4461_B,Income - Borrower 1040 Tax Returns w/ All Schedules,4461-B,,false
+A_4461_C,Income - Borrower 1040 Tax Returns w/ All Schedules,4461-C,,false
+VA_NOT_INSPECTED_ACKNOWLEDGEMENT,UNKNOWN,"VA ""Not Inspected"" Acknowledgement",,true
+CERTIFICATE_OF_COUNSELING,Certificate Of Counseling,Certificate Of Counseling,,true
+A_4461_A,Income - Borrower 1040 Tax Returns w/ All Schedules,4461-A,,false
+DISCLOSURE_OF_LENDERS,UNKNOWN,Disclosure of Lenders,,true
+IMPORTANT_NOTICE_ABOUT_PROPERTY_TAXES_FOR_BUYERS_AND_SELLERS,UNKNOWN,Important Notice About Property Taxes For Buyers And Sellers,,true
+199A_WORKSHEET_BY_ACTIVITY,UNKNOWN,199A Worksheet By Activity,,true
+W2,Income - Borrower W-2 Most Recent Yr,{$FIELDS.employeeName}_W-2S_{$FIELDS.year},,false
+W3,Income - Borrower 1040 Tax Returns w/ All Schedules,W3,,false
+A_W_2GU,Income - Borrower 1040 Tax Returns w/ All Schedules,W-2GU,,false
+VERIFICATION_OF_INCOME_AND_EMPLOYMENT_FINICITY,UNKNOWN,VOIE (Finicity) - Finicity Verification of Income and Employment,,true
+A_5558,Income - Borrower 1040 Tax Returns w/ All Schedules,5558,,false
+DEED_OF_TRUST,Closing - Mortgage,Deed Of Trust,,false
+W9,Income - Borrower 1040 Tax Returns w/ All Schedules,W-9,,false
+A_8621,Income - Borrower 1040 Tax Returns w/ All Schedules,8621,,false
+RETIREE_ACCOUNT_STATEMENT,UNKNOWN,Retiree Account Statement,,true
+CREDIT_PROPERTY_INSURANCE_DISCLOSURE,Credit Property Insurance Disclosure,Credit Property Insurance Disclosure,,true
+CONDOMINIUM_RIDER,UNKNOWN,Condominium Rider,,true
+A_990_T_SCHEDULE_A,Income - Borrower 1040 Tax Returns w/ All Schedules,990-T Schedule A,,false
+A_965_E,Income - Borrower 1040 Tax Returns w/ All Schedules,965-E,,false
+A_1099_CAP,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-CAP,,false
+A_5713_SCHEDULE_A,Income - Borrower 1040 Tax Returns w/ All Schedules,5713 Schedule A,,false
+A_5713_SCHEDULE_B,Income - Borrower 1040 Tax Returns w/ All Schedules,5713 Schedule B,,false
+A_5713_SCHEDULE_C,Income - Borrower 1040 Tax Returns w/ All Schedules,5713 Schedule C,,false
+PAYSTUB,Income - Borrower Paystubs,{$PAYSTUB.paystub-Part2-EmployeeDetails:employeeName}_{$PAYSTUB.paystub-Part1-EmployerDetails:nameOfEmployer/Company}_{$PAYSTUB.paystub-Part4-PaystubDetails:payPeriodEndDate},,false
+A_8615,Income - Borrower 1040 Tax Returns w/ All Schedules,8615,,false
+A_8613,Income - Borrower 1040 Tax Returns w/ All Schedules,8613,,false
+CHAIN_OF_TITLE,UNKNOWN,Chain Of Title,,true
+A_8612,Income - Borrower 1040 Tax Returns w/ All Schedules,8612,,false
+A_4255,Income - Borrower 1040 Tax Returns w/ All Schedules,4255,,false
+A_8611,Income - Borrower 1040 Tax Returns w/ All Schedules,8611,,false
+A_8610,Income - Borrower 1040 Tax Returns w/ All Schedules,8610,,false
+USA_PATRIOT_ACT_INFORMATION_DISCLOSURE,USA Patriot Act Information Disclosure,USA Patriot Act Information Disclosure,,true
+HOME_OWNERSHIP_AND_EQUITY_PROTECTION_ACT_(HOEPA)_WORKSHEET,Home Ownership And Equity Protection Act (HOEPA) Worksheet,Home Ownership And Equity Protection Act (HOEPA) Worksheet,,true
+NOTICE_OF_PENALTIES_FOR_MAKING_FALSE_OR_MISLEADING_STATEMENT,UNKNOWN,Notice Of Penalties For Making False Or Misleading Statement,,true
+A_1040_SCHEDULE_3_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_3_2018-Part1-General:name(s)ShownOnForm1040}_1040_SCHEDULE_3_2018,,false
+A_1040_SCHEDULE_3_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_3_2019-Part1-General:name(s)ShownOnForm1040Or1040-Sr}_1040_SCHEDULE_3_2019,,false
+A_8275_R,Income - Borrower 1040 Tax Returns w/ All Schedules,8275-R,,false
+LIFE_INSURANCE_PAYMENT,UNKNOWN,Life Insurance Payment,,true
+INTEREST_RATE_DISCLOSURE,UNKNOWN,Interest Rate Disclosure,,true
+IMPORTANT_INFORMATION_FOR_PROPERTY_OWNERS,UNKNOWN,Important Information For Property Owners,,true
+A_8609,Income - Borrower 1040 Tax Returns w/ All Schedules,8609,,false
+SWORN_STATEMENT_RESIDENTIAL_CONSTRUCTION,Sworn Statement - Residential Construction,Sworn Statement - Residential Construction,,true
+A_8606,Income - Borrower 1040 Tax Returns w/ All Schedules,8606,,false
+COST_OF_INSURANCE_DISCLOSURE,UNKNOWN,Cost of Insurance Disclosure,,true
+ANTI-STEERING_SAFE_HARBOR_DISCLOSURE,Anti-Steering Safe Harbor Disclosure,Anti-Steering Safe Harbor Disclosure,,true
+FEDERAL_INCOME_TAX_SUMMARY,Federal Income Tax Summary,Federal Income Tax Summary,,true
+PROPERTY_TAX_ESCROW_OPTION,UNKNOWN,Property Tax Escrow Option,,true
+DISCLOSURE_OF_MULTIPLE_ROLES_IN_A_CONSUMER_REAL_ESTATE_TRANSACTION,UNKNOWN,Disclosure of Multiple Roles in a Consumer Real Estate Transaction,,true
+HUD_92051_COMPLIANCE_INSPECTION_REPORT,UNKNOWN,HUD-92051 Compliance Inspection Report,,true
+A_1120_IC_DISC_SCHEDULE_K,Income - Borrower Business Tax Returns,1120-IC-DISC Schedule K,,false
+PLEDGE_AND_SECURITY_AGREEMENT,UNKNOWN,Pledge And Security Agreement,,true
+A_1040_PARTNERS_BASIS_WORKSHEET,UNKNOWN,1040 Partner's Basis Worksheet,,true
+A_1120_IC_DISC_SCHEDULE_Q,Income - Borrower Business Tax Returns,1120-IC-DISC Schedule Q,,false
+A_1120_IC_DISC_SCHEDULE_P,Income - Borrower Business Tax Returns,1120-IC-DISC Schedule P,,false
+PAYMENT_RIGHTS_NOTICE,UNKNOWN,Payment Rights Notice,,true
+HUD_92544_WARRANTY_OF_COMPLETION_OF_CONSTRUCTION,Construction - Warranty of Completion of construction,HUD-92544 Warranty Of Completion Of Construction,,false
+A_943_X,Income - Borrower 1040 Tax Returns w/ All Schedules,943-X,,false
+A_5129,Income - Borrower 1040 Tax Returns w/ All Schedules,5129,,false
+CRSC_PAY_STATEMENT,UNKNOWN,Combat-Related Special Compensation (CRSC) Pay Statement,,true
+DISCLOSURE_OF_PAYMENT_APPLICATION,UNKNOWN,Disclosure of Payment Application,,true
+FORM_3170_MULTISTATE_1_4_FAMILY_RIDER,UNKNOWN,Form 3170 - Multistate 1-4 Family Rider,,true
+A_673,Income - Borrower 1040 Tax Returns w/ All Schedules,673,,false
+UNKNOWN_PAGES_LABELING_TESTING,UNKNOWN,Unknown Pages Labeling,,true
+A_965_C,Income - Borrower 1040 Tax Returns w/ All Schedules,965-C,,false
+A_8809_EX,Income - Borrower 1040 Tax Returns w/ All Schedules,8809-EX,,false
+A_965_D,Income - Borrower 1040 Tax Returns w/ All Schedules,965-D,,false
+A_965_A,Income - Borrower 1040 Tax Returns w/ All Schedules,965-A,,false
+A_965_B,Income - Borrower 1040 Tax Returns w/ All Schedules,965-B,,false
+STATUTORY_AUTHORITY_DISCLOSURE,UNKNOWN,Statutory Authority Disclosure,,true
+CP565_NOTICE_INDIVIDUAL_TAXPAYER_IDENTIFICATION_NUMBER_STATUS,UNKNOWN,CP565 Notice - Individual Taxpayer Identification Number Status,,true
+PASSPORT,Credit - SS Card/Drivers License,{$FIELDS.passport-General:firstName}_{$FIELDS.passport-General:lastName}_PASSPORT,,false
+A_921_M,Income - Borrower 1040 Tax Returns w/ All Schedules,921-M,,false
+A_921_P,Income - Borrower 1040 Tax Returns w/ All Schedules,921-P,,false
+A_921_I,Income - Borrower 1040 Tax Returns w/ All Schedules,921-I,,false
+DOCUMENT_DETAIL,Document Detail,Document Detail,,true
+A_965_SCHEDULE_H,Income - Borrower 1040 Tax Returns w/ All Schedules,965 Schedule H,,false
+A_965_SCHEDULE_F,Income - Borrower 1040 Tax Returns w/ All Schedules,965 Schedule F,,false
+A_965_SCHEDULE_D,Income - Borrower 1040 Tax Returns w/ All Schedules,965 Schedule D,,false
+A_14392,Income - Borrower 1040 Tax Returns w/ All Schedules,14392,,false
+WIRE_FRAUD_ALERT,UNKNOWN,Wire Fraud Alert,,true
+BAILEE_LETTER,UNKNOWN,Bailee Letter,,true
+HUD_91322_3_STATEMENT_OF_APPRAISED_VALUE,HUD-91322.3 - Statement Of Appraised Value,HUD-91322.3 - Statement Of Appraised Value,,true
+A_6478,Income - Borrower 1040 Tax Returns w/ All Schedules,6478,,false
+STUDENT_LOAN_STATEMENT,Credit - Supporting Credit Docs,Student Loan Statement,,false
+A_8655,Income - Borrower 1040 Tax Returns w/ All Schedules,8655,,false
+A_8654,Income - Borrower 1040 Tax Returns w/ All Schedules,8654,,false
+A_8653,Income - Borrower 1040 Tax Returns w/ All Schedules,8653,,false
+PORTFOLIO_STATEMENTS,Portfolio Statements,Portfolio Statements,,true
+NOTICE_OF_INCOMPLETE_APPLICATION,UNKNOWN,Notice Of Incomplete Application,,true
+A_1097_BTC,Income - Borrower 1040 Tax Returns w/ All Schedules,1097-BTC,,false
+A_211,Income - Borrower 1040 Tax Returns w/ All Schedules,211,,false
+FORECLOSURE_DISCLOSURE,UNKNOWN,Foreclosure Disclosure,,true
+A_943_A,Income - Borrower 1040 Tax Returns w/ All Schedules,943-A,,false
+A_15254,Income - Borrower 1040 Tax Returns w/ All Schedules,15254,,false
+A_15250,Income - Borrower 1040 Tax Returns w/ All Schedules,15250,,false
+REFINANCING_EXEMPTION_AFFIDAVIT,UNKNOWN,Refinancing Exemption Affidavit,,true
+A_8689,Income - Borrower 1040 Tax Returns w/ All Schedules,8689,,false
+FIRST_PAYMENT_LETTER,First Payment Letter,First Payment Letter,,true
+FLOOD_INSURANCE_APPLICATION,Flood Insurance Application,Flood Insurance Application,,false
+HOMEBUYERS_PROTECTION_ACT_INFORMATIONAL_DOCUMENT,UNKNOWN,Homebuyers' Protection Act Informational Document,,true
+FINANCIAL_INSTITUTIONS_INSURANCE_DISCLOSURE,UNKNOWN,Financial Institutions Insurance Disclosure,,true
+LOAN_MODIFICATION_AGREEMENT,Loan Modification Agreement,Loan Modification Agreement,,true
+CLOSING_DISCLOSURE_EXTENDED,UNKNOWN,Closing Disclosure Extended,,true
+APPRAISAL_VALUATION_ACKNOWLEDGEMENT,UNKNOWN,Appraisal/Valuation Acknowledgement,,true
+TRADITIONAL_INDIVIDUAL_RETIREMENT_ACCOUNT_(IRA)_DISCLOSURE_STATEMENT,Traditional Individual Retirement Account (IRA) Disclosure Statement,Traditional Individual Retirement Account (IRA) Disclosure Statement,,true
+SERVICING_DISCLOSURE_STATEMENT,UNKNOWN,Servicing Disclosure Statement,,true
+A_1065_SCHEDULE_K_2018,Income - Borrower Business Tax Returns,1065 Schedule K (2018),,false
+A_1065_SCHEDULE_K_2019,Income - Borrower Business Tax Returns,1065 Schedule K (2019),,false
+DISCLOSURE_OF_NEGATIVE_AMORTIZATION,UNKNOWN,Disclosure of Negative Amortization,,true
+A_637,Income - Borrower 1040 Tax Returns w/ All Schedules,637,,false
+SMOKE_ALARM_AFFIDAVIT,UNKNOWN,Smoke Alarm Affidavit,,true
+ORIGINATOR_NON_AGENCY_DISCLOSURE,UNKNOWN,Originator Non-Agency Disclosure,,true
+CONSTRUCTION_CONTRACT,Subject Property - Contract,Construction Contract,,false
+A_6497,Income - Borrower 1040 Tax Returns w/ All Schedules,6497,,false
+A_5498_SA,Income - Borrower 1040 Tax Returns w/ All Schedules,5498-SA,,false
+A_1120_REIT,Income - Borrower Business Tax Returns,1120-REIT,,false
+COVER_LETTER,Cover Letters,Cover Letter,,true
+A_921_A,Income - Borrower 1040 Tax Returns w/ All Schedules,921-A,,false
+A_1120_F_SCHEDULE_H,Income - Borrower Business Tax Returns,1120-F Schedule H,,false
+A_1120_F_SCHEDULE_I,Income - Borrower Business Tax Returns,1120-F Schedule I,,false
+FORM_2010_NOTICE_REQUIRED_BY_11_USC_342(B)_FOR_INDIVIDUALS_FILING_FOR_BANKRUPTCY,2010 - Notice Required by 11 USC 342(B) for Individuals Filing for Bankruptcy,2010 - Notice Required by 11 USC 342(B) for Individuals Filing for Bankruptcy,,true
+A_1065_SCHEDULE_K_2021,Income - Borrower Business Tax Returns,1065 Schedule K (2021),,false
+A_1065_SCHEDULE_K_2022,Income - Borrower Business Tax Returns,1065 Schedule K (2022),,false
+A_1065_SCHEDULE_K_2020,Income - Borrower Business Tax Returns,1065 Schedule K (2020),,false
+A_1065_SCHEDULE_K_2025,Income - Borrower Business Tax Returns,1065 Schedule K (2025),,false
+A_1065_SCHEDULE_K_2023,Income - Borrower Business Tax Returns,1065 Schedule K (2023),,false
+A_1065_SCHEDULE_K_2024,Income - Borrower Business Tax Returns,1065 Schedule K (2024),,false
+NON_PURCHASE_RESIDENTIAL_MORTGAGE_LOAN_DISCLOSURE,UNKNOWN,Non-Purchase Residential Mortgage Loan Disclosure,,true
+A_1095_A,Income - Borrower 1040 Tax Returns w/ All Schedules,1095-A,,false
+A_1095_B,Income - Borrower 1040 Tax Returns w/ All Schedules,1095-B,,false
+A_1095_C,Income - Borrower 1040 Tax Returns w/ All Schedules,1095-C,,false
+A_14773_A,Income - Borrower 1040 Tax Returns w/ All Schedules,14773-A,,false
+A_15288,Income - Borrower 1040 Tax Returns w/ All Schedules,15288,,false
+RESIDENTIAL_PROPERTY_AND_OWNERS_ASSOCIATION_DISCLOSURE_STATEMENT,Residential Property And Owners' Association Disclosure Statement,Residential Property And Owners' Association Disclosure Statement,,true
+VA_26_6393_LOAN_ANALYSIS,VA - 26-6393 Loan Analysis,VA 26-6393 Loan Analysis,,false
+HOME_EQUITY_LOAN_DISCLOSURE,UNKNOWN,Home Equity Loan Disclosure,,true
+HOA_BUDGET,Subject Property - Condo Questionnaire/Budget/Insurance,Homeowner Association Budget,,false
+A_8879_EMP,Income - Borrower 1040 Tax Returns w/ All Schedules,8879-EMP,,false
+A_14039_B,Income - Borrower 1040 Tax Returns w/ All Schedules,14039-B,,false
+ESTIMATED_DISCLOSURE_DOCUMENT,UNKNOWN,Estimated Disclosure Document,,true
+A_8697,Income - Borrower 1040 Tax Returns w/ All Schedules,8697,,false
+A_656,Income - Borrower 1040 Tax Returns w/ All Schedules,656,,false
+A_1040_SCHEDULE_6_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_6_2018-Part1-General:name(s)ShownOnForm1040}_1040_SCHEDULE_6_2018,,false
+VA_26_1839_COMPLIANCE_INSPECTION_REPORT,VA 26-1839 - Compliance Inspection Report,VA 26-1839 - Compliance Inspection Report,,true
+AFFIDAVIT_OF_AFFIXATION_FOR_MANUFACTURED_OR_MOBILE_HOME,Affidavit Of Affixation For Manufactured Or Mobile Home,Affidavit Of Affixation For Manufactured Or Mobile Home,,true
+DISCLOSURE_OF_TERMS,UNKNOWN,Disclosure Of Terms,,true
+A_W_2AS,Income - Borrower 1040 Tax Returns w/ All Schedules,W-2AS,,false
+INTEREST_RATE_LOCK_AGREEMENT,UNKNOWN,Interest Rate Lock Agreement,,true
+NOTICE_TO_HOMEOWNER_ASSUMPTION_OF_HUD/FHA_INSURED_LOANS,UNKNOWN,Notice To Homeowner Assumption Of HUD/FHA Insured Loans,,true
+WIRING_INSTRUCTIONS,Closing - Wire Instructions,Wiring Instructions,,false
+1040_OR_1040_SR_WORKSHEET_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040 or 1040-SR Worksheet (2025),,false
+HOME_EQUITY_THEFT_PREVENTION_ACT_AFFIDAVIT,UNKNOWN,Home Equity Theft Prevention Act Affidavit,,true
+1040_OR_1040_SR_WORKSHEET_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040 or 1040-SR Worksheet (2023),,false
+1040_OR_1040_SR_WORKSHEET_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040 or 1040-SR Worksheet (2024),,false
+1040_OR_1040_SR_WORKSHEET_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040 or 1040-SR Worksheet (2021),,false
+1040_OR_1040_SR_WORKSHEET_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040 or 1040-SR Worksheet (2022),,false
+APPLICANT_CERTIFICATION_REGARDING_FORBEARANCE_OF_OBLIGATIONS,UNKNOWN,Applicant Certification Regarding Forbearance Of Obligations,,true
+A_843,Income - Borrower 1040 Tax Returns w/ All Schedules,843,,false
+1040_OR_1040_SR_WORKSHEET_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,1040 or 1040-SR Worksheet (2020),,false
+AUTOMATED_VALUATION_MODEL_NOTICE,UNKNOWN,Automated Valuation Model Notice,,true
+REAL_PROPERTY_RECORDATION_AND_TRANSFER_TAX_FORM_FP_7_C,UNKNOWN,Real Property Recordation And Transfer Tax Form FP-7/C,,true
+RD_400_1_EQUAL_OPPORTUNITY_AGREEMENT,UNKNOWN,RD 400-1 - Equal Opportunity Agreement,,true
+ESTIMATED_TAX_WORKSHEET,Income - Borrower 1040 Tax Returns w/ All Schedules,Estimated Tax Worksheet,,false
+A_W_7_COA,Income - Borrower 1040 Tax Returns w/ All Schedules,W-7 (COA),,false
+DOCUMENT_PACKAGE_COVER_SHEET,UNKNOWN,Document Package Cover Sheet,,true
+NOTICE_OF_FREE_CHOICE_OF_AGENT_AND_INSURER,UNKNOWN,Notice Of Free Choice Of Agent And Insurer,,true
+EMPLOYMENT_AND_INCOME_AFFIDAVIT_APPRAISAL_OPTION,UNKNOWN,Employment & Income Affidavit/Appraisal Option,,true
+BALLOON_PAYMENT_DISCLOSURE,UNKNOWN,Balloon Payment Disclosure,,true
+WELL_DISCLOSURE_STATEMENT,UNKNOWN,Well Disclosure Statement,,true
+ABSTRACT_OF_TITLE,Subject Property - Title Report,Abstract Of Title,,false
+PURCHASE_ADVICE,UNKNOWN,Purchase Advice,,true
+HUD_NPMA_99_B_NEW_CONSTRUCTION_SUBTERRANEAN_TERMITE_SERVICE_RECORD,Construction - Termite - NCPA,HUD-NPMA-99-B New Construction Subterranean Termite Service Record,,false
+COLLATERAL_PROTECTION_INSURANCE_DISCLOSURE,UNKNOWN,Collateral Protection Insurance Disclosure,,true
+DISCLOSURE_OF_INFORMATION_ON_LEAD_BASED_PAINT_AND_LEAD_BASED_PAINT_HAZARDS,UNKNOWN,Disclosure of Information on Lead Based Paint and Lead Based Paint Hazards,,true
+A_1120_PC_SCHEDULE_M_3,Income - Borrower Business Tax Returns,1120-PC Schedule M-3,,false
+TITLE_PROTECTION_NOTICE,Title Protection Notice,Title Protection Notice,,true
+FORM_1006_REQUEST_FOR_VERIFICATION_OF_DEPOSIT,UNKNOWN,Form 1006 - Request For Verification Of Deposit,,true
+A_1120_IC_DISC,Income - Borrower Business Tax Returns,1120-IC-DISC,,false
+DISCLOSURE_OF_REFINANCING_OPTIONS,UNKNOWN,Disclosure of Refinancing Options,,true
+A_8874_B,Income - Borrower 1040 Tax Returns w/ All Schedules,8874-B,,false
+A_8027,Income - Borrower 1040 Tax Returns w/ All Schedules,8027,,false
+A_706_NA,Income - Borrower 1040 Tax Returns w/ All Schedules,706-NA,,false
+A_1120_F_SCHEDULE_V,Income - Borrower Business Tax Returns,1120-F Schedule V,,false
+A_8874_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8874-A,,false
+A_8023,Income - Borrower 1040 Tax Returns w/ All Schedules,8023,,false
+A_1120_F_SCHEDULE_P,Income - Borrower Business Tax Returns,1120-F Schedule P,,false
+A_1120_F_SCHEDULE_Q,Income - Borrower Business Tax Returns,1120-F Schedule Q,,false
+A_1120_F_SCHEDULE_S,Income - Borrower Business Tax Returns,1120-F Schedule S,,false
+A_15400,Income - Borrower 1040 Tax Returns w/ All Schedules,15400,,false
+A_9325,Income - Borrower 1040 Tax Returns w/ All Schedules,9325,,false
+A_8498,Income - Borrower 1040 Tax Returns w/ All Schedules,8498,,false
+RETIREE_ACCOUNT_STATEMENT_EXTENDED,Retiree Account Statement Extended,Retiree Account Statement Extended,,true
+A_851,Income - Borrower 1040 Tax Returns w/ All Schedules,851,,false
+A_14568,Income - Borrower 1040 Tax Returns w/ All Schedules,14568,,false
+1040_TWO_YEAR_COMPARISON_REPORT,1040 Two Year Comparison Report,1040 (Personal Tax Returns) Two Year Comparison Report,,true
+1040_OR_1040_SR_WORKSHEET_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,1040 or 1040-SR Worksheet (2018),,false
+1040_OR_1040_SR_WORKSHEET_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,1040 or 1040-SR Worksheet (2019),,false
+SUBPRIME_LOAN_COUNSELING_DISCLOSURE,UNKNOWN,Subprime Loan Counseling Disclosure,,true
+CONFLICT_OF_INTEREST_DISCLOSURE,UNKNOWN,Conflict of Interest Disclosure,,true
+FLOOD_HAZARD_INSURANCE_NOTICE,UNKNOWN,Flood Hazard Insurance Notice,,true
+APPLICATION_DISCLOSURE,UNKNOWN,Application Disclosure,,true
+RENTAL_AGREEMENT,Lease Agreement,Rental Agreement,,true
+FHA_CASE_QUERY,FHA - Case Query,FHA Case Query,,false
+A_13287,Income - Borrower 1040 Tax Returns w/ All Schedules,13287,,false
+A_14134,Income - Borrower 1040 Tax Returns w/ All Schedules,14134,,false
+A_14135,Income - Borrower 1040 Tax Returns w/ All Schedules,14135,,false
+ACKNOWLEDGMENT_OF_RECEIPT,UNKNOWN,Acknowledgment Of Receipt,,true
+WORK_NUMBER,Verification of Employment,Verification of Employment - TWN,,true
+NOTICE_TO_BORROWERS_ABOUT_SPECIAL_FLOOD_HAZARD_COVERAGE_SUBJECT_TO_CHANGE_DISCLOSURE,Notice To Borrowers About Special Flood Hazard Coverage Subject To Change Disclosure,Notice To Borrowers About Special Flood Hazard Coverage Subject To Change Disclosure,,true
+SECURITY_AFFIDAVIT,UNKNOWN,Security Affidavit,,true
+A_8879_PE_E_FILE_AUTHORIZATION,Income - Borrower 1040 Tax Returns w/ All Schedules,8879-PE E-File Authorization,,false
+A_8038,Income - Borrower 1040 Tax Returns w/ All Schedules,8038,,false
+ESCROW_ACCOUNT_DISCLOSURE_IDAHO,UNKNOWN,Escrow Account Disclosure (Cx 10170; Idaho),,true
+A_1099_S,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-S,,false
+MORTGAGE_STATEMENT,Current Mortgage Statement,Mortgage Statement,,false
+A_1099_R,Income - Borrower W-2 Most Recent Yr,{$FIELDS.a_1099_r-Part1-PayerPii:payerName}_1099_R,,false
+A_6729_C,Income - Borrower 1040 Tax Returns w/ All Schedules,6729-C,,false
+A_6729_D,Income - Borrower 1040 Tax Returns w/ All Schedules,6729-D,,false
+I_797,Credit - SS Card/Drivers License,I-797,,false
+A_1099_K,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1099_k-General:filerName}_1099_K_{$FIELDS.a_1099_k-General:taxFormYear},,false
+A_1099_Q,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-Q,,false
+FORM_72_OR_1025_SMALL_RESIDENTIAL_INCOME_PROPERTY_APPRAISAL_REPORT,UNKNOWN,Form 72 Or 1025 - Small Residential Income Property Appraisal Report,,true
+A_1099_C,Credit - Bankruptcy Papers,1099-C,,false
+A_1099_B,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-B,,false
+END_TO_ENDCD_TESTING_NY,UNKNOWN,"End To End Test Form (NY, CX 5678)",,true
+A_1099_G,Income - Borrower W-2 Most Recent Yr,A_1099_G,,false
+A_886_H_EIC,Income - Borrower 1040 Tax Returns w/ All Schedules,886-H-EIC,,false
+A_1099_H,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-H,,false
+A_990_SCHEDULE_B,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule B,,false
+PURCHASE_MONEY_SECURITY_DOCUMENT,UNKNOWN,Purchase Money Security Document,,true
+A_990_SCHEDULE_A,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule A,,false
+FLOOD_CERTIFICATE,Flood Certificate,Flood Certificate,,true
+PRE_APPLICATION_DISCLOSURE_AND_FEE_AGREEMENT,UNKNOWN,Pre-Application Disclosure And Fee Agreement,,true
+A_1099_A,Income - Borrower 1040 Tax Returns w/ All Schedules,1099-A,,false
+A_1042_T,Income - Borrower 1040 Tax Returns w/ All Schedules,1042-T,,false
+A_990_SCHEDULE_J,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule J,,false
+A_8879_CORP,Income - Borrower 1040 Tax Returns w/ All Schedules,8879-CORP,,false
+TAX_EXEMPT_FINANCING_RIDER_SF_40,UNKNOWN,Tax-Exempt Financing Rider (Form SF-40),,true
+LOAN_AGREEMENT,Credit - Supporting Credit Docs,Loan Agreement,,false
+A_990_SCHEDULE_I,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule I,,false
+A_990_SCHEDULE_H,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule H,,false
+ADDITIONAL_BORROWER_1003_2020,1003,ADDITIONAL_BORROWER_1003_2020,,true
+A_990_SCHEDULE_G,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule G,,false
+A_990_SCHEDULE_F,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule F,,false
+A_990_SCHEDULE_E,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule E,,false
+A_1040_SCHEDULE_E_2015,1040 Schedule E (2015),"1040 Schedule E (Supplemental Income and Loss (From rental real estate, royalties, partnerships, S corporations, estates, trusts, REMICs, etc.)  (2015)",,true
+A_990_SCHEDULE_D,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule D,,false
+A_1040_SCHEDULE_E_2016,1040 Schedule E (2016),"1040 Schedule E (Supplemental Income and Loss (From rental real estate, royalties, partnerships, S corporations, estates, trusts, REMICs, etc.)  (2016)",,true
+A_990_SCHEDULE_C,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule C,,false
+A_990_SCHEDULE_R,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule R,,false
+A_990_SCHEDULE_O,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule O,,false
+A_990_SCHEDULE_N,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule N,,false
+A_990_SCHEDULE_M,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule M,,false
+A_990_SCHEDULE_L,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule L,,false
+A_990_SCHEDULE_K,Income - Borrower 1040 Tax Returns w/ All Schedules,990 Schedule K,,false
+NOTARY_IDENTIFICATION_STATEMENT,UNKNOWN,Notary Identification Statement,,true
+A_1042_S,Income - Borrower 1040 Tax Returns w/ All Schedules,1042-S,,false
+UNEMPLOYMENT_INSURANCE_DISCLOSURE,UNKNOWN,Unemployment Insurance Disclosure,,true
+NOTICE_CONCERNING_REFINANCE_OF_EXISTING_HOME_EQUITY_LOAN_TO_NON_HOME_EQUITY_LOAN,UNKNOWN,Notice Concerning Refinance Of Existing Home Equity Loan To Non-Home Equity Loan,,true
+AFFIDAVIT_OF_DEATH_OF_LIFE_ESTATE_OWNER,UNKNOWN,Affidavit Of Death Of Life Estate Owner,,true
+A_1040_SCHEDULE_E_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_e_2020-Part1-PartI-IncomeOrLossFromRentalRealEstate:name(s)ShownOnReturn}_1040_SCHEDULE_E_2020,,false
+A_1040_SCHEDULE_E_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_e_2021-Part1-PartI-IncomeOrLossFromRentalRealEstate:name(s)ShownOnReturn}_1040_SCHEDULE_E_2021,,false
+A_1040_SCHEDULE_E_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_E_2022_{$FIELDS.a_1040_schedule_e_2022-Part01-General:name(s)ShownOnReturn,,false
+PRIVATE_MORTGAGE_INSURANCE_CANCELLATION_TERMINATION_DATA_SHEET,UNKNOWN,Private Mortgage Insurance Cancellation/Termination Data Sheet,,true
+A_1040_SCHEDULE_E_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_E_2023_{$FIELDS.a_1040_schedule_e_2023-Part01-General:name(s)ShownOnReturn,,false
+COMMITMENT_DISCLOSURE,UNKNOWN,Commitment Disclosure,,true
+A_1040_SCHEDULE_E_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_E_2024_{$FIELDS.a_1040_schedule_e_2024-Part01-General:name(s)ShownOnReturn,,false
+A_1040_SCHEDULE_E_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_E_2025_{$FIELDS.a_1040_schedule_e_2025-Part01-General:namesShownOnReturn},,false
+A_8050,Income - Borrower 1040 Tax Returns w/ All Schedules,8050,,false
+A_1040_SCHEDULE_E_2017,1040 Schedule E (2017),"1040 Schedule E (Supplemental Income and Loss (From rental real estate, royalties, partnerships, S corporations, estates, trusts, REMICs, etc.)  (2017)",,true
+A_1040_SCHEDULE_E_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_e_2018-Part1-PartI-IncomeOrLossFromRentalRealEstate:name(s)ShownOnReturn}_1040_SCHEDULE_E_2018,,false
+A_706_SCHEDULE_R_1,Income - Borrower 1040 Tax Returns w/ All Schedules,706 Schedule R-1,,false
+A_1040_SCHEDULE_E_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_e_2019-Part1-PartI-IncomeOrLossFromRentalRealEstate:name(s)ShownOnReturn}_1040_SCHEDULE_E_2019,,false
+DEPOSITED_CHECK_WITH_BATES_NUMBERS,UNKNOWN,Deposited Check (With Bates Numbers),,true
+VOIDED_CHECK,Assets - Bank Statements,Voided Check,,false
+VESTING_FORM,UNKNOWN,Vesting Form,,true
+A_1099_NEC,Income - Borrower W-2 Most Recent Yr,1099 NEC,,false
+TITLE_ORDER_FORM,Subject Property - Title Report,Title Order Form,,false
+A_8082,Income - Borrower 1040 Tax Returns w/ All Schedules,8082,,false
+AFFIDAVIT_OF_UNDERSTANDING_AND_INDEMNITY_AND_HOLD_HARMLESS_AGREEMENT,UNKNOWN,Affidavit Of Understanding And Indemnity And Hold Harmless Agreement,,true
+TAX_ESCROW_ACCOUNT_DESIGNATION_OF_MORTGAGE_INVESTING_INSTITUTION_TO_RECEIVE_TAX_BILLS,UNKNOWN,Tax Escrow Account Designation Of Mortgage Investing Institution To Receive Tax Bills,,true
+HOME_LOAN_PROTECTION_ACT_DISCLOSURE,UNKNOWN,Home Loan Protection Act Disclosure,,true
+A_1040_CARRYOVER_REPORT,UNKNOWN,1040 Carryover Report,,true
+A_4952,Income - Borrower 1040 Tax Returns w/ All Schedules,4952,,false
+LOAN_BROKERAGE_AGREEMENT_AND_DISCLOSURE_STATEMENT,UNKNOWN,Loan Brokerage Agreement and Disclosure Statement,,true
+A_1125_A,UNKNOWN,1125-A,,true
+AFFIDAVIT_OF_TITLE,UNKNOWN,Affidavit Of Title,,true
+CAREER_DATA_BRIEF,Income - Borrower VOEs,Career Data Brief,,false
+A_1125_E,Income - Borrower Business Tax Returns,{$FIELDS.a_1125_e-General:name}_1125_E,,false
+FORECLOSURE_NOTICE,Credit - Supporting Credit Docs,Foreclosure Notice,,false
+A_12325,Income - Borrower 1040 Tax Returns w/ All Schedules,12325,,false
+DEED_IN_LIEU_OF_FORECLOSURE,Credit - Supporting Credit Docs,Deed In Lieu Of Foreclosure,,false
+BILLING_STATEMENT,UNKNOWN,Billing Statement,,true
+SMARTLINX_PERSON_REPORT,UNKNOWN,SmartLinx Person Report,,true
+BUSINESS_PURPOSE_LOAN_QUESTIONNAIRE,UNKNOWN,Business Purpose Loan Questionnaire,,true
+WARRANTY_DEED_WITH_VENDORS_LIEN,UNKNOWN,Warranty Deed With Vendor's Lien,,true
+SOLICITATION_OF_INSURANCE_DISCLOSURE,UNKNOWN,Solicitation of Insurance Disclosure,,true
+A_8915_B,Income - Borrower 1040 Tax Returns w/ All Schedules,8915-B,,false
+A_8915_C,Income - Borrower 1040 Tax Returns w/ All Schedules,8915-C,,false
+SOLAR_POWER_PURCHASE_AGREEMENT,UNKNOWN,Solar Power Purchase Agreement,,true
+STATEMENT_OF_BORROWERS_BENEFITS,UNKNOWN,Statement Of Borrower's Benefits,,true
+ACKNOWLEDGEMENT_OF_INTENT_TO_PROCEED,Intent to Proceed,Acknowledgement Of Intent To Proceed,,true
+DU_UNDERWRITING_FINDINGS,UNKNOWN,DU (Desktop Underwriter) Underwriting Findings,,true
+PROFIT_AND_LOSS,Income - Current P&L/Balance Sheet,Profit and Loss,,false
+A_8915_F,Income - Borrower 1040 Tax Returns w/ All Schedules,8915-F,,false
+A_8915_D,Income - Borrower 1040 Tax Returns w/ All Schedules,8915-D,,false
+CERTIFICATE_OF_NOTICE,UNKNOWN,Certificate Of Notice,,true
+A_14950,Income - Borrower 1040 Tax Returns w/ All Schedules,14950,,false
+ENLISTED_EVALUATION_REPORT,Enlisted Evaluation Report,Enlisted Evaluation Report,,true
+AUTO_LOAN_STATEMENT,Credit - Supporting Credit Docs,Auto Loan Statement,,false
+A_941_SS,Income - Borrower 1040 Tax Returns w/ All Schedules,941-SS,,false
+OPEN_END_MORTGAGE_DEED,UNKNOWN,Open-End Mortgage Deed (Cx 25285; Connecticut),,true
+A_433_H,Income - Borrower 1040 Tax Returns w/ All Schedules,433-H,,false
+A_1040_TAX_RETURN_HISTORY_REPORT,UNKNOWN,1040 Tax Return History Report,,true
+A_433_F,Income - Borrower 1040 Tax Returns w/ All Schedules,433-F,,false
+WRITTEN_ACKNOWLEDGMENT_OF_DELIVERY_OF_THE_NOTE,UNKNOWN,Written Acknowledgment Of Delivery Of The Note,,true
+A_4977,Income - Borrower 1040 Tax Returns w/ All Schedules,4977,,false
+A_433_D,Income - Borrower 1040 Tax Returns w/ All Schedules,433-D,,false
+A_433_A,Income - Borrower 1040 Tax Returns w/ All Schedules,433-A,,false
+A_433_B,Income - Borrower 1040 Tax Returns w/ All Schedules,433-B,,false
+A_4972,Income - Borrower 1040 Tax Returns w/ All Schedules,4972,,false
+TECHNOLOGY_CONSENT_AGREEMENT,UNKNOWN,Technology Consent Agreement,,true
+A_4970,Income - Borrower 1040 Tax Returns w/ All Schedules,4970,,false
+OFFICIAL_FORM_122C_2_CHAPTER_13_CALCULATION_OF_YOUR_DISPOSABLE_INCOME,UNKNOWN,Official Form 122C-2 - Chapter 13 Calculation Of Your Disposable Income,,true
+SEWER_REPORT,UNKNOWN,Sewer Report,,true
+STUDENT_LOAN_REFINANCE_DISCLOSURE,UNKNOWN,Student Loan Refinance Disclosure,,true
+AFFIDAVIT_OF_HEIRSHIP,UNKNOWN,Affidavit Of Heirship,,true
+NOTICE_OF_RIGHT_TO_REQUEST_A_RECONSIDERATION_OF_VALUE,UNKNOWN,Notice Of Right To Request A Reconsideration Of Value,,true
+ADDENDUM_TO_RESIDENTIAL_LOAN_APPLICATION_FANNIE_MAE_FORM_1009,UNKNOWN,1009 - Addendum To Residential Loan Application,,true
+EMPLOYMENT_OFFER_LETTER,Income - Borrower VOEs,Employment Offer,,false
+BROKERAGE_STATEMENT_ASSET_ALLOCATION_SUMMARY,UNKNOWN,Brokerage Statement Asset Allocation Summary,,true
+REASONABLE_TANGIBLE_NET_BENEFIT_DISCLOSURE_MAINE,UNKNOWN,Reasonable Tangible Net Benefit Disclosure (Cx 16407; Maine),,true
+A_1120_RIC,Income - Borrower Business Tax Returns,1120-RIC,,false
+VA_AWARD_LETTER,Income - Borrower Paystubs,VA_AWARD_LETTER,,false
+HOME_WARRANTY_AGREEMENT,UNKNOWN,Home Warranty Agreement,,true
+DEBT_MANAGEMENT_SERVICE_PROVIDER_CONTRACT,UNKNOWN,Debt Management Service Provider Contract,,true
+SOLAR_PANEL_LOAN_AGREEMENT,Subject Property - Contract,Solar Panel Loan Agreement,,false
+OCCUPANCY_AND_FINANCIAL_STATEMENT,UNKNOWN,Occupancy And Financial Statement,,true
+1120S_TWO_YEAR_COMPARISON_REPORT,1120S Two Year Comparison Report,1120S (Small Corporation Business Tax Returns) Two Year Comparison Report,,true
+A_5884_C,Income - Borrower 1040 Tax Returns w/ All Schedules,5884-C,,false
+A_5884_D,Income - Borrower 1040 Tax Returns w/ All Schedules,5884-D,,false
+SETTLEMENT_CERTIFICATION,UNKNOWN,Settlement Certification,,true
+A_1120_FSC_SCHEDULE_P,Income - Borrower Business Tax Returns,1120-FSC Schedule P,,false
+A_1000,Income - Borrower 1040 Tax Returns w/ All Schedules,1000,,false
+A_5884_A,Income - Borrower 1040 Tax Returns w/ All Schedules,5884-A,,false
+A_1120S_SCHEDULE_L_M_1_M_2_2020,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_L_M1_M2_2020,,false
+A_1120S_SCHEDULE_L_M_1_M_2_2021,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_L_M1_M2_2021,,false
+ACKNOWLEDGMENT_OF_RECEIPT_OF_RESPAS_HOMEOWNERSHIP_COUNSELING_ORGANIZATIONS_LIST,UNKNOWN,Acknowledgment Of Receipt Of RESPA's Homeownership Counseling Organizations List,,true
+NOTIFICATION_TO_HOMEOWNERS,UNKNOWN,Notification To Homeowners,,true
+RD_3555_18E_CONDITIONAL_COMMITMENT_FOR_SINGLE_FAMILY_HOUSING_LOAN_GUARANTEE,RD 3555-18E - Conditional Commitment For Single Family Housing Loan Guarantee,RD 3555-18E - Conditional Commitment For Single Family Housing Loan Guarantee,,true
+PROPERTY_CONDITION_DISCLOSURE_STATEMENT,UNKNOWN,Property Condition Disclosure Statement,,true
+TITLE_INSURANCE_POLICY,Subject Property - Title Report,Title Insurance Policy,,false
+A_1120S_SCHEDULE_L_M_1_M_2_2024,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_L_M1_M2_2024,,false
+A_1120S_SCHEDULE_L_M_1_M_2_2025,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_L_M1_M2_2025,,false
+A_1120S_SCHEDULE_L_M_1_M_2_2022,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_L_M1_M2_2022,,false
+SINGLE_UNIT_RETRIEVAL_FORMAT_RECORD,Single Unit Retrieval Format Record,Single Unit Retrieval Format Record,,true
+A_4506,Income - Borrower 1040 Tax Returns w/ All Schedules,4506,,false
+A_1120S_SCHEDULE_L_M_1_M_2_2023,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_L_M1_M2_2023,,false
+END_TO_ENDCD_TESTING_FL,UNKNOWN,"End To End Test Form (FL, CX 9000)",,true
+A_8900,Income - Borrower 1040 Tax Returns w/ All Schedules,8900,,false
+A_1040_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_2020-Part1-General:yourFirstNameAndInitial}_{$FIELDS.a_1040_2020-Part1-General:lastName}_1040_2020,,false
+EMPLOYMENT_AND_OTHER_INCOME_WORKSHEET,UNKNOWN,Employment And Other Income Worksheet,,true
+A_12339,Income - Borrower 1040 Tax Returns w/ All Schedules,12339,,false
+A_1040_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,A_1040_2021_{$FIELDS.a_1040_2021-Part1-General:yourFirstNameAndMiddleInitial}_{$FIELDS.a_1040_2021-Part1-General:lastName}_1040_2021,,false
+A_1040_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_2024_{$FIELDS.a_1040_2024-Part01-General:yourFirstNameAndMiddleInitial}_{$FIELDS.a_1040_2024-Part01-General:lastName},,false
+A_1040_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_2025_{$FIELDS.a_1040_2025-Part01-General:yourFirstNameAndMiddleInitial}_{$FIELDS.a_1040_2025-Part01-General:lastName},,false
+BORROWER_CERTIFICATION_OF_BUSINESS_PURPOSE,Borrower Certification of Business Purpose,Borrower Certification Of Business Purpose,,true
+A_1040_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_2022_{$FIELDS.a_1040_2022-Part1-General:yourFirstNameAndMiddleInitial}_{$FIELDS.a_1040_2022-Part1-General:lastName},,false
+A_1040_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_2023_{$FIELDS.a_1040_2023-Part01-General:yourFirstNameAndMiddleInitial}_{$FIELDS.a_1040_2023-Part01-General:lastName},,false
+EMPLOYEE_SUMMARY_SHEET,Employee Summary Sheet,Employee Summary Sheet,,true
+DISCLOSURE_TRACKING_DETAILS,UNKNOWN,Disclosure Tracking Details,,true
+A_3881_A,Income - Borrower 1040 Tax Returns w/ All Schedules,3881-A,,false
+A_8804_W,Income - Borrower 1040 Tax Returns w/ All Schedules,8804-W,,false
+A_8804_C,Income - Borrower 1040 Tax Returns w/ All Schedules,8804-C,,false
+A_1120S_SCHEDULE_L_M_1_M_2_2019,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_L_M1_M2_2019,,false
+VERIFICATION_OF_RENT,Credit - Verification of Rent/Lease,Verification Of Rent,,false
+END_TO_ENDCD_TESTING_CA,UNKNOWN,"End To End Test Form (CA, CX 1234)",,true
+OFFICIAL_FORM_106A/B_SCHEDULE_A/B_PROPERTY,Credit - Bankruptcy Papers,Official Form 106A/B - Schedule A/B: Property,,false
+FLOOD_DISASTER_PROTECTION_ACT,UNKNOWN,Flood Disaster Protection Act,,true
+A_1120S_SCHEDULE_L_M_1_M_2_2018,Income - Borrower Business Tax Returns,1120_S_SCHEDULE_L_M1_M2_2018,,false
+A_1028,Income - Borrower 1040 Tax Returns w/ All Schedules,1028,,false
+SIGNATURE_NAME_AFFIDAVIT,Signature/Name Affidavit,Signature Name Affidavit,,true
+MORTGAGE_INSURANCE_CANCELLATION_DISCLOSURE,UNKNOWN,Mortgage Insurance Cancellation Disclosure,,true
+A_1023,Income - Borrower 1040 Tax Returns w/ All Schedules,1023,,false
+A_1024,Income - Borrower 1040 Tax Returns w/ All Schedules,1024,,false
+MORTGAGE_ESCROW_ACCOUNT_ACT,UNKNOWN,Mortgage Escrow Account Act,,true
+A_2350,Income - Borrower 1040 Tax Returns w/ All Schedules,2350,,false
+A_1040_2017,1040 (2017),1040 (Personal Tax Returns) (2017),,true
+A_1040_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_2018-Part1-General:yourFirstNameAndInitial}_{$FIELDS.a_1040_2018-Part1-General:lastName}_1040_2018,,false
+A_1040_2015,1040 (2015),1040 (Personal Tax Returns) (2015),,true
+A_1040_2016,1040 (2016),1040 (Personal Tax Returns) (2016),,true
+ASSIGNMENT_OF_DEED_OF_TRUST,UNKNOWN,Assignment Of Deed Of Trust,,true
+A_1040_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_2019-Part1-General:yourFirstNameAndInitial}_{$FIELDS.a_1040_2019-Part1-General:lastName}_1040_2019,,false
+LOAN_ESTIMATE,Loan Estimates,LOAN_ESTIMATE,,true
+FINAL_FINANCING_AGREEMENT_AND_WRITTEN_COMMITMENT,UNKNOWN,Final Financing Agreement And Written Commitment,,true
+ALTERNATIVE_MORTGAGE_TRANSACTION_DISCLOSURE,UNKNOWN,Alternative Mortgage Transaction Disclosure,,true
+TRUNCATED_COVERAGE_DISCLOSURE,UNKNOWN,Truncated Coverage Disclosure,,true
+A_8923,Income - Borrower 1040 Tax Returns w/ All Schedules,8923,,false
+A_8924,Income - Borrower 1040 Tax Returns w/ All Schedules,8924,,false
+A_8925,Income - Borrower 1040 Tax Returns w/ All Schedules,8925,,false
+A_4563,Income - Borrower 1040 Tax Returns w/ All Schedules,4563,,false
+FLOOD_INSURANCE_COVERAGE_SUBJECT_TO_CHANGE_DISCLOSURE,Flood Insurance Coverage Subject To Change Disclosure,Flood Insurance Coverage Subject To Change Disclosure,,true
+A_8927,Income - Borrower 1040 Tax Returns w/ All Schedules,8927,,false
+A_8928,Income - Borrower 1040 Tax Returns w/ All Schedules,8928,,false
+A_4562,Income - Borrower 1040 Tax Returns w/ All Schedules,4562,,false
+WAGES_AND_SALARIES_SUMMARY_ATTACHMENT,Income - Borrower 1040 Tax Returns w/ All Schedules,Wages And Salaries Summary Attachment,,false
+OFFICIAL_FORM_106SUM_SUMMARY_OF_YOUR_ASSETS_AND_LIABILITIES_AND_CERTAIN_STATISTICAL_INFORMATION,UNKNOWN,Official Form 106Sum - Summary Of Your Assets And Liabilities And Certain Statistical Information,,true
+A_1024_A,Income - Borrower 1040 Tax Returns w/ All Schedules,1024-A,,false
+PENSION_AWARD_LETTER,Income - Borrower Paystubs,{$FIELDS.pension_award_letter-General:recipientName}_{$FIELDS.pension_award_letter-General:companyName}_PENSION_AWARD_LETTER,,false
+NOTICE_OF_RIGHT_TO_DISCONTINUE_ESCROW,UNKNOWN,Notice Of Right To Discontinue Escrow,,true
+A_990_EZ,Income - Borrower 1040 Tax Returns w/ All Schedules,990-EZ,,false
+A_5405,Income - Borrower 1040 Tax Returns w/ All Schedules,5405,,false
+TITLE_INSURANCE_RIDER,UNKNOWN,Title Insurance Rider,,true
+A_8932,Income - Borrower 1040 Tax Returns w/ All Schedules,8932,,false
+A_8933,Income - Borrower 1040 Tax Returns w/ All Schedules,8933,,false
+BALLOON_DISCLOSURE_REGARDING_EXTENSION_OF_CREDIT,UNKNOWN,Balloon Disclosure Regarding Extension of Credit,,true
+A_8936,Income - Borrower 1040 Tax Returns w/ All Schedules,8936,,false
+A_1045,Income - Borrower 1040 Tax Returns w/ All Schedules,1045,,false
+CHILD_CARE_PAYMENT,Credit - Divorce Decree/Child Support - Liabilty/Income,Child Care Payment,,false
+A_8937,Income - Borrower 1040 Tax Returns w/ All Schedules,8937,,false
+A_5884,Income - Borrower 1040 Tax Returns w/ All Schedules,5884,,false
+A_8938,Income - Borrower 1040 Tax Returns w/ All Schedules,8938,,false
+A_8865_SCHEDULE_G,Income - Borrower 1040 Tax Returns w/ All Schedules,8865 Schedule G,,false
+DECLARATIONS_FOR_REAL_ESTATE_APPRAISERS_ERRORS_AND_OMISSIONS_INSURANCE_POLICY,UNKNOWN,Real Estate Appraisers Errors And Omissions Insurance Policy Declarations,,true
+MORTGAGE_INSURANCE_DISCLOSURE,UNKNOWN,Mortgage Insurance Disclosure,,false
+A_1041,Income - Borrower 1040 Tax Returns w/ All Schedules,1041,,false
+A_8865_SCHEDULE_H,Income - Borrower 1040 Tax Returns w/ All Schedules,8865 Schedule H,,false
+A_1042,Income - Borrower 1040 Tax Returns w/ All Schedules,1042,,false
+HUD_APPRAISED_VALUE_DISCLOSURE,UNKNOWN,HUD Appraised Value Disclosure,,true
+PRELIMINARY_TITLE_REPORT,Subject Property - Title Report,Preliminary Title Report,,false
+COAST_GUARD_STANDARD_TRAVEL_ORDER,Credit - Supporting Credit Docs,Coast Guard Standard Travel Order,,false
+A_8865_SCHEDULE_O,Income - Borrower 1040 Tax Returns w/ All Schedules,8865 Schedule O,,false
+ALTA_(AMERICAN_LAND_TITLE_ASSOCIATION)_SETTLEMENT_STATEMENT_COMBINED,UNKNOWN,ALTA (American Land Title Association) Settlement Statement - Combined,,true
+A_14581_A,Income - Borrower 1040 Tax Returns w/ All Schedules,14581-A,,false
+LOAN_FUNDING_PROFILE_SF_30,UNKNOWN,Loan Funding Profile (Form SF-30),,true
+A_8865_SCHEDULE_P,Income - Borrower 1040 Tax Returns w/ All Schedules,8865 Schedule P,,false
+A_14581_D,Income - Borrower 1040 Tax Returns w/ All Schedules,14581-D,,false
+A_14581_E,Income - Borrower 1040 Tax Returns w/ All Schedules,14581-E,,false
+A_14581_B,Income - Borrower 1040 Tax Returns w/ All Schedules,14581-B,,false
+A_14581_C,Income - Borrower 1040 Tax Returns w/ All Schedules,14581-C,,false
+A_14581_F,Income - Borrower 1040 Tax Returns w/ All Schedules,14581-F,,false
+LOWER_INVESTMENT_GRADE_DISCLOSURE,UNKNOWN,Lower Investment Grade Disclosure,,true
+A_14581_G,Income - Borrower 1040 Tax Returns w/ All Schedules,14581-G,,false
+NOTICE_OF_REQUIRED_FLOOD_INSURANCE_DETERMINATION_AND_RELATED_NOTICE_INFORMATION,UNKNOWN,Notice Of Required Flood Insurance Determination And Related Notice Information,,true
+A_8940,Income - Borrower 1040 Tax Returns w/ All Schedules,8940,,false
+A_8941,Income - Borrower 1040 Tax Returns w/ All Schedules,8941,,false
+BIRTH_CERTIFICATE,Credit - SS Card/Drivers License,BIRTH_CERTIFICATE,,false
+A_8944,Income - Borrower 1040 Tax Returns w/ All Schedules,8944,,false
+A_8610_SCHEDULE_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8610 Schedule A,,false
+LENDER_LOAN_INFORMATION_1003_2020,UNKNOWN,Lender Loan Information 1003 (2020),,true
+A_5434,Income - Borrower 1040 Tax Returns w/ All Schedules,5434,,false
+A_8902,Income - Borrower 1040 Tax Returns w/ All Schedules,8902,,false
+A_6765,Income - Borrower 1040 Tax Returns w/ All Schedules,6765,,false
+A_8903,Income - Borrower 1040 Tax Returns w/ All Schedules,8903,,false
+A_940_V,Income - Borrower 1040 Tax Returns w/ All Schedules,940-V,,false
+A_8904,Income - Borrower 1040 Tax Returns w/ All Schedules,8904,,false
+A_8905,Income - Borrower 1040 Tax Returns w/ All Schedules,8905,,false
+A_8906,Income - Borrower 1040 Tax Returns w/ All Schedules,8906,,false
+A_8908,Income - Borrower 1040 Tax Returns w/ All Schedules,8908,,false
+EXCEPTION,Exception,Exception,,true
+REFINANCE_DISCLOSURE,UNKNOWN,Refinance Disclosure,,true
+A_8975_SCHEDULE_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8975 Schedule A,,false
+A_1040_SCHEDULE_4_2019,1040 Schedule 4 (2019),1040 (Personal Tax Returns) Schedule 4 (2019),,true
+A_8910,Income - Borrower 1040 Tax Returns w/ All Schedules,8910,,false
+A_8911,Income - Borrower 1040 Tax Returns w/ All Schedules,8911,,false
+A_1040_SCHEDULE_4_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_4_2018-Part1-General:name(s)ShownOnForm1040}_1040_SCHEDULE_4_2018,,false
+AUTOMATED_PAYMENTS_CUSTOMER_AUTHORIZATION,Automatic Loan Payment Authorization,Automated Payments Customer Authorization,,true
+A_8912,Income - Borrower 1040 Tax Returns w/ All Schedules,8912,,false
+A_1066,Income - Borrower 1040 Tax Returns w/ All Schedules,1066,,false
+RENTAL_HOUSING_PAYMENT,Credit - Verification of Rent/Lease,Rental Housing Payment,,false
+A_1040_SCHEDULE_4_2020,1040 Schedule 4 (2020),1040 (Personal Tax Returns) Schedule 4 (2020),,true
+A_8916,Income - Borrower 1040 Tax Returns w/ All Schedules,8916,,false
+A_8917,Income - Borrower 1040 Tax Returns w/ All Schedules,8917,,false
+A_8918,Income - Borrower 1040 Tax Returns w/ All Schedules,8918,,false
+RESIDENTIAL_MORTGAGE_LOAN_ORIGINATOR_DISCLOSURE,UNKNOWN,Residential Mortgage Loan Originator Disclosure,,true
+A_8919,Income - Borrower 1040 Tax Returns w/ All Schedules,8919,,false
+MARITAL_OR_FAMILY_PURPOSE_STATEMENT,UNKNOWN,Marital Or Family Purpose Statement,,true
+PER_DIEM_INTEREST_DISCLOSURE,UNKNOWN,Per Diem Interest Disclosure,,true
+BORROWER_ACKNOWLEDGMENT,UNKNOWN,Borrower Acknowledgment,,true
+HOMESTEAD_DISCLOSURE,UNKNOWN,Homestead Disclosure,,true
+A_8922,Income - Borrower 1040 Tax Returns w/ All Schedules,8922,,false
+A_1098,Income - Borrower 1040 Tax Returns w/ All Schedules,1098,,false
+A_5452,Income - Borrower 1040 Tax Returns w/ All Schedules,5452,,false
+A_1096,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.tax_1096-General:filerName}_1096_{$FIELDS.tax_1096-General:taxFormYear},,false
+A_6781,Income - Borrower 1040 Tax Returns w/ All Schedules,6781,,false
+NOTICE_ABOUT_APPRAISAL_OF_YOUR_PROPERTY,Notice About Appraisal Of Your Property - Property Inspection Waiver,Notice About Appraisal Of Your Property - Property Inspection Waiver (PIW),,true
+henry_canon_form,Henry Canonical Form Type,Henry Canonical Form Type,,true
+BROKERAGE_STATEMENT,Assets - Bank Statements,{$FIELDS.brokerage_statement-Part1-General:bankOrBrokerageInstitutionName}_{$FIELDS.brokerage_statement-Part2-StatementDetails:statementPeriodBeginningDate}_{$FIELDS.brokerage_statement-Part2-StatementDetails:statementPeriodEndingDate}_{$FIELDS.brokerage_statement-Part1-General:accountHolderName2}_{$FIELDS.brokerage_statement-Part1-General:accountNumber},,false
+VERBAL_CREDIT_AUTHORIZATION_CERTIFICATION,UNKNOWN,Verbal Credit Authorization Certification,,true
+BS_LABELING,UNKNOWN,BS Labeling,,true
+A_8971,Income - Borrower 1040 Tax Returns w/ All Schedules,8971,,false
+A_8822_B,Income - Borrower 1040 Tax Returns w/ All Schedules,8822-B,,false
+A_8973,Income - Borrower 1040 Tax Returns w/ All Schedules,8973,,false
+APPRAISAL_REVIEW,Appraisal Review,Appraisal Review,,true
+A_8974,Income - Borrower 1040 Tax Returns w/ All Schedules,8974,,false
+A_8975,Income - Borrower 1040 Tax Returns w/ All Schedules,8975,,false
+A_8978,Income - Borrower 1040 Tax Returns w/ All Schedules,8978,,false
+HOA_BYLAWS,Subject Property - Condo Questionnaire/Budget/Insurance,Homeowner Association Bylaws,,false
+A_8979,Income - Borrower 1040 Tax Returns w/ All Schedules,8979,,false
+A_13615,Income - Borrower 1040 Tax Returns w/ All Schedules,13615,,false
+A_1040_SR_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-SR (2019),,false
+VA_26_8923_INTEREST_RATE_REDUCTION_REFINANCING_LOAN_(IRRRL)_WORKSHEET,VA 26-8923 - Interest Rate Reduction Refinancing Loan (IRRRL) Worksheet,VA 26-8923 - Interest Rate Reduction Refinancing Loan (IRRRL) Worksheet,,true
+A_8879_S,Income - Borrower 1040 Tax Returns w/ All Schedules,8879-S,,false
+FHA_IDENTITY_OF_INTEREST_CERTIFICATION,UNKNOWN,FHA Identity Of Interest Certification,,true
+BANK_STATEMENT_INCOME_QUESTIONNAIRE,Assets - Bank Statements,Bank Statement Income Questionnaire,,false
+A_1040_SR_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-SR (2021),,false
+A_1040_SR_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-SR (2020),,false
+COLLATERAL_PROTECTION_INSURANCE_DISCLOSURE_MISSOURI,UNKNOWN,Collateral Protection Insurance Disclosure (Cx 1005; Missouri),,true
+A_940_B,Income - Borrower 1040 Tax Returns w/ All Schedules,940-B,,false
+TAX_941,Tax 941,Tax 941 (Employer's Quarterly Federal Tax Return),,true
+TAX_940,Tax 940,Tax 940 (Employer's Annual Federal Unemployment (FUTA) Tax Return,,true
+A_5471_SCHEDULE_I_1,Income - Borrower 1040 Tax Returns w/ All Schedules,5471 Schedule I-1,,false
+A_1040_SR_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-SR (2023),,false
+A_8986,UNKNOWN,8986 - Partner’s Share of Adjustment(s) to Partnership-Related Item(s),,true
+A_8879_F,Income - Borrower 1040 Tax Returns w/ All Schedules,8879-F,,false
+A_1040_SR_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-SR (2022),,false
+A_8879_C,Income - Borrower 1040 Tax Returns w/ All Schedules,8879-C,,false
+A_1040_SR_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-SR (2025),,false
+TAX_944,Tax 944,Tax 944 (Employer's Annual Federal Tax Return),,true
+A_1040_SR_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-SR (2024),,false
+A_8945,Income - Borrower 1040 Tax Returns w/ All Schedules,8945,,false
+1008_2009,1008 - Transmittal Summary,{$FIELDS.1008_2009-Part1-BorrowerAndPropertyInformation:borrowerName}_{$FIELDS.1008_2009-Part1-BorrowerAndPropertyInformation:co-borrowerName}_1008_2009,,true
+FINAL_INSPECTION,Appraisal - Final Inspection,FINAL_INSPECTION,,false
+A_8946,Income - Borrower 1040 Tax Returns w/ All Schedules,8946,,false
+A_8948,Income - Borrower 1040 Tax Returns w/ All Schedules,8948,,false
+A_8949,Income - Borrower 1040 Tax Returns w/ All Schedules,8949,,false
+A_5472,Income - Borrower 1040 Tax Returns w/ All Schedules,5472,,false
+A_1065_199A_STATEMENT_A_SUMMARY,UNKNOWN,1065 199A Statement A Summary,,true
+NO_DOC_OR_LIMITED_DOC_DISCLOSURE,UNKNOWN,No Doc Or Limited Doc Disclosure,,true
+A_5471,Income - Borrower 1040 Tax Returns w/ All Schedules,5471,,false
+FORM_1000_OR_1007_SINGLE_FAMILY_COMPARABLE_RENT_SCHEDULE,UNKNOWN,Form 1000 Or 1007 - Single Family Comparable Rent Schedule,,true
+PROPERTY_TRANSFER_AFFIDAVIT,UNKNOWN,Property Transfer Affidavit,,true
+REQUEST_FOR_FAIR_LENDING_INFORMATION,UNKNOWN,Request For Fair Lending Information,,true
+A_1098_MA,Income - Borrower 1040 Tax Returns w/ All Schedules,1098-MA,,false
+A_8950,Income - Borrower 1040 Tax Returns w/ All Schedules,8950,,false
+A_8951,Income - Borrower 1040 Tax Returns w/ All Schedules,8951,,false
+A_8952,Income - Borrower 1040 Tax Returns w/ All Schedules,8952,,false
+A_4136,Income - Borrower 1040 Tax Returns w/ All Schedules,4136,,false
+A_8957,Income - Borrower 1040 Tax Returns w/ All Schedules,8957,,false
+A_4137,Income - Borrower 1040 Tax Returns w/ All Schedules,4137,,false
+A_1118_SCHEDULE_I,Income - Borrower 1040 Tax Returns w/ All Schedules,1118 Schedule I,,false
+A_8958,Income - Borrower 1040 Tax Returns w/ All Schedules,8958,,false
+1008_2018,1008 - Transmittal Summary,{$FIELDS.1008_2018-Part1-BorrowerAndPropertyInformation:borrowerName}_{$FIELDS.1008_2018-Part1-BorrowerAndPropertyInformation:co-borrowerName}_1008_2018,,true
+A_8959,Income - Borrower 1040 Tax Returns w/ All Schedules,8959,,false
+A_1120_SCHEDULE_K_2022,1120 Schedule K (2022),Form 1120 Schedule K (Other Information) (2022),,true
+A_1118_SCHEDULE_L,Income - Borrower 1040 Tax Returns w/ All Schedules,1118 Schedule L,,false
+A_1120_SCHEDULE_K_2021,1120 Schedule K (2021),Form 1120 Schedule K (Other Information) (2021),,true
+WORKSHEET_FOR_DOCUMENTING_ELIGIBLE_HOUSEHOLD_AND_REPAYMENT_INCOME,Worksheet For Documenting Eligible Household And Repayment Income,Worksheet For Documenting Eligible Household And Repayment Income,,true
+A_1118_SCHEDULE_J,Income - Borrower 1040 Tax Returns w/ All Schedules,1118 Schedule J,,false
+LOAN_BROKERAGE_AGREEMENT_AND_LOAN_ORIGINATION_DISCLOSURE_STATEMENT,UNKNOWN,Loan Brokerage Agreement and Loan Origination Disclosure Statement,,true
+A_1118_SCHEDULE_K,Income - Borrower 1040 Tax Returns w/ All Schedules,1118 Schedule K,,false
+ACKNOWLEDGMENT_OF_RECEIPT_OF_HOME_MORTGAGE_LOAN_INFORMATIONAL_DOCUMENT,Acknowledgment Of Receipt Of Home Mortgage Loan Informational Document,Acknowledgment Of Receipt Of Home Mortgage Loan Informational Document,,true
+VENDOR_SINGLE_INTEREST_INSURANCE_DISCLOSURE,UNKNOWN,Vendor's Single Interest Insurance Disclosure,,true
+A_1120_SCHEDULE_K_2025,1120 Schedule K (2025),Form 1120 Schedule K (Other Information) (2025),,true
+RD_1980_11_GUARANTEED_RURAL_HOUSING_LENDER_RECORD_CHANGE,UNKNOWN,RD 1980-11 - Guaranteed Rural Housing Lender Record Change,,true
+A_1120_SCHEDULE_K_2024,1120 Schedule K (2024),Form 1120 Schedule K (Other Information) (2024),,true
+A_1120_SCHEDULE_K_2023,1120 Schedule K (2023),Form 1120 Schedule K (Other Information) (2023),,true
+A_8960,"8960 - Net Investment Income Tax - Individuals, Estates, and Trusts","8960 - Net Investment Income Tax - Individuals, Estates, and Trusts",,true
+SOCIAL_SECURITY_CARD,Credit - SS Card/Drivers License,Social Security Administration Authorization,,false
+A_8962,Income - Borrower 1040 Tax Returns w/ All Schedules,8962,,false
+A_8966,Income - Borrower 1040 Tax Returns w/ All Schedules,8966,,false
+SMALL_LOANS_FIRST_PAYMENT_DISCLOSURE,UNKNOWN,Small Loans First Payment Disclosure,,true
+A_5498,Income - Borrower 1040 Tax Returns w/ All Schedules,5498,,false
+A_5495,Income - Borrower 1040 Tax Returns w/ All Schedules,5495,,false
+SS_AWARD_LETTER,Income - Borrower Paystubs,{$FIELDS.ss_award_letter-General:beneficiaryName}_SS_AWARD_LETTER,,false
+A_8038_CP_SCHEDULE_A,Income - Borrower 1040 Tax Returns w/ All Schedules,8038-CP Schedule A,,false
+A_706_CE,Income - Borrower 1040 Tax Returns w/ All Schedules,706-CE,,false
+A_1040_SCHEDULE_1_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_1_2019-Part1-General:name(s)ShownOnForm1040}_1040_SCHEDULE_1_2019,,false
+A_1040_SCHEDULE_1_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_1_2018-Part1-General:name(s)ShownOnForm1040}_1040_SCHEDULE_1_2018,,false
+A_1040_SCHEDULE_1_2017,1040 Schedule 1 (2017),1040 (Personal Tax Returns) Schedule 1 (Additional Income and Adjustments to Income) (2017),,true
+MONEY_BROKER_LOAN_DISCLOSURE_STATEMENT,UNKNOWN,Money Broker Loan Disclosure Statement,,true
+MORTGAGE_FINDINGS,UNKNOWN,Mortgage Findings,,false
+A_13424_F,Income - Borrower 1040 Tax Returns w/ All Schedules,13424-F,,false
+ALTA_(AMERICAN_LAND_TITLE_ASSOCIATION)_SETTLEMENT_STATEMENT_BORROWER_OR_BUYER,UNKNOWN,ALTA Settlement Statement - Borrower/Buyer,,true
+A_13424_C,Income - Borrower 1040 Tax Returns w/ All Schedules,13424-C,,false
+HOMEBUYERS_PROTECTION_ACT_INFORMATION_DOCUMENT,UNKNOWN,Homebuyers' Protection Act Information Document,,true
+VERIFICATION_OF_PREPURCHASE_COUNSELING_AND_ACKNOWLEDGEMENT_OF_RISK_DISCLOSURE,UNKNOWN,Verification of Prepurchase Counseling and Acknowledgment of Risk Disclosure,,true
+BORROWER_CERTIFICATION_AND_AUTHORIZATION,Borrower Certification and Authorization,Borrower Certification and Authorization,,true
+A_1040_BROKER_RECONCILIATION_WORKSHEET,UNKNOWN,1040 Broker Reconciliation Worksheet,,true
+HOMEBUYER_EDUCATION_CERTIFICATE,First Time Homebuyer Counseling Certificate,Homebuyer Education Certificate,,false
+SOLDIER_TALENT_PROFILE,UNKNOWN,Soldier Talent Profile,,true
+A_8508,Income - Borrower 1040 Tax Returns w/ All Schedules,8508,,false
+A_8546,Income - Borrower 1040 Tax Returns w/ All Schedules,8546,,false
+LAND_TITLE_ASSOCIATION,Subject Property - Title Report,Land Title Association,,false
+DISCLOSURE_OF_COMPENSATION_OF_ATTORNEY_FOR_DEBTOR(S),Disclosure Of Compensation Of Attorney For Debtor(s),Disclosure Of Compensation Of Attorney For Debtor(s),,true
+A_14039,Income - Borrower 1040 Tax Returns w/ All Schedules,14039,,false
+DISCLOSURE_RECEIPT,UNKNOWN,Disclosure Receipt,,true
+A_8990,Income - Borrower 1040 Tax Returns w/ All Schedules,8990,,false
+A_5306_A,Income - Borrower 1040 Tax Returns w/ All Schedules,5306-A,,false
+FEDERAL_SUPPORTING_STATEMENT,UNKNOWN,Federal Supporting Statement,,true
+A_8991,Income - Borrower 1040 Tax Returns w/ All Schedules,8991,,false
+A_990_PF,Income - Borrower 1040 Tax Returns w/ All Schedules,990-PF,,false
+A_8992,Income - Borrower 1040 Tax Returns w/ All Schedules,8992,,false
+A_944_X,Income - Borrower 1040 Tax Returns w/ All Schedules,944-X,,false
+A_8993,Income - Borrower 1040 Tax Returns w/ All Schedules,8993,,false
+A_8994,Income - Borrower 1040 Tax Returns w/ All Schedules,8994,,false
+A_8995,Income - Borrower 1040 Tax Returns w/ All Schedules,8995,,false
+A_8996,Income - Borrower 1040 Tax Returns w/ All Schedules,8996,,false
+OFFICIAL_FORM_107_STATEMENT_OF_FINANCIAL_AFFAIRS_FOR_INDIVIDUALS_FILING_FOR_BANKRUPTCY,Credit - Bankruptcy Papers,Official Form 107 - Statement of Financial Affairs for Individuals Filing for Bankruptcy,,false
+A_T_TIMBER,Income - Borrower 1040 Tax Returns w/ All Schedules,T (Timber),,false
+A_8997,Income - Borrower 1040 Tax Returns w/ All Schedules,8997,,false
+A_7207,Income - Borrower 1040 Tax Returns w/ All Schedules,7207,,false
+A_7206,7206 - Self-Employed Health Insurance Deduction,7206 - Self-Employed Health Insurance Deduction,,true
+A_1040_SCHEDULE_1_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_1_2023_{$FIELDS.a_1040_schedule_1_2023-Part1-General:name(s)ShownOnForm10401040-SrOr1040-Nr},,false
+A_7205,Income - Borrower 1040 Tax Returns w/ All Schedules,7205,,false
+A_1040_SCHEDULE_1_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_1_2022_{$FIELDS.a_1040_schedule_1_2022-Part1-General:name(s)ShownOnForm1040},,false
+A_7204,Income - Borrower 1040 Tax Returns w/ All Schedules,7204,,false
+A_1040_SCHEDULE_1_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_1_2021_{$FIELDS.a_1040_schedule_1_2021-Part1-General:name(s)ShownOnForm1040},,false
+A_7203,Income - Borrower 1040 Tax Returns w/ All Schedules,7203,,false
+A_1040_SCHEDULE_1_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_1_2020-Part1-General:name(s)ShownOnForm1040}_1040_SCHEDULE_1_2020,,false
+A_7200,Income - Borrower 1040 Tax Returns w/ All Schedules,7200,,false
+A_1040_SCHEDULE_1_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_1_2025_{$FIELDS.a_1040_schedule_1_2025-Part01-General:namesShownOnForm10401040SrOr1040Nr},,false
+A_1120_L_SCHEDULE_M_3,Income - Borrower Business Tax Returns,1120-L Schedule M-3,,false
+A_1040_SCHEDULE_1_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_1_2024_{$FIELDS.a_1040_schedule_1_2024-Part01-General:name(s)ShownOnForm10401040-SrOr1040-Nr},,false
+A_1094_B,Income - Borrower 1040 Tax Returns w/ All Schedules,1094-B,,false
+A_1094_C,Income - Borrower 1040 Tax Returns w/ All Schedules,1094-C,,false
+OFFICIAL_FORM_106I_SCHEDULE_I_YOUR_INCOME,UNKNOWN,Official Form 106I - Schedule I: Your Income,,true
+VA_NEAREST_LIVING_RELATIVE_STATEMENT,VA Documents,VA Nearest Living Relative Statement,,true
+TBD_CONVERSION_REQUEST,UNKNOWN,TBD Conversion Request,,true
+PRIVATE_WELL_WATER_TEST_RESULTS_CERTIFICATION_OF_RECEIPT,UNKNOWN,Private Well Water Test Results - Certification Of Receipt,,true
+OFFICIAL_FORM_122A_2_CHAPTER_7_MEANS_TEST_CALCULATION,UNKNOWN,Official Form 122A-2 - Chapter 7 Means Test Calculation,,true
+SPANISH_MORTGAGE_DISCLOSURE_FORM,UNKNOWN,Spanish Mortgage Disclosure Form,,true
+EQUAL_CREDIT_OPPORTUNITY_ACT_NOTICE,Credit Report,Equal Credit Opportunity Act Notice,,true
+A_5305_RB,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-RB,,false
+A_1065_SCHEDULE_M_3,Income - Borrower 1040 Tax Returns w/ All Schedules,1065 Schedule M-3,,false
+BORROWER_SERVICING_DATA,UNKNOWN,Borrower Servicing Data,,true
+A_5305_RA,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-RA,,false
+A_706_QDT,Income - Borrower 1040 Tax Returns w/ All Schedules,706-QDT,,false
+FOR_YOUR_PROTECTION_GET_A_HOME_INSPECTION,UNKNOWN,For Your Protection Get A Home Inspection,,true
+A_14095,Income - Borrower 1040 Tax Returns w/ All Schedules,14095,,false
+VA_26_8261A_REQUEST_FOR_CERTIFICATE_OF_VETERAN_STATUS,UNKNOWN,VA 26-8261A Request For Certificate Of Veteran Status,,true
+RD_1980_86_REQUEST_FOR_RESERVATION_OF_FUNDS,RD 1980-86 - Request For Reservation Of Funds,RD 1980-86 - Request For Reservation Of Funds,,true
+FORM_465_OR_1073_INDIVIDUAL_CONDOMINIUM_UNIT_APPRAISAL_REPORT,UNKNOWN,Form 465 Or 1073 - Individual Condominium Unit Appraisal Report,,true
+A_9423,Income - Borrower 1040 Tax Returns w/ All Schedules,9423,,false
+SUPPLEMENTAL_ADDENDUM,UNKNOWN,Supplemental Addendum,,true
+DUAL_CAPACITY_DISCLOSURE,UNKNOWN,Dual Capacity Disclosure,,true
+A_433_B_OIC,Income - Borrower 1040 Tax Returns w/ All Schedules,433-B (OIC),,false
+A_1040_NR_SCHEDULE_A,Income - Borrower 1040 Tax Returns w/ All Schedules,1040-NR Schedule A,,false
+CERTIFICATE_AND_MEMORANDUM_OF_RECORDING_OF_DEDICATORY_INSTRUMENTS,Certificate and Memorandum of Recording of Dedicatory Instruments,Certificate And Memorandum Of Recording Of Dedicatory Instruments,,true
+A_8554,Income - Borrower 1040 Tax Returns w/ All Schedules,8554,,false
+ESIGN_PROCESS_SUMMARY,UNKNOWN,Esign Process Summary,,true
+INCOME_CALCULATOR,Income - Calculation Sheet,Income Calculator,,false
+A_5305_SA,Income - Borrower 1040 Tax Returns w/ All Schedules,5305-SA,,false
+SELLERS_PROPERTY_DISCLOSURE_RESIDENTIAL,UNKNOWN,Seller's Property Disclosure - Residential,,true
+APPRAISER_INDEPENDENCE_CERTIFICATION,Appraiser Independence Certification,Appraiser Independence Certification,,true
+A_8586,Income - Borrower 1040 Tax Returns w/ All Schedules,8586,,false
+A_5074,Income - Borrower 1040 Tax Returns w/ All Schedules,5074,,false
+A_8582,Income - Borrower 1040 Tax Returns w/ All Schedules,8582,,false
+A_8283_V,Income - Borrower 1040 Tax Returns w/ All Schedules,8283-V,,false
+LOAN_CLOSING_ADVISOR_LOAN_ASSESSMENT_SUMMARY,UNKNOWN,Loan Closing Advisor Loan Assessment Summary,,true
+A_1040_SCHEDULE_B_2025,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_B_2025_{$FIELDS.a_1040_schedule_b_2025-Part01-General:namesShownOnReturn},,false
+EARNEST_MONEY_DEPOSIT,Assets - Copy of Deposit Check,Earnest Money Deposit,,false
+CHILD_CARE_CERTIFICATION,UNKNOWN,Child Care Certification,,true
+TAX_BILL,Subject Property - Tax Bills/Deeds,Tax Bill,,false
+A_1120_S_SCHEDULE_M_3,Income - Borrower Business Tax Returns,1120-S Schedule M-3,,false
+A_1040_SCHEDULE_B_2020,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_b_2020-General:nameShownOnReturn}_1040_SCHEDULE_B_2020,,false
+A_1040_SCHEDULE_B_2022,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_B_2022_{$FIELDS.a_1040_schedule_b_2022-General:nameShownOnReturn},,false
+A_1040_SCHEDULE_B_2021,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_B_2021_{$FIELDS.a_1040_schedule_b_2021-General:nameShownOnReturn},,false
+A_1040_SCHEDULE_B_2024,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_B_2024_{$FIELDS.a_1040_schedule_b_2024-Part01-General:name(s)ShownOnReturn},,false
+A_1040_SCHEDULE_B_2023,Income - Borrower 1040 Tax Returns w/ All Schedules,1040_SCHEDULE_B_2023_{$FIELDS.a_1040_schedule_b_2023-Part1-General:name(s)ShownOnReturn},,false
+VA_AMENDMENT_TO_SALES_CONTRACT,UNKNOWN,VA Amendment To Sales Contract,,true
+A_1040_SCHEDULE_B_2019,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_b_2019-General:nameShownOnReturn}_1040_SCHEDULE_B_2019,,false
+A_1040_SCHEDULE_B_2018,Income - Borrower 1040 Tax Returns w/ All Schedules,{$FIELDS.a_1040_schedule_b_2018-General:nameShownOnReturn}_1040_SCHEDULE_B_2018,,false
+HUD_50012_MORTGAGEES_REQUEST_FOR_EXTENSIONS_OF_TIME,HUD-50012 - Mortgagee's Request For Extensions Of Time,HUD-50012 - Mortgagee's Request For Extensions Of Time,,true
+DISCLOSURE_STATEMENT_REQUIRED_FOR_RESIDENTIAL_CONSTRUCTION,UNKNOWN,Disclosure Statement Required for Residential Construction,,true
+MORTGAGE_LOAN_BROKER_AGENT_DISCLOSURE,UNKNOWN,Mortgage Loan Broker Agent Disclosure,,true
+SECURITY_DEED,UNKNOWN,Security Deed,,true
