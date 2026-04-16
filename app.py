@@ -7,7 +7,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from services.ingestion import load_ocrolus_types, load_lender_containers
+from services.ingestion import load_ocrolus_types, load_lender_containers, load_attachment_names
 from services.consensus import build_consensus, write_output_csv
 from services import ai_openai, ai_anthropic, ai_gemini
 
@@ -16,6 +16,10 @@ load_dotenv()
 AI_SERVICES = [ai_openai, ai_anthropic, ai_gemini]
 
 PRELOADED_DIR = os.path.join(os.path.dirname(__file__), "preloaded")
+ATTACHMENT_NAMES_PATH = os.path.join(PRELOADED_DIR, "table-data.csv")
+
+# Load the form type → attachment name lookup once at startup.
+_attachment_names = load_attachment_names(ATTACHMENT_NAMES_PATH)
 
 st.set_page_config(page_title="Container Mapper", layout="wide")
 st.title("Container Mapper")
@@ -198,7 +202,7 @@ if st.button("Map", disabled=not (ocrolus_ready and lender_ready)):
 
         # --- Generate output CSV ---
         output_path = os.path.join(tmp_dir, "mapping_output.csv")
-        write_output_csv(output_path, confident, review, service_names, errors)
+        write_output_csv(output_path, confident, review, service_names, errors, _attachment_names)
 
         with open(output_path, "rb") as f:
             csv_bytes = f.read()

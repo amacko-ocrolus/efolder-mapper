@@ -6,7 +6,7 @@ import tempfile
 
 import pytest
 
-from services.ingestion import load_lender_containers, load_ocrolus_types
+from services.ingestion import load_attachment_names, load_lender_containers, load_ocrolus_types
 
 
 # ---------------------------------------------------------------------------
@@ -115,3 +115,21 @@ class TestLoadLenderContainersJSON:
         path = self._write_json(tmp_path, [])
         with pytest.raises(ValueError, match="No container names"):
             load_lender_containers(path)
+
+
+class TestLoadAttachmentNames:
+    def test_loads_form_type_to_attachment_name(self, tmp_path):
+        path = _write_csv(tmp_path, "table-data.csv",
+            "Form Type,Container Name,Attachment Name,other\nW2,Tax Returns,Wage and Tax Statement,x\nA_1040,Tax Returns,1040 Return,y\n")
+        result = load_attachment_names(path)
+        assert result["W2"] == "Wage and Tax Statement"
+        assert result["A_1040"] == "1040 Return"
+
+    def test_missing_file_returns_empty(self):
+        assert load_attachment_names("/nonexistent/table-data.csv") == {}
+
+    def test_strips_whitespace(self, tmp_path):
+        path = _write_csv(tmp_path, "table-data.csv",
+            "Form Type,Container Name,Attachment Name\n W2 ,Tax Returns, Wage and Tax Statement \n")
+        result = load_attachment_names(path)
+        assert result.get("W2") == "Wage and Tax Statement"

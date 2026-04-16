@@ -197,6 +197,26 @@ def _extract_strings_from_json(data) -> list[str]:
     return []
 
 
+def load_attachment_names(file_path: str) -> dict[str, str]:
+    """Load the form type -> attachment name lookup from table-data.csv.
+
+    Reads column 'Form Type' (key) and 'Attachment Name' (value).
+    Returns an empty dict if the file is missing.
+    """
+    if not os.path.isfile(file_path):
+        return {}
+
+    lookup: dict[str, str] = {}
+    with open(file_path, newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            form_type = (row.get("Form Type") or "").strip()
+            attachment_name = (row.get("Attachment Name") or "").strip()
+            if form_type:
+                lookup[form_type] = attachment_name
+    return lookup
+
+
 def _find_best_column(columns: list[str], keywords: list[str]) -> str | None:
     """Find the column whose name best matches the given keywords."""
     lower_cols = {col: col.lower() for col in columns}
