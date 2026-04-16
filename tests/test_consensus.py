@@ -125,3 +125,14 @@ class TestWriteOutputCSV:
         assert "W-2" in content
         assert "Pay Stub" in content
         assert "0.92" in content
+
+    def test_attachment_names_in_output(self, tmp_path):
+        confident = [{"ocrolus_type": "W-2", "suggested_container": "Tax Documents", "agreed_services": "OpenAI, Anthropic", "avg_confidence": 0.92}]
+        review = [{"ocrolus_type": "Pay Stub", "best_guess": "Income", "best_confidence": 0.70, "best_guess_service": "OpenAI", "OpenAI_suggestion": "Income", "OpenAI_confidence": 0.70}]
+        attachment_names = {"W-2": "Wage and Tax Statement", "Pay Stub": "Pay Stub"}
+        path = os.path.join(tmp_path, "output.csv")
+        write_output_csv(path, confident, review, ["OpenAI"], attachment_names=attachment_names)
+        with open(path, encoding="utf-8-sig") as f:
+            content = f.read()
+        assert "Wage and Tax Statement" in content
+        assert "Attachment Name" in content

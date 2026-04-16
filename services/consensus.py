@@ -87,6 +87,7 @@ def write_output_csv(
     review: list[dict],
     service_names: list[str],
     failed_services: dict[str, str] | None = None,
+    attachment_names: dict[str, str] | None = None,
 ) -> None:
     """Write the final output CSV with two sections.
 
@@ -94,6 +95,7 @@ def write_output_csv(
     without garbling special characters.
     """
     failed_services = failed_services or {}
+    attachment_names = attachment_names or {}
 
     with open(output_path, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.writer(f)
@@ -108,11 +110,12 @@ def write_output_csv(
         # --- Confident Mappings Section ---
         writer.writerow([f"=== CONFIDENT MAPPINGS ({len(confident)} rows -- 2+ AI services agree, avg confidence >= {CONFIDENCE_THRESHOLD:.0%}) ==="])
         writer.writerow([])
-        writer.writerow(["Form Type", "Container Name", "Agreed Services", "Avg Confidence"])
+        writer.writerow(["Form Type", "Attachment Name", "Container Name", "Agreed Services", "Avg Confidence"])
 
         for row in confident:
             writer.writerow([
                 row["ocrolus_type"],
+                attachment_names.get(row["ocrolus_type"], ""),
                 row["suggested_container"],
                 row["agreed_services"],
                 row["avg_confidence"],
@@ -130,7 +133,7 @@ def write_output_csv(
             per_svc_headers += [f"{svc} Suggestion", f"{svc} Confidence"]
 
         writer.writerow(
-            ["Form Type", "Best Guess", "Best Confidence", "Best Guess Service"]
+            ["Form Type", "Attachment Name", "Best Guess", "Best Confidence", "Best Guess Service"]
             + per_svc_headers
         )
 
@@ -144,6 +147,7 @@ def write_output_csv(
             writer.writerow(
                 [
                     row["ocrolus_type"],
+                    attachment_names.get(row["ocrolus_type"], ""),
                     row["best_guess"],
                     row["best_confidence"],
                     row["best_guess_service"],

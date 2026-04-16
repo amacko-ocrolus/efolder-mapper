@@ -12,7 +12,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from dotenv import load_dotenv
 
-from services.ingestion import load_lender_containers, load_ocrolus_types
+from services.ingestion import load_lender_containers, load_ocrolus_types, load_attachment_names
 from services.consensus import build_consensus, write_output_csv
 from services import ai_openai, ai_anthropic, ai_gemini
 
@@ -36,6 +36,12 @@ def main():
         "--output", default="mapping_output.csv", help="Path for the output CSV (default: mapping_output.csv)."
     )
     args = parser.parse_args()
+
+    # Load attachment name lookup (preloaded alongside the script)
+    _script_dir = os.path.dirname(os.path.abspath(__file__))
+    attachment_names = load_attachment_names(
+        os.path.join(_script_dir, "preloaded", "table-data.csv")
+    )
 
     # --- Ingest ---
     print("Loading Ocrolus form types...")
@@ -89,7 +95,7 @@ def main():
     print(f"  Needs manual review: {len(review)}")
 
     # --- Output ---
-    write_output_csv(args.output, confident, review, service_names, errors or None)
+    write_output_csv(args.output, confident, review, service_names, errors or None, attachment_names)
     print(f"\nResults written to: {os.path.abspath(args.output)}")
 
 
