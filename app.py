@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from services.ingestion import load_ocrolus_types, load_lender_containers, load_attachment_names
 from services.consensus import build_consensus, write_output_csv
-from services import ai_openai, ai_anthropic, ai_gemini
+from services import ai_openai, ai_anthropic, ai_gemini, history
 
 load_dotenv()
 
@@ -213,3 +213,48 @@ if st.button("Map", disabled=not (ocrolus_ready and lender_ready)):
             file_name="mapping_output.csv",
             mime="text/csv",
         )
+
+        if history.is_configured():
+            try:
+                history.save_run(
+                    lender_file.name,
+                    len(confident),
+                    len(review),
+                    ", ".join(results.keys()),
+                    csv_bytes,
+                )
+            except Exception as e:
+                st.warning(f"Run saved locally but could not be archived: {e}")
+
+# ---------------------------------------------------------------------------
+# Previous Runs
+# ---------------------------------------------------------------------------
+if history.is_configured():
+    with st.expander("Previous Runs", expanded=True):
+        try:
+            runs = history.list_runs()
+        except Exception as e:
+            st.error(f"Could not load run history: {e}")
+            runs = []
+
+        if not runs:
+            st.caption("No previous runs found.")
+        else:
+            for run in runs:
+                col1, col2, col3 = st.columns([4, 2, 1])
+                label = run["created"].strftime("%b %-d, %Y at %-I:%M %p UTC")
+                col1.markdown(f"**{run['lender_filename']}**  \n{label}")
+                col2.caption(
+                    f"{run['confident_count']} confident · {run['review_count']} review"
+                )
+                try:
+                    csv_data = history.get_run_bytes(run["blob_name"])
+                    col3.download_button(
+                        "Download",
+                        data=csv_data,
+                        file_name=os.path.basename(run["blob_name"]),
+                        mime="text/csv",
+                        key=run["blob_name"],
+                    )
+                except Exception:
+                    col3.caption("unavailable")
