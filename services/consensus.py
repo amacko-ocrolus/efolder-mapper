@@ -110,15 +110,13 @@ def write_output_csv(
         # --- Confident Mappings Section ---
         writer.writerow([f"=== CONFIDENT MAPPINGS ({len(confident)} rows -- 2+ AI services agree, avg confidence >= {CONFIDENCE_THRESHOLD:.0%}) ==="])
         writer.writerow([])
-        writer.writerow(["Form Type", "Attachment Name", "Container Name", "Agreed Services", "Avg Confidence"])
+        writer.writerow(["Form Type", "Attachment Name", "Container Name"])
 
         for row in confident:
             writer.writerow([
                 row["ocrolus_type"],
                 attachment_names.get(row["ocrolus_type"], ""),
                 row["suggested_container"],
-                row["agreed_services"],
-                row["avg_confidence"],
             ])
 
         writer.writerow([])
@@ -128,29 +126,23 @@ def write_output_csv(
         writer.writerow([f"=== MANUAL REVIEW NEEDED ({len(review)} rows -- no consensus or avg confidence < {CONFIDENCE_THRESHOLD:.0%}) ==="])
         writer.writerow([])
 
-        per_svc_headers = []
-        for svc in service_names:
-            per_svc_headers += [f"{svc} Suggestion", f"{svc} Confidence"]
+        other_suggestion_headers = [
+            f"Other Suggestion {i + 1}" for i in range(len(service_names))
+        ]
 
         writer.writerow(
-            ["Form Type", "Attachment Name", "Best Guess", "Best Confidence", "Best Guess Service"]
-            + per_svc_headers
+            ["Form Type", "Attachment Name", "Best Guess"] + other_suggestion_headers
         )
 
         for row in review:
-            per_svc_values = []
-            for svc in service_names:
-                per_svc_values += [
-                    row.get(f"{svc}_suggestion", ""),
-                    row.get(f"{svc}_confidence", ""),
-                ]
+            other_suggestion_values = [
+                row.get(f"{svc}_suggestion", "") for svc in service_names
+            ]
             writer.writerow(
                 [
                     row["ocrolus_type"],
                     attachment_names.get(row["ocrolus_type"], ""),
                     row["best_guess"],
-                    row["best_confidence"],
-                    row["best_guess_service"],
                 ]
-                + per_svc_values
+                + other_suggestion_values
             )

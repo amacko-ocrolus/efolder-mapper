@@ -124,7 +124,10 @@ class TestWriteOutputCSV:
         assert "MANUAL REVIEW" in content
         assert "W-2" in content
         assert "Pay Stub" in content
-        assert "0.92" in content
+        assert "Agreed Services" not in content
+        assert "Avg Confidence" not in content
+        assert "OpenAI" not in content
+        assert "Other Suggestion 1" in content
 
     def test_attachment_names_in_output(self, tmp_path):
         confident = [{"ocrolus_type": "W-2", "suggested_container": "Tax Documents", "agreed_services": "OpenAI, Anthropic", "avg_confidence": 0.92}]
