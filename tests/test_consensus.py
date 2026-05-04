@@ -115,26 +115,25 @@ class TestWriteOutputCSV:
             }
         ]
         path = os.path.join(tmp_path, "output.csv")
-        write_output_csv(path, confident, review, ["OpenAI", "Anthropic"])
+        write_output_csv(path, confident, review)
 
         with open(path) as f:
             content = f.read()
 
-        assert "CONFIDENT MAPPINGS" in content
-        assert "MANUAL REVIEW" in content
         assert "W-2" in content
         assert "Pay Stub" in content
-        assert "Agreed Services" not in content
-        assert "Avg Confidence" not in content
+        assert "Confidence Score" in content
+        assert "Container Name" in content
         assert "OpenAI" not in content
-        assert "Other Suggestion 1" in content
+        assert "CONFIDENT MAPPINGS" not in content
+        assert "MANUAL REVIEW" not in content
 
     def test_attachment_names_in_output(self, tmp_path):
         confident = [{"ocrolus_type": "W-2", "suggested_container": "Tax Documents", "agreed_services": "OpenAI, Anthropic", "avg_confidence": 0.92}]
         review = [{"ocrolus_type": "Pay Stub", "best_guess": "Income", "best_confidence": 0.70, "best_guess_service": "OpenAI", "OpenAI_suggestion": "Income", "OpenAI_confidence": 0.70}]
         attachment_names = {"W-2": "Wage and Tax Statement", "Pay Stub": "Pay Stub"}
         path = os.path.join(tmp_path, "output.csv")
-        write_output_csv(path, confident, review, ["OpenAI"], attachment_names=attachment_names)
+        write_output_csv(path, confident, review, attachment_names=attachment_names)
         with open(path, encoding="utf-8-sig") as f:
             content = f.read()
         assert "Wage and Tax Statement" in content

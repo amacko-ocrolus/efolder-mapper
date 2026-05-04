@@ -148,43 +148,24 @@ CONFIDENCE_THRESHOLD = 0.85
 
 ---
 
-## Output format (XLSX)
+## Output format (CSV)
 
-The output is a single-sheet Excel file. The format must mirror the reference file
-`TexasBank mapping suggestions.xlsx` (committed in repo root for reference).
+The output is a single flat CSV table — no section headers, no blank rows, first row is
+column headers. All form types (confident and review) appear in one unified list.
 
-**Sheet name:** `mapping_output`
-
-**Section 1 — CONFIDENT MAPPINGS**
-- Row 1: `CONFIDENT MAPPINGS (N rows)` — bold, font size 12
-- Row 2: blank
-- Row 3: Column headers — bold, single underline, font size 12
-  - A: `Form Type`
-  - B: `Attachment Name`
-  - C: `Container Name`
-  - D: `Corrected Container Name (use only if needed)` *(empty — for client use)*
-- Rows 4+: data, font size 12
-
-**Section 2 — MANUAL REVIEW NEEDED**
-- 2 blank rows after section 1 data
-- Next row: `MANUAL REVIEW NEEDED (N rows)` — bold, font size 12
-- Blank row
-- Column headers — bold, single underline, font size 12
-  - A: `Form Type`
-  - B: `Attachment Name`
-  - C: `Best Guess`
-  - D: `Suggestion 1`
-  - E: `Suggestion 2`
-  - F: `Suggestion 3` *(only present if 3 services ran)*
-  - Last column: `Corrected Container Name (use only if needed)` *(empty — for client use)*
-- Rows: data, font size 12
-
-**Column widths:** A = 46.16, all others = 35.5
+**Columns:**
+| Column | Description |
+|--------|-------------|
+| `Form Type` | Ocrolus form type string, verbatim |
+| `Attachment Name` | From `preloaded/table-data.csv` lookup, verbatim |
+| `Container Name` | AI-suggested container (agreed container for confident rows; best guess for review rows) |
+| `Confidence Score` | avg_confidence for confident rows; best_confidence for review rows |
 
 **No vendor names exposed** — AI service names (OpenAI, Anthropic, Gemini) never appear
-in the output file. Suggestions are labelled generically.
+in the output file.
 
-**No confidence scores** in the output — these are internal metrics only.
+**Row ordering:** Confident rows first, then review rows (both groups maintain alphabetical
+order inherited from the Ocrolus input file).
 
 ---
 

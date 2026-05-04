@@ -85,64 +85,32 @@ def write_output_csv(
     output_path: str,
     confident: list[dict],
     review: list[dict],
-    service_names: list[str],
-    failed_services: dict[str, str] | None = None,
     attachment_names: dict[str, str] | None = None,
 ) -> None:
-    """Write the final output CSV with two sections.
+    """Write the final output CSV — single flat table, no section headers.
 
     Uses utf-8-sig encoding (UTF-8 with BOM) so Excel opens it correctly
     without garbling special characters.
     """
-    failed_services = failed_services or {}
     attachment_names = attachment_names or {}
 
     with open(output_path, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.writer(f)
 
-        # Note any failed services at the top
-        if failed_services:
-            writer.writerow(["NOTE: The following AI services failed and are excluded:"])
-            for svc, err in failed_services.items():
-                writer.writerow([f"  {svc}", err])
-            writer.writerow([])
-
-        # --- Confident Mappings Section ---
-        writer.writerow([f"=== CONFIDENT MAPPINGS ({len(confident)} rows -- 2+ AI services agree, avg confidence >= {CONFIDENCE_THRESHOLD:.0%}) ==="])
-        writer.writerow([])
-        writer.writerow(["Form Type", "Attachment Name", "Container Name"])
+        writer.writerow(["Form Type", "Attachment Name", "Container Name", "Confidence Score"])
 
         for row in confident:
             writer.writerow([
                 row["ocrolus_type"],
                 attachment_names.get(row["ocrolus_type"], ""),
                 row["suggested_container"],
+                row["avg_confidence"],
             ])
 
-        writer.writerow([])
-        writer.writerow([])
-
-        # --- Manual Review Section ---
-        writer.writerow([f"=== MANUAL REVIEW NEEDED ({len(review)} rows -- no consensus or avg confidence < {CONFIDENCE_THRESHOLD:.0%}) ==="])
-        writer.writerow([])
-
-        other_suggestion_headers = [
-            f"Other Suggestion {i + 1}" for i in range(len(service_names))
-        ]
-
-        writer.writerow(
-            ["Form Type", "Attachment Name", "Best Guess"] + other_suggestion_headers
-        )
-
         for row in review:
-            other_suggestion_values = [
-                row.get(f"{svc}_suggestion", "") for svc in service_names
-            ]
-            writer.writerow(
-                [
-                    row["ocrolus_type"],
-                    attachment_names.get(row["ocrolus_type"], ""),
-                    row["best_guess"],
-                ]
-                + other_suggestion_values
-            )
+            writer.writerow([
+                row["ocrolus_type"],
+                attachment_names.get(row["ocrolus_type"], ""),
+                row["best_guess"],
+                row["best_confidence"],
+            ])

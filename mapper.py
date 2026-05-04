@@ -95,7 +95,7 @@ def main():
     print(f"  Needs manual review: {len(review)}")
 
     # --- Output ---
-    write_output_csv(args.output, confident, review, service_names, errors or None, attachment_names)
+    write_output_csv(args.output, confident, review, attachment_names)
     print(f"\nResults written to: {os.path.abspath(args.output)}")
 
 
